@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+body {
+	margin:0;
+}
+
+#storbox {
+	height:100%;
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+#rubrik {
+	height:25px;
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	margin-top: 10px;
+}
+
+.top {
+	display:inline;
+	padding:0;
+	float:right;
+	margin-left:-70px;
+	margin-right:10px;		
+}
+
+a {
+	text-decoration:none;
+	font-family:sans-serif;
+	font-style:normal;
+	font-size:13px;
+	font-weight:600;
+	color:rgb(0, 34, 68);
+	margin-left:100px;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#nobelimg {
+	height:100px;
+	width:100px;
+	float:right;
+	margin-top:9px;
+	margin-right:10px;
+}
+
+header {
+	height:115px;
+	width:100%;
+	background-color:#002244;
+	overflow:auto;
+}
+
+h1 {
+	color:#FFFFFF;
+	font-size:40px;
+	font-family:Helvetica;
+	overflow:auto;
+	margin-left:100px;
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+
+nav {
+	height:35px;
+	width:100%;
+	background-color:#a5acaf;
+	box-shadow: 0px 2px 15px #888888;
+}
+
+#mitt{
+	width:75%;
+	margin-left:12.5%;
+	margin-top:0;
+	padding:0;
+}
+
+.li2 {
+	text-decoration:none;
+	font-family:sans-serif;
+	font-style:normal;
+	font-size:14px;
+	font-weight:600;
+	color:#024;
+	float:right;
+	text-align:center;
+	width:25%;
+	margin-top:0;
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:-12.5%;
+}
+
+.li2 a {                                     
+	padding:10px;
+	position:absolute;
+	margin-left:-15%;
+}
+
+.li2:hover a {
+	background-color:#8a9397;
+	text-decoration:none;
+}
+
+article {
+	height:100%;
+	width:65%;
+	margin-left:100px;
+	margin-top:40px;
+}
+#bilder {
+	height:300px;
+	width:225px;
+	float:right;
+	margin-left:30px;
+	margin-right:-260px;
+	box-shadow:5px 5px 20px #ABABAB;
+	border:5px solid transparent;
+	border-color:#e6b800;
+}
+
+figcaption {
+	float:right;
+	margin-left:30px;
+	margin-right:-190px;
+	margin-top:320px;
+}
+
+p {
+	font-size:16px;
+}
+
+h2 {
+	font-size:34px;
+	font-family:"Tahoma";
+}
+
+hr {
+	display: block;
+	margin-top:275px;
+    margin-left:40px;
+    margin-right:40px;
+    border-style:inset;
+    border-width:1px;
+}
+
+footer p {
+	text-align:center;
+}
+
+.link {
+	color:#000;
+	text-decoration:none;
+	margin-left:0;
+	font-weight:400;
+}
+
+.link:hover {
+	text-decoration:underline;
+	font-weight:800;
+}
