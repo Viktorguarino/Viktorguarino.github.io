@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+body {
+	margin:0;
+	}
+	
+#storbox {
+	width:100%;
+	height:1000px;
+	background-color:#666;
+	}
+
+header {
+	width:100%;
+	height:120px;
+	background-color:#06F;
+	}
+	
+h1 {
+	font-size:50px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#FFF;
+	overflow:auto;
+	text-align:center;
+	padding-top:15px;
+	margin:0;
+	}
+	
+ul {
+	list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+	}
+
+li {
+	float:left;
+	margin-left:250px;
+	margin-top:200px;
+	}
+	
+li a {
+	display:block;
+    color:white;
+    text-align:center;
+    padding:16px;
+    text-decoration:none;
+	}
+
+#Banner {
+	height:300px;
+	width:300px;
+	background-color:#666;
+	}
+
+#Logo {
+	height:300px;
+	width:300px;
+	background-color:#666;
+	}
+
+#Face {
+	height:300px;
+	width:300px;
+	background-color:#666;
+	}
+	
+#Banner a {
+	margin-top:100px;
+	}
+	
+a {
+	font-size:36px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-decoration:none;
+	margin-top:10px;
+	height:300px;
+	color:#FFF;
+	}
+	
+.linkbild:hover {
+	background-color:yellow;
+	}
+	
+	
+#BANNER {
+	text-align:center;
+	margin-top:100px;
+	}
+	
+#LOGO {
+    text-align:center;
+	margin-top:100px;
+	margin-right:50px;
+	}
+	
+#FACE {
+	text-align:center;
+	margin-top:100px;
+	margin-right:45px;
+	}
+	
+nav #cirklar {
+	display:inline;
+	position:absolute;
+	top:-50px;
+	left:500px;
+	}
+	
+#back img {
+	height:35px;
+	width:30px;
+	position:absolute;
+	left:255px;
+	bottom:7px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+	}
+	
+#foward {
+	width: 50px;
+	height: 50px;
+	background:#06F;
+	border-radius: 50px;
+}
+
+#foward img {
+	height:35px;
+	width:30px;
+	position:absolute;
+	left:564px;
+	bottom:7px;
+	}
+
+
+#back {
+	width: 50px;
+	height: 50px;
+	background:#06F;
+	border-radius: 50px;
+}
+
+#Download {
+  position: relative;
+  width: 500px;
+  height: 150px;
+  margin: 20px 0;
+  margin-left:35%;
+  margin-top:5%;
+  background:#06F;
+  border-radius: 40% / 20%;
+  color: white;
+  text-align: center;
+  font-family:"Arial Black", Gadget, sans-serif;
+  font-size:75px;
+  text-indent: .1em;
+  padding:15px;
+	}
+
+#Download:before {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 60%;
+	}
+
+
+
