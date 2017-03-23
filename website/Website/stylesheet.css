@@ -4,6 +4,25 @@ body {
 	margin:0;
 }
 
+@font-face {
+  font-family: "SFL";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family:"SFR";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family:"SFM";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
 #storbox {
 	height:100%;
 	width:100%;
@@ -19,8 +38,7 @@ ul {
 header {
 	height:44px;
 	width:100%;
-	color:rgba(0, 0, 0, 0.8);
-	background:#333;
+	background:rgba(0, 0, 0, 0.8);
 	overflow-x: none;
 }
 
@@ -86,9 +104,8 @@ header {
 	margin-right: 10px;          /*storlek padding*/
 	padding: 12px;
 	position: inherit;
-	font-family:"sf ui display light 58b0406ce29fd", sans-serif;
-	font-weight: 400;
-    letter-spacing: -.015em;
+	font-family:"SFR", sans-serif;
+    letter-spacing: 0.05em;
 	 -webkit-transition: color 0.25s;
     -moz-transition:    color 0.25s;
     -ms-transition:     color 0.25s;
@@ -165,8 +182,7 @@ nav #container {
 	text-align:center;
 	text-decoration:none;
 	color:#000;
-	font-family:"sf ui display light 58b0406ce29fd", sans-serif;
-	font-weight:500;
+	font-family:"SFR", sans-serif;
 	font-size: 4vw;
 	z-index:95;
 	display:block;
@@ -181,8 +197,7 @@ nav #container {
 	text-align:center;
 	text-decoration:none;
 	color:#000;
-	font-family:"sf ui display light 58b0406ce29fd", sans-serif;
-	font-weight: 100;
+	font-family:"SFL", sans-serif;
 	font-size:2vw;
 	z-index:96;
 	display:block;
@@ -221,7 +236,7 @@ nav .bildslide {
 	height: 100%;
 	top:0;
 	overflow: hidden;
-	background-color:orange;
+	background-color:#000;
 }
 
 #prevfält {
@@ -235,7 +250,7 @@ nav .bildslide {
 
 #prevfält:hover .prev {
 	background-color:#ACACAC;
-	opacity: 1;
+	opacity: 0.5;
 }
 
 #nextfält {
@@ -248,10 +263,9 @@ nav .bildslide {
 }
 
 #nextfält:hover .next {
-	background-color:#ACACAC;       
-	opacity: 1;
+	background-color:#ACACAC;
+	opacity: 0.5;
 }
-
 
 .prev {
   	cursor:pointer;
@@ -312,8 +326,8 @@ nav .bildslide {
 
 .prev:hover, .next:hover {
   	background-color:#ACACAC;
-	color:#E4E4E4;
-	opacity: 1;
+	color:#FFF;
+	opacity:1;
 }
 
 #bars {
@@ -380,6 +394,8 @@ li.li2 {
 	margin:0 auto;
 	border-style:solid;
 	border-color: white;
+	border-width:2px;
+	border-right:thin;
 	overflow: hidden;
 }
 
@@ -392,17 +408,47 @@ footer {
 	height:10% auto;
 	margin:0 auto;
 	overflow:hidden;
-	background-color:#000;
+	background-color:rgba(22,22,22,1.00);
+} 
+
+footer p {
+	font-size:14px;
+	font-family:"sf ui display light 58b0406ce29fd", sans-serif;
+	color:#FFF;
+	margin-top:55px;
+	position:absolute;
+}
+
+#footerlist {
+	background-color:#FF0004;
+	width:95%;
+	height:10;
+	overflow:hidden;
+	position:relative;
+	margin:auto;
+}
+
+#footerlist ul {
+	width:1000px;
+	height:50px;
+	background-color:rgba(0,219,255,1.00);
+	display:inline-block;
+	position:relative;
+
+}
+
+.li3 {
+	background-color:#02FF00;
 }
 
 @media screen and (max-width: 1600px){
-	.navtext h1 {height:80px auto; width:400px auto; margin: 0 auto; text-align:center; text-decoration:none; color:#000; font-family:"sf ui display light 58b0406ce29fd", sans-serif; font-weight:500; font-size: 5vw; z-index:95; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
-	.navtext p {height:40%; width:100%;	margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"sf ui display light 58b0406ce29fd", sans-serif; font-weight: 100; font-size:2.5vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext h1 {height:80px auto; width:400px auto; margin: 0 auto; text-align:center; text-decoration:none; color:#000; font-family:"SFR", sans-serif; font-size: 5vw; z-index:95; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext p {height:40%; width:100%;	margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"SFL", sans-serif; font-size:2.5vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 }
 
 @media screen and (max-width: 1200px){
-	.navtext h1 {height:80px auto; width:400px auto; margin: 0 auto; text-align:center; text-decoration:none; color:#000; font-family:"sf ui display light 58b0406ce29fd", sans-serif; font-weight:500; font-size: 6vw; z-index:95; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
-	.navtext p {height:40%; width:100%;	margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"sf ui display light 58b0406ce29fd", sans-serif; font-weight: 100; font-size:3vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext h1 {height:80px auto; width:400px auto; margin: 0 auto; text-align:center; text-decoration:none; color:#000; font-family:"SFR", sans-serif; font-size: 6vw; z-index:95; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext p {height:40%; width:100%;	margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"SFL", sans-serif; font-size:3vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	nav {height: 700px; -webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 }
 
