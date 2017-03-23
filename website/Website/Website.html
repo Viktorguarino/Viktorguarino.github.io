@@ -17,11 +17,9 @@
 			
 			var slideIndex = 1;
 			showSlides(slideIndex);
-
 			function plusSlides(n) {
   			showSlides(slideIndex += n);
 			}
-
     		function currentSlide(n) {
   			showSlides(slideIndex = n);
 			}
@@ -30,7 +28,6 @@
 			
 			function showDiv() {
 			var x = document.getElementById('#dropdowncontent');
-
     			if (x.style.display === 'none') {
         			x.style.display = 'block';
     			} else {
@@ -38,7 +35,6 @@
     			}
 			}
 			
-
 			function showSlides(n) {
   			var i;
   			var slides = document.getElementsByClassName("mySlides");
@@ -89,7 +85,7 @@
                     </div>
                     <div class="mySlides fade">
                     	<div id="bgslide3">
-                            <img class="bildslide" src="bgphones3.jpg" alt="något">
+                            <img class="bildslide" src="phonebgslide2.png" alt="något">
                         </div>
                     </div>	 	
 				 	<div class="mySlides fade">
@@ -119,12 +115,14 @@
 				</ul>
               </article>
               <footer>
-              	<p>VIKTOR GUARINO</p>
-              	<ul id="footerlist">
-                	<li>Instapic</li>
-                    <li>fbpic</li>
-                    <li>twitterpic</li>
-                </ul>
+              	<div id="footerlist">
+                    <p>© Copyright iMobile 2017</p>
+                    <ul>
+                        <li class="li3">About iMobile</li>
+                        <li class="li3">fbpic</li>
+                        <li class="li3">twitterpic</li>
+                    </ul>
+                </div>
               </footer>
         	</div>
 		</body>
