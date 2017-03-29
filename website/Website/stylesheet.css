@@ -236,6 +236,7 @@ nav #container {
 	height:85px;
 	width:85px;
 	margin: 0 auto;
+	top:10px;
 	z-index:95;
 	display:block;
 	position:relative;
@@ -308,7 +309,7 @@ nav .bildslide {
 	background-color:#000;
 }
 
-#prevfält {
+#prevfield {
 	height:100%;
 	width:275px;
 	position:absolute;
@@ -317,12 +318,12 @@ nav .bildslide {
 	left:0;
 }
 
-#prevfält:hover .prev {
+#prevfield:hover .prev {
 	background-color:#ACACAC;
 	opacity: 0.5;
 }
 
-#nextfält {
+#nextfield {
 	height:100%;
 	width:275px;
 	position:absolute;
@@ -331,7 +332,7 @@ nav .bildslide {
 	right:0;
 }
 
-#nextfält:hover .next {
+#nextfield:hover .next {
 	background-color:#ACACAC;
 	opacity: 0.5;
 }
