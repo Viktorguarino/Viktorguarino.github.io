@@ -482,7 +482,7 @@ footer {
 
 footer p {
 	font-size:14px;
-	font-family:"sf ui display light 58b0406ce29fd", sans-serif;
+	font-family:"SFL";
 	color:#FFF;
 	margin-top:55px;
 	position:absolute;
@@ -500,14 +500,24 @@ footer p {
 #footerlist ul {
 	width:1000px;
 	height:50px;
-	background-color:rgba(0,219,255,1.00);
+	background-color:rgba(0,219,255,0.8);
 	display:inline-block;
 	position:relative;
 
 }
 
 .li3 {
-	background-color:#02FF00;
+	background-color:#02FF00; 
+	display:inline-block;
+	font-family:"SFL";
+	font-size:14px;
+	position:absolute;
+}
+
+.li3 a {
+	text-decoration:none;
+	padding-left:50px;
+	margin-left:100px;
 }
 
 @media screen and (max-width: 1600px){
