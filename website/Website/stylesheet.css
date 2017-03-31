@@ -56,6 +56,7 @@ header {
 	padding-left:250px;
 	padding-right:100px;
 	text-align:center;
+	position:relative;
 }
 
 .li1 a img {
@@ -105,7 +106,7 @@ header {
 	margin-right: 10px;          /*storlek padding*/
 	padding: 12px;
 	position: inherit;
-	font-family:"SFR", sans-serif;
+	font-family:"SFR";
     letter-spacing: 0.05em;
 	 -webkit-transition: color 0.25s;
     -moz-transition:    color 0.25s;
@@ -126,18 +127,18 @@ header {
 * {
 	box-sizing:border-box;
 	-webkit-transition: all 0s;
-      -webkit-animation-name: myfading;
-      -webkit-animation-duration: 0s;
+    -webkit-animation-name: myfading;
+    -webkit-animation-duration: 0s;
 }
 
 @-webkit-keyframes myfading {
-      from {
-            opacity: 1;
-            -webkit-transition: opacity;
-      }
-      to {
-            opacity: 1;
-      }
+	from {
+    	opacity: 1;
+        -webkit-transition: opacity;
+	}
+    to {
+    	opacity: 1;
+    }
 }
 
 nav {
@@ -156,7 +157,7 @@ nav #container {
   	position:absolute;
   	margin:0 auto;
 	top:0;
-	background-color:white;
+	background-color:#FFF;
 	overflow-x: hidden;
 }
 
@@ -167,7 +168,7 @@ nav #container {
 	position: absolute;
 	overflow-x:hidden;
 	display:block;
-	background-color:aquamarine;
+	background-color:#FFF;
 }
 
 .navtext1 {
@@ -197,7 +198,7 @@ nav #container {
 	text-align:center;
 	text-decoration:none;
 	color:#000;
-	font-family:"SFR", sans-serif;
+	font-family:"SFR";
 	font-size: 4vw;
 	z-index:95;
 	display:block;
@@ -212,7 +213,7 @@ nav #container {
 	text-align:center;
 	text-decoration:none;
 	color:#000;
-	font-family:"SFL", sans-serif;
+	font-family:"SFL";
 	font-size:2vw;
 	z-index:96;
 	display:block;
@@ -236,7 +237,8 @@ nav #container {
 	height:85px;
 	width:85px;
 	margin: 0 auto;
-	z-index:95;
+	top:10px;
+	z-index:90;
 	display:block;
 	position:relative;
 }
@@ -248,9 +250,9 @@ nav #container {
 	text-align:center;
 	text-decoration:none;
 	color:#FFF;
-	font-family:"SFR", sans-serif;
+	font-family:"SFR";
 	font-size: 4vw;
-	z-index:95;
+	z-index:90;
 	display:block;
 	position:relative;
 }
@@ -263,9 +265,9 @@ nav #container {
 	text-align:center;
 	text-decoration:none;
 	color:#FFF;
-	font-family:"SFL", sans-serif;
+	font-family:"SFL";
 	font-size:2vw;
-	z-index:96;
+	z-index:90;
 	display:block;
 	position:relative;
 }
@@ -291,8 +293,14 @@ nav .bildslide {
 	overflow: hidden;
 	background-color:#E7E7E7;
 }
-
 #bgslide2 {
+	width: 100%;
+	height: 100%;
+	top:0;
+	overflow: hidden;
+	background-color:#000;
+}
+#bgslide3 {
 	width: 100%;
 	height: 100%;
 	top:0;
@@ -300,13 +308,6 @@ nav .bildslide {
 	background-color:white;
 }
 
-#bgslide3 {
-	width: 100%;
-	height: 100%;
-	top:0;
-	overflow: hidden;
-	background-color:#000;
-}
 
 #prevfield {
 	height:100%;
@@ -315,6 +316,7 @@ nav .bildslide {
 	margin:0;
 	top:0;
 	left:0;
+	list-style-type:none;
 }
 
 #prevfield:hover .prev {
@@ -329,6 +331,7 @@ nav .bildslide {
 	margin:0;
 	top:0;
 	right:0;
+	list-style-type:none;
 }
 
 #nextfield:hover .next {
@@ -452,7 +455,7 @@ ul#articlelist {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:hotpink;
+    background-color:#FFF;
 }
 
 li.li2 {
@@ -477,19 +480,19 @@ footer {
 	height:10% auto;
 	margin:0 auto;
 	overflow:hidden;
-	background-color:rgba(22,22,22,1.00);
+	background-color:#333;
 } 
 
 footer p {
 	font-size:14px;
-	font-family:"SFL";
+	font-family:"SFR";
 	color:#FFF;
-	margin-top:55px;
+	margin-top:50px;
+	margin-left:50px;
 	position:absolute;
 }
 
 #footerlist {
-	background-color:#FF0004;
 	width:95%;
 	height:10;
 	overflow:hidden;
@@ -500,57 +503,131 @@ footer p {
 #footerlist ul {
 	width:1000px;
 	height:50px;
-	background-color:rgba(0,219,255,0.8);
+	top:0px;
+	left:-28px;
 	display:inline-block;
 	position:relative;
 
 }
 
 .li3 {
-	background-color:#02FF00; 
+	text-decoration:none;
 	display:inline-block;
-	font-family:"SFL";
+	font-family:"SFR";
 	font-size:14px;
-	position:absolute;
+	position:relative;
 }
 
 .li3 a {
 	text-decoration:none;
-	padding-left:50px;
-	margin-left:100px;
+	color:#FFFFFF; 
+	padding-left:40px;
+	padding-right:40px;
+	-webkit-transition: color 0.25s;
+    -moz-transition:    color 0.25s;
+    -ms-transition:     color 0.25s;
+    -o-transition:      color 0.25s;
+    transition:         color 0.25s;
+}
+
+.li3 a:hover {
+	color:#8a9397;
+	text-decoration:none;
 }
 
 @media screen and (max-width: 1600px){
 	.navtext1 h1 {height:80px auto; width:400px auto; margin: 0 auto; text-align:center; text-decoration:none; color:#000; font-family:"SFR", sans-serif; font-size: 5vw; z-index:95; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
-	.navtext1 p {height:40%; width:100%;	margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"SFL", sans-serif; font-size:2.5vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext1 p {height:40%; width:100%; margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"SFL", sans-serif; font-size:2.5vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext2 h1 {height:80px auto; width:400px auto; margin: 0 auto; top:3px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext2 p {height:40%; width:100%; margin: 0 auto; top:6px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFL", sans-serif; font-size:3.5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 }
 
 @media screen and (max-width: 1200px){
 	.navtext1 h1 {height:80px auto; width:400px auto; margin: 0 auto; text-align:center; text-decoration:none; color:#000; font-family:"SFR", sans-serif; font-size: 6vw; z-index:95; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
-	.navtext1 p {height:40%; width:100%;	margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"SFL", sans-serif; font-size:3vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext1 p {height:40%; width:100%; margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"SFL", sans-serif; font-size:3vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext2 h1 {height:80px auto; width:400px auto; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext2 p {height:40%; width:100%; margin: 0 auto; top:15px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFL", sans-serif; font-size:3.5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	nav {height: 700px; -webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 650px){
 	#storbox {height:100%;}
-	nav{height:500px; -webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	nav{height:450px; -webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	ul#articlelist {height:600px; overflow: hidden;}
     ul#articlelist li {float: none; display:table; margin:0 auto; width:100%; height:150px; position:relative; overflow: hidden;}
 	
+	
+	.li1 a img {
+	width:10%;
+	height: auto;
+	margin: 0;
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-right:-50%;
+	-webkit-transition: 0.25s ease-in-out;
+  	-moz-filter: grayscale(1); 
+  	-moz-transition: 0.25s ease-in-out;
+  	-o-filter: grayscale(1); 
+  	-o-transition: 0.25s ease-in-out;	
+}
+	
 	.prev, .next {opacity:1; background-color:#ACACAC; top:30px;}
-	#mitt {margin-top:-18px;}
+	#mitt img {top:-54px; position:absolute; margin:0 auto; z-index:99;}  /* ÄNDRA TILL BARA BILD*/
+	
+	.navtext2 h1 {height:80px auto; width:400px auto; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext2 p {height:40%; width:100%; margin: 0 auto; top:15px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFL", sans-serif; font-size:3.5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	
 	.dropdown {display: inline-block;}
-	#dropbtn {background:rgba(0, 0, 0, 0.8); background-color:#333; color:white; width:100px; top:-8px; padding:16px; font-size:26px; border:none; position:absolute; cursor: pointer;}
+	#dropbtn {background:rgba(0, 0, 0, 0.8); background-color:#333; color:white; width:100px; top:-8px; padding:16px; font-size:26px; border:none; position:relative; cursor: pointer;}
 	#dropbtn:hover {color:#8a9397; -webkit-transition: 0.25s ease-in-out; -moz-filter: grayscale(1); -moz-transition: 0.25s ease-in-out; -o-filter: grayscale(1); -o-transition: 0.25s ease-in-out;}
-	#dropdowncontent {display:none; width:630px; height:450px; max-height:100%; max-width:100%; position:relative; margin-top:44px; background-color:rgba(51, 51, 51, 1); z-index:98; float:left; padding-top:60px;}
-	#dropdowncontent a {color:#FFF; background-color:#FF0004; padding:20px; margin-top:10px; margin-bottom:10px; text-decoration:none; display:block; font-size:20px; font-weight:100; font-family:"sf ui text regular 58ae0eed95888", sans-serif; margin:0 auto; border-bottom:2px solid #FFF; margin-left:20px; margin-right:40px;}
+	#dropdowncontent {display:none; width:630px; height:450px; position:relative; margin-top:-20px; background-color:#333; z-index:98; float:left; padding-top:60px;}
+	#dropdowncontent a {color:#FFF; padding-top:20px; padding-bottom:20px; padding-left:20px; margin-top:10px; margin-bottom:10px; text-decoration:none; display:block; font-size:20px; font-family:"SFR"; margin:0 auto; border-bottom:2px solid #FFF; position:relative;}
 	#dropdowncontent a:hover {background-color:rbga(51, 51, 51, 1); color:#8a9397; -webkit-transition: 0.25s ease-in-out; -moz-filter: grayscale(1); -moz-transition: 0.25s ease-in-out; -o-filter: grayscale(1);  -o-transition: 0.25s ease-in-out;}
-	footer {width:100%;	height:325px;}
+	footer {width:100%;	height:250px; position:relative;}
+
+#footerlist ul {
+	text-align:center;
+	margin:auto;
+	display:block;
+	width:100%;
+	position:relative;
 }
 
-@media screen and (max-width: 430px){
-	nav{height:420px; -webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+footer p {
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	font-family:"SFR";
+	font-size:14px;
+	margin:auto;
+	margin-top:220px;
+	position:relative;
+}
+
+.li3 {
+	width:100%;
+	margin:0 auto;
+}
+
+
+.li3 a {
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	color:#FFFFFF;
+	width:50vh auto;
+	margin:0 auto;
+	position:relative;
+	top:-230px;
+	padding:10px; 
+	border-bottom:2px solid #FFF;
+	-webkit-transition: color 0.25s;
+    -moz-transition:    color 0.25s;
+    -ms-transition:     color 0.25s;
+    -o-transition:      color 0.25s;
+    transition:         color 0.25s;
+}
 }
 
 
