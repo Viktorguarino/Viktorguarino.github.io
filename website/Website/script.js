@@ -28,6 +28,8 @@ function showSlides(n) {
 var i;
 var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("bar");
+var text1 = document.getElementsByClassName("navtext2");
+var text2 = document.getElementsByClassName("navtext3");
   	if (n > slides.length) {slideIndex = 1}    
   		if (n < 1) {slideIndex = slides.length}
   			for (i = 0; i < slides.length; i++) 
@@ -40,4 +42,6 @@ var dots = document.getElementsByClassName("bar");
   			}
   			slides[slideIndex-1].style.display = "block";  
 			dots[slideIndex-1].className += " active";
+			text1[slideIndex-1].style.display = "block";
+			text2[slideIndex-1].style.display = "block";
 }
