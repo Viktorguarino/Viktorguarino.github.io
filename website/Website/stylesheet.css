@@ -231,6 +231,7 @@ nav #container {
 	right: 0;
 	top:0;
 	position:absolute;
+	display:none;
 }
 
 .navtext2 img {
