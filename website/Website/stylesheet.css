@@ -10,7 +10,6 @@ body {
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
 }
 
-/** Regular */
 @font-face {
   font-family:"SFR";
   font-weight: 400;
@@ -22,6 +21,14 @@ body {
   font-weight: 500;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
 }
+
+@font-face {
+  font-family:"SMS";
+  font-weight: 500;
+  src: url("https://fonts.googleapis.com/css?family=Doppio+One");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Doppio+One");
 
 #storbox {
 	height:100%;
@@ -220,8 +227,6 @@ nav #container {
 	position:relative;
 }
 
-
-
 .navtext2 {
 	height:40%;
 	width:60%;
@@ -273,8 +278,43 @@ nav #container {
 	position:relative;
 }
 
+.navtext3 {
+	height:40%;
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top:0;
+	position:absolute;
+	display:none;
+}
 
+.navtext3 img {
+	height:85px;
+	width:85px;
+	margin: 0 auto;
+	top:10px;
+	z-index:90;
+	display:block;
+	position:relative;
+}
 
+.navtext3 h1 {
+	height:80px auto;
+	width:400px auto;	                     
+	margin: 0 auto;
+	text-align:center;
+	text-decoration:none;
+	color:#00FF40;
+	font-family:"Doppio One", sans-serif;  
+	font-size: 3vw;
+	z-index:99;
+	display:block;
+	position:relative;
+	float:right;
+	top:50px;
+}
 
 nav .bildslide {
 	width:1000px;
@@ -306,7 +346,7 @@ nav .bildslide {
 	height: 100%;
 	top:0;
 	overflow: hidden;
-	background-color:white;
+	background-color:#F7F7F7;
 }
 
 
@@ -634,7 +674,7 @@ footer p {
 
 
 /*---------------------------------------------------------------------------------------------------*/
-nav .navbuttons #btnTry {
+nav #btnTry {
 
 	width: 200px;
 	height: 65px;
@@ -658,7 +698,7 @@ nav .navbuttons #btnTry {
 	transition:2s;*/
 }
 
-nav .navbuttons #btnTry:hover {
+nav #btnTry:hover {
 	color:#fff;
 	border-style: solid;
 	background-color:#000;
