@@ -838,6 +838,78 @@ footer p {
     -o-transition:      color 0.25s;
     transition:         color 0.25s;
 }
+
+#li2a p {
+	font-size:18px;
+	font-family:"SFR";
+	font-weight:500;
+	letter-spacing:0.15px;
+	margin-left:140px;
+	margin-top:65px;
+	text-align:center;
+}
+
+#li2b p {
+	font-size:4vw;
+	font-family:"SFR";
+	font-weight:500;
+	letter-spacing:0.15px;
+	color:#FFF;
+	margin-top:40px;
+	margin-left:150px;
+	position:relative;
+	text-align:center;
+}
+
+#li2b img {
+	left:-100px;
+}
+
+#li2b p span {
+	font-weight:600;
+	font-size:7vw;
+	position:relative;
+	letter-spacing:0.25px;
+}
+
+#li2c p {
+	font-size:3.5vw;
+	font-family:"SFR";
+	font-weight:500;
+	color:#FFF;
+	letter-spacing:0.25px;
+	margin-top:45px;
+	margin-left:100px;
+	text-align:center;
+}
+
+#li2c p span {
+	font-weight:900;
+	font-size:7vw;
+	letter-spacing:0.5px;
+}
+
+#li2d p {
+	font-size:5vw;
+	font-family:"SFR";
+	font-weight:900;
+	letter-spacing:0.15px;
+	margin-top:7.5px;
+	z-index:99;
+	text-align:center;
+}
+
+#li2d p span {
+	font-size:3.5vw;
+	font-weight:500;
+	margin-left:-75px;
+}
+
+#li2d img {
+	left:100px;
+}
+
+
 }
 
 
