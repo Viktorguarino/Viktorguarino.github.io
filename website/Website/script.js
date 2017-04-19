@@ -45,3 +45,8 @@ var text2 = document.getElementsByClassName("navtext3");
 			text1[slideIndex-1].style.display = "block";
 			text2[slideIndex-1].style.display = "block";
 }
+
+$('a').each(function(){  
+ $(this).attr('onclick','window.location.href="'+$(this).attr('href')+'"');
+ $(this).attr('href','#');
+ });
