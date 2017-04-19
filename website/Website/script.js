@@ -46,7 +46,15 @@ var text2 = document.getElementsByClassName("navtext3");
 			text2[slideIndex-1].style.display = "block";
 }
 
-$('a').each(function(){  
- $(this).attr('onclick','window.location.href="'+$(this).attr('href')+'"');
- $(this).attr('href','#');
- });
+$("body").on('mouseover', 'a', function (e) {
+    var $link = $(this),
+        href = $link.attr('href') || $link.data("href");
+
+    $link.off('click.chrome');
+    $link.on('click.chrome', function () {
+        window.location.href = href;
+    })
+    .attr('data-href', href) //keeps track of the href value
+    .css({ cursor: 'pointer' })
+    .removeAttr('href'); // <- this is what stops Chrome to display status bar
+});
