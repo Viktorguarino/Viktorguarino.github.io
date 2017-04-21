@@ -2,29 +2,38 @@
 
 body {
 	margin:0;
+	padding:0;
+	height:100%;
 }
 
 @font-face {
-  	font-family: "SFL";
- 	 font-weight: 200;
-  	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+  font-family: "SFL";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
 }
 
 @font-face {
- 	 font-family:"SFR";
-  	font-weight: 400;
-  	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-family:"SFR";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 @font-face {
-  	font-family:"SFM";
- 	 font-weight: 500;
-  	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+  font-family:"SFM";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+@font-face {
+  font-family:"SMS";
+  font-weight: 500;
+  src: url("https://fonts.googleapis.com/css?family=Doppio+One");
 }
 
 #storbox {
 	height:100%;
 	width:100%;
+	position:relative;
 	background-color:#E3E3E3;
 	overflow:hidden;
 }
@@ -299,12 +308,12 @@ nav #container {
 	text-align:center;
 	text-decoration:none;
 	color:#00F;
-	font-family:"SMS"; 
+	font-family:"SFR"; 
 	font-size: 4vw;
 	z-index:99;
 	display:block;
 	position:relative;
-	right:-350px;
+	right:-400px;
 	top:50px;
 }
 
@@ -338,7 +347,7 @@ nav .bildslide {
 	height: 100%;
 	top:0;
 	overflow: hidden;
-	background-color:#FAFAFA;
+	background: linear-gradient(-135deg, #F1F1F1 30%, #ECECEC 40%, #92C7FF 100%);
 }
 
 
@@ -489,8 +498,59 @@ nav .bildslide {
   to {opacity: 1}
 }
 
+.btncontainer {
+	position:relative;
+	width: 225px;
+	height: 65px;
+	margin:0 auto;
+	border-color:#000;
+	border-radius: 4px;
+	border-style:solid;
+	display:block;
+  	cursor:pointer;
+	top:200px;
+	right:-40%;
+}
+
+.btncontainer a {
+	text-decoration:none;
+	font-size: 36px;
+	font-family:"SFL";
+	font-weight:700;
+	text-decoration:none;
+	color:#000;
+	vertical-align:central;
+	margin:auto;
+	top:8px;
+	text-align:center;
+	width:100%;
+	position:absolute;
+	transition: .25s ease-in-out;
+	z-index:99;
+}
+
+.btncontainer:hover a {
+	color:#FFF;
+}
+.overlay {
+	position:absolute;
+    bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background-color:#000;
+  	overflow: hidden;
+  	width: 0;
+  	height: 100%;
+  	transition: .25s ease;
+}
+
+.btncontainer:hover .overlay{
+	width:100%;
+}
+
 article {
 	width:100%;
+	height:auto;
 	margin:0 auto;
 	border-bottom:2px solid #FFF;
 	position:relative;
@@ -612,11 +672,15 @@ li.li2 img {
 #li2d {
 	background: linear-gradient(175deg, #F1F1F1 10%, #ECECEC 60%, #C8C8C8 95%);
 }
+
 footer {
 	width:100%;
-	height:10% auto;
+	height:100px;
 	margin:0 auto;
-	overflow:hidden;
+	position:fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
 	background-color:#333;
 } 
 
@@ -627,7 +691,7 @@ footer p {
 	margin-top:50px;
 	margin-left:50px;
 	top:0;
-	position:relative;
+	position:absolute;
 }
 
 #footerlist {
@@ -671,55 +735,6 @@ footer p {
 .li3 a:hover {
 	color:#8a9397;
 	text-decoration:none;
-}
-.btncontainer {
-	position:relative;
-	width: 225px;
-	height: 65px;
-	margin:0 auto;
-	border-color:#000;
-	border-radius: 4px;
-	border-style:solid;
-	display:block;
-  	cursor:pointer;
-	top:200px;
-	right:-40%;
-}
-
-.btncontainer a {
-	text-decoration:none;
-	font-size: 36px;
-	font-family:"SFL";
-	font-weight:600;
-	text-decoration:none;
-	color:#000;
-	vertical-align:central;
-	margin:auto;
-	top:8px;
-	text-align:center;
-	width:100%;
-	position:absolute;
-	transition: .25s ease-in-out;
-	z-index:99;
-}
-
-.btncontainer:hover a {
-	color:#FFF;
-}
-.overlay {
-	position:absolute;
-    bottom: 0;
-  	left: 0;
-  	right: 0;
-  	background-color:#000;
-  	overflow: hidden;
-  	width: 0;
-  	height: 100%;
-  	transition: .25s ease;
-}
-
-.btncontainer:hover .overlay{
-	width:100%;
 }
 
 @media screen and (max-width: 1600px){
@@ -804,16 +819,15 @@ footer p {
 	.navtext3 h1 {
 	height:80px auto;
 	width:500px;	                     
-	margin: 0 auto;
+	margin:0;
 	text-align:center;
 	text-decoration:none;
 	color:#00F;
 	font-family:"SFR";  
-	font-size: 6vw;
+	font-size: 34px;
 	z-index:99;
 	display:block;
 	position:absolute;
-	right:-50%;
 	top:30px;
 	-webkit-transition: 0.25s ease-in-out; 
 	-moz-transition: 0.25s ease-in-out; 
@@ -955,14 +969,14 @@ footer p {
 .btncontainer {
 	position:relative;
 	width: 150px;
-	height: 60px;
+	height: 50px;
 	margin:0 auto;
 	border-color:#000;
 	border-radius: 4px;
 	border-style:solid;
 	display:block;
   	cursor:pointer;
-	top:100px;
+	top:120px;
 	right:-40%;
 }
 
@@ -975,7 +989,7 @@ footer p {
 	color:#000;
 	vertical-align:central;
 	margin:auto;
-	top:8px;
+	top:4px;
 	text-align:center;
 	width:100%;
 	position:absolute;

@@ -23,6 +23,7 @@ var x = document.getElementById("dropdowncontent");
        	x.style.display = "none";
     }
 }
+
 			
 function showSlides(n) {
 var i;
@@ -45,16 +46,3 @@ var text2 = document.getElementsByClassName("navtext3");
 			text1[slideIndex-1].style.display = "block";
 			text2[slideIndex-1].style.display = "block";
 }
-
-$("body").on('mouseover', 'a', function (e) {
-    var $link = $(this),
-        href = $link.attr('href') || $link.data("href");
-
-    $link.off('click.chrome');
-    $link.on('click.chrome', function () {
-        window.location.href = href;
-    })
-    .attr('data-href', href) //keeps track of the href value
-    .css({ cursor: 'pointer' })
-    .removeAttr('href'); // <- this is what stops Chrome to display status bar
-});
