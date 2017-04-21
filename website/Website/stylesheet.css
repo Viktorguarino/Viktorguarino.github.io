@@ -627,7 +627,7 @@ footer p {
 	margin-top:50px;
 	margin-left:50px;
 	top:0;
-	position:absolute;
+	position:relative;
 }
 
 #footerlist {
