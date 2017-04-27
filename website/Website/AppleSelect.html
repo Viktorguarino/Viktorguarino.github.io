@@ -6,6 +6,7 @@
             <link href="favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
             <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
             <link rel="stylesheet" href="stylesheet.css" type="text/css">
+            <script type="text/javascript" src="script.js"></script>
 			<title>Website</title>
 		</head>
 		<body>
@@ -28,8 +29,45 @@
                      	<li class="li1"><a href="GoogleSelect.html">Google</a></li>
                  	</ul>
               </header>
-              <article>
-              </article>
+              <nav id="navselect">
+              	<div id="navcontainer">
+                	<ul>
+                    	<li>
+                        	<div id="imgtoggle"><img src="iPhone5select.png"></div>
+                            <div class="iPhone">
+                                <form name="iPhoneSE">
+                                    <input type="radio" name="field" value="one" onclick='check_value(1)'>
+                                    <input type="radio" name="field" value="two" onclick='check_value(2)'>
+                                    <input type="radio" name="field" value="three" onclick='check_value(3)'>
+                                </form>
+                            </div>
+                            <div id="imagetest"></div>
+                        </li>
+                        <li>
+                        	<div id="imgtoggle"><img src="iPhone5select.png"></div>
+                        	<div class="iPhone">
+                                <form name="iPhone6">
+                                    <input type="radio" name="field" value="one" onchange='check_value()'>
+                                    <input type="radio" name="field" value="two" onchange='check_value()'>
+                                    <input type="radio" name="field" value="three" onchange='check_value()'>
+                                </form>
+                            </div>
+                            <div id="imagetest">fddfd</div>
+                        </li>
+                        <li>
+                        	<div id="imgtoggle"><img src="iPhone5select.png"></div>
+                        	<div class="iPhone">
+                                <form name="iPhone7">
+                                    <input type="radio" name="field" value="one" onchange='check_value()'>
+                                    <input type="radio" name="field" value="two" onchange='check_value()'>
+                                    <input type="radio" name="field" value="three" onchange='check_value()'>
+                                </form>
+                            </div>
+                            <div id="imagetest">fddfd</div>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
               <footer>
               	<div id="footerlist">            
                     <ul>

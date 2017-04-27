@@ -46,3 +46,22 @@ var text2 = document.getElementsByClassName("navtext3");
 			text1[slideIndex-1].style.display = "block";
 			text2[slideIndex-1].style.display = "block";
 }
+
+function check_value(fieldvalue)
+    {    
+        switch(fieldvalue)
+        {
+            case 1:
+                document.getElementById("imagetest").innerHTML = "<img src='iPhone5select.png'>";
+				document.getElementById("imgtoggle").innerHTML = "<display:none>";
+                    break;
+            case 2:
+                document.getElementById("imagetest").innerHTML = "<img src='iPhone5select1.png'>";
+				document.getElementById("imgtoggle").innerHTML = "<display:none>"; 
+                    break;
+            case 3:
+                document.getElementById("imagetest").innerHTML = "<img src='images/black_background.jpg'>";
+				document.getElementById("imgtoggle").innerHTML = "<display:none>";
+                    break;
+        }
+    }
