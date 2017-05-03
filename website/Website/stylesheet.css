@@ -515,7 +515,6 @@ nav .bildslide {
 	font-size: 36px;
 	font-family:"SFL";
 	font-weight:700;
-	text-decoration:none;
 	color:#000;
 	vertical-align:central;
 	margin:auto;
@@ -821,6 +820,7 @@ nav ul li #imagetest3 {
 #navcontainer p {
 	position:relative;
 	top:40px;
+	
 	left:350px;
 	font-family:"SFR";
 	letter-spacing:0.4px;
@@ -857,7 +857,6 @@ nav ul li #imagetest3 {
 	font-size: 36px;
 	font-family:"SFL";
 	font-weight:700;
-	text-decoration:none;
 	color:#000;
 	vertical-align:central;
 	margin:auto;
@@ -934,6 +933,7 @@ input[type="radio"]:checked + label{
 	.navtext1 p {height:40%; width:100%; margin: 0 auto; top:-2px; text-align:center; text-decoration:none; color:#000; font-family:"SFL", sans-serif; font-size:3vw; z-index:96; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	.navtext2 h1 {height:80px auto; width:400px auto; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	.navtext2 p {height:40%; width:100%; margin: 0 auto; top:15px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFL", sans-serif; font-size:3.5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	
 	.navtext3 h1 {
 	height:80px auto;
 	width:400px auto;	                     
@@ -953,6 +953,61 @@ input[type="radio"]:checked + label{
 	-o-transition: 0.25s ease-in-out;
 }
 	nav {height: 700px; -webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	
+#navcontainer p {
+	position:relative;
+	top:30px;
+	background-color: crimson;
+	left:350px;
+	font-family:"SFR";
+	letter-spacing:0.4px;
+	word-wrap: break-word;
+	font-size:16px;
+ 	width:50%;
+	height:30%;
+}
+	
+.btnRead {
+	position:relative;
+	width: 150px;
+	height: 50px;
+	margin:0 auto;
+	border-color:#000;
+	border-radius: 4px;
+	border-style:solid;
+	display:block;
+  	cursor:pointer;
+	top:30px;
+	right:-40%;
+}
+
+.btnRead a {
+	text-decoration:none;
+	font-size:32px;
+	font-family:"SFL";
+	font-weight:600;
+	color:#000;
+	vertical-align:central;
+	margin:auto;
+	top:4px;
+	text-align:center;
+	width:100%;
+	position:absolute;
+	transition: .25s ease-in-out;
+	z-index:99;
+}
+	
+#navcontainer form {
+	position:relative;
+	top:110px;
+	left:150px;
+	width:50%;
+}
+}
+
+@media screen and (max-width: 650px){
+	
+	
 }
 
 @media screen and (max-width: 650px){
@@ -1158,6 +1213,36 @@ input[type="radio"]:checked + label{
 }
 
 .btncontainer a {
+	text-decoration:none;
+	font-size:32px;
+	font-family:"SFL";
+	font-weight:600;
+	color:#000;
+	vertical-align:central;
+	margin:auto;
+	top:4px;
+	text-align:center;
+	width:100%;
+	position:absolute;
+	transition: .25s ease-in-out;
+	z-index:99;
+}
+	
+.btnRead {
+	position:relative;
+	width: 150px;
+	height: 50px;
+	margin:0 auto;
+	border-color:#000;
+	border-radius: 4px;
+	border-style:solid;
+	display:block;
+  	cursor:pointer;
+	top:120px;
+	right:-40%;
+}
+
+.btnRead a {
 	text-decoration:none;
 	font-size:32px;
 	font-family:"SFL";
