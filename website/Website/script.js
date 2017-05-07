@@ -47,61 +47,108 @@ var text2 = document.getElementsByClassName("navtext3");
 			text2[slideIndex-1].style.display = "block";
 }
 
-function check_value(fieldvalue)
+function check_value(applevalue)
     {    
-        switch(fieldvalue)
+        switch(applevalue)
         {
             case 1:
                 document.getElementById("imagetest1").innerHTML = "<img src='iPhone5select.png'>";
-				document.getElementById("iPhonetoggle1").innerHTML = "<display:none>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
                     break;
             case 2:
                 document.getElementById("imagetest1").innerHTML = "<img src='iPhone5select1.png'>";
-				document.getElementById("iPhonetoggle1").innerHTML = "<display:none>"; 
+				document.getElementById("toggle1").innerHTML = "<display:none>"; 
                     break;
             case 3:
                 document.getElementById("imagetest1").innerHTML = "<img src='iPhone5select2.png'>";
-				document.getElementById("iPhonetoggle1").innerHTML = "<display:none>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
                     break;
 			case 4:
                 document.getElementById("imagetest2").innerHTML = "<img src='iPhone6Select.png'>";
-				document.getElementById("iPhonetoggle2").innerHTML = "<display:none>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
 			case 5:
                 document.getElementById("imagetest2").innerHTML = "<img src='iPhone6Select1.png'>";
-				document.getElementById("iPhonetoggle2").innerHTML = "<display:none>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
 			case 6:
                 document.getElementById("imagetest2").innerHTML = "<img src='iPhone6Select2.png'>";
-				document.getElementById("iPhonetoggle2").innerHTML = "<display:none>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
 			case 7:
                 document.getElementById("imagetest2").innerHTML = "<img src='iPhone6Select3.png'>";
-				document.getElementById("iPhonetoggle2").innerHTML = "<display:none>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
 			case 8:
                 document.getElementById("imagetest3").innerHTML = "<img src='iPhone7Select.png'>";
-				document.getElementById("iPhonetoggle3").innerHTML = "<display:none>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
                     break;
             case 9:
                 document.getElementById("imagetest3").innerHTML = "<img src='iPhone7Select1.png'>";
-				document.getElementById("iPhonetoggle3").innerHTML = "<display:none>"; 
+				document.getElementById("toggle3").innerHTML = "<display:none>"; 
                     break;
             case 10:
                 document.getElementById("imagetest3").innerHTML = "<img src='iPhone7Select2.png'>";
-				document.getElementById("iPhonetoggle3").innerHTML = "<display:none>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
                     break;
 			case 11:
                 document.getElementById("imagetest3").innerHTML = "<img src='iPhone7Select3.png'>";
-				document.getElementById("iPhonetoggle3").innerHTML = "<display:none>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
                     break;
 			case 12:
                 document.getElementById("imagetest3").innerHTML = "<img src='iPhone7Select4.png'>";
-				document.getElementById("iPhonetoggle3").innerHTML = "<display:none>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
                     break;
 			case 13:
                 document.getElementById("imagetest3").innerHTML = "<img src='iPhone7Select5.png'>";
-				document.getElementById("iPhonetoggle3").innerHTML = "<display:none>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;	
+        }
+    }
+	
+	function check_value(fieldSvalue)
+    {    
+        switch(fieldSvalue)
+        {
+            case 1:
+                document.getElementById("imagetest1").innerHTML = "<img src='SamsungS7select.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;
+            case 2:
+                document.getElementById("imagetest1").innerHTML = "<img src='SamsungS7select2.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>"; 
+                    break;
+            case 3:
+                document.getElementById("imagetest1").innerHTML = "<img src='SamsungS7select3.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;
+			case 4:
+                document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;
+			case 5:
+                document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect2.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;
+			case 6:
+                document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect3.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;
+			case 7:
+                document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect4.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;
+			case 8:
+                document.getElementById("imagetest3").innerHTML = "<img src='SamsungS8select.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;
+            case 9:
+                document.getElementById("imagetest3").innerHTML = "<img src='SamsungS8select2.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>"; 
+                    break;
+            case 10:
+                document.getElementById("imagetest3").innerHTML = "<img src='SamsungS8select3.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
                     break;	
         }
     }
