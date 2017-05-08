@@ -64,7 +64,7 @@ header {
 	padding-left:250px;
 	padding-right:100px;
 	text-align:center;
-	position:relative;
+	position:absolute;
 }
 
 .li1 a img {
@@ -470,7 +470,7 @@ nav .bildslide {
 	width: 70px;
   	margin: 0 8px;
   	background-color: #A2A2A2;
-  	border-radius: 30%;
+  	border-radius: 25px;
   	display: inline-block;
   	transition: background-color 0.25s ease;
 }
@@ -1099,7 +1099,6 @@ nav ul li #imagetest3 {
 	background-color:#F1F1F1;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }	
-
 	
 #navcontainer h1 {
 	position:relative;
@@ -1201,19 +1200,23 @@ nav ul li #toggle3 {
 	height:30px;
 }
 
-.btnRead {
+nav .btnRead {
 	position:relative;
-	width: 150px;
+	min-width:50%;
+	max-width:80%;
 	height: 50px;
-	margin:0px auto;
+	margin:0 auto;
+	margin-bottom:-50px;
 	text-align:center;
 	border-color:#000;
 	border-radius: 4px;
 	border-style:solid;
-	display:inline-block;
+	display:block;
   	cursor:pointer;
 	top:250px;
-	left:50%;
+	left:25%;
+ 
+	
 
 }
 
@@ -1242,24 +1245,34 @@ nav ul li #toggle3 {
 	ul#articlelist {height:600px; overflow: hidden;}
     ul#articlelist li.li2 {display:table; margin:0 auto; width:100%; min-height:150px; position:relative; overflow: hidden;}
 	
+	#mitt{
+		width:100%;
+		margin:0 auto;
+		padding:0;
+	}
 	
-	.li1 a img {
-	width:10%;
+	#mitt .li1 {
+		width:100%;
+		margin:0 auto;
+	}
+	
+	#mitt a {
+		width:100%;
+		margin:0 auto;
+	}
+	
+	#mitt .li1 a img {
+	width: 25px;
 	height: auto;
-	margin: 0;
-    position:relative;
-    top:50%;
-    left:50%;
-    margin-right:-50%;
-	-webkit-transition: 0.25s ease-in-out;
-  	-moz-filter: grayscale(1); 
-  	-moz-transition: 0.25s ease-in-out;
-  	-o-filter: grayscale(1); 
-  	-o-transition: 0.25s ease-in-out;	
+	margin:0 auto;
+	position:absolute;
+   	top:-54px;
+	left:47%;
+	z-index:120;
 }
 	
 	.prev, .next {opacity:1; background-color:#ACACAC; top:30px;}
-	#mitt img {top:-54px; position:absolute; margin:0 auto; z-index:99;}  /* ÄNDRA TILL BARA BILD*/
+
 	
 	.navtext2 h1 {height:80px auto; width:400px auto; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	.navtext2 p {height:40%; width:100%; margin: 0 auto; top:15px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFL", sans-serif; font-size:3.5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
@@ -1341,12 +1354,12 @@ nav ul li #toggle3 {
 	text-align:center;
 	display:block;
 	color:#FFFFFF;
-	width:100%;
-	height:30px;
+	height:25px;
 	margin:0 auto;
+	background-color:#5B5B5B;
 	position:relative; 
 	padding-top:5px;
-	 border-bottom:2px solid #FFF;
+	width:100%;
 	-webkit-transition: color 0.25s;
     -moz-transition:    color 0.25s;
     -ms-transition:     color 0.25s;
