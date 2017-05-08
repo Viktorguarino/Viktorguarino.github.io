@@ -1271,7 +1271,7 @@ nav .btnRead {
 	z-index:120;
 }
 	
-	.prev, .next {opacity:1; background-color:#ACACAC; top:30px;}
+	.prev, .next {opacity:1; background-color:#ACACAC; top:300px;}
 
 	
 	.navtext2 h1 {height:80px auto; width:400px auto; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
