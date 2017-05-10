@@ -47,9 +47,9 @@ var text2 = document.getElementsByClassName("navtext3");
 			text2[slideIndex-1].style.display = "block";
 }
 
-function check_value(applevalue)
+function check_value(fieldvalue)
     {    
-        switch(applevalue)
+        switch(fieldvalue)
         {
             case 1:
                 document.getElementById("imagetest1").innerHTML = "<img src='iPhone5select.png'>";
@@ -103,52 +103,58 @@ function check_value(applevalue)
                 document.getElementById("imagetest3").innerHTML = "<img src='iPhone7Select5.png'>";
 				document.getElementById("toggle3").innerHTML = "<display:none>";
                     break;	
-        }
-    }
-	
-	function check_value(fieldSvalue)
-    {    
-        switch(fieldSvalue)
-        {
-            case 1:
+            case 14:
                 document.getElementById("imagetest1").innerHTML = "<img src='SamsungS7select.png'>";
 				document.getElementById("toggle1").innerHTML = "<display:none>";
                     break;
-            case 2:
+            case 15:
                 document.getElementById("imagetest1").innerHTML = "<img src='SamsungS7select2.png'>";
 				document.getElementById("toggle1").innerHTML = "<display:none>"; 
                     break;
-            case 3:
+            case 16:
                 document.getElementById("imagetest1").innerHTML = "<img src='SamsungS7select3.png'>";
 				document.getElementById("toggle1").innerHTML = "<display:none>";
                     break;
-			case 4:
+			case 17:
                 document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect.png'>";
 				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
-			case 5:
+			case 18:
                 document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect2.png'>";
 				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
-			case 6:
+			case 19:
                 document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect3.png'>";
 				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
-			case 7:
+			case 20:
                 document.getElementById("imagetest2").innerHTML = "<img src='SamsungS7Edgeselect4.png'>";
 				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;
-			case 8:
+			case 21:
                 document.getElementById("imagetest3").innerHTML = "<img src='SamsungS8select.png'>";
 				document.getElementById("toggle3").innerHTML = "<display:none>";
                     break;
-            case 9:
+            case 22:
                 document.getElementById("imagetest3").innerHTML = "<img src='SamsungS8select2.png'>";
 				document.getElementById("toggle3").innerHTML = "<display:none>"; 
                     break;
-            case 10:
+            case 23:
                 document.getElementById("imagetest3").innerHTML = "<img src='SamsungS8select3.png'>";
 				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;
+			case 24:
+                document.getElementById("imagetest1").innerHTML = "<img src='OnePlus3Tselect.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
                     break;	
+			case 25:
+                document.getElementById("imagetest1").innerHTML = "<img src='OnePlus3Tselect1.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;	
+			case 26:
+                document.getElementById("imagetest1").innerHTML = "<img src='OnePlus3Tselect2.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;	
+							
         }
     }
