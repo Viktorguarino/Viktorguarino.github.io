@@ -1382,7 +1382,7 @@ nav .btnRead {
 	width:100%;
 	margin:0 auto;
 	position:relative;
-	padding:2.5px;
+	padding-top:1px;
 	display:block;
 }
 
@@ -1394,8 +1394,8 @@ nav .btnRead {
 	color:#FFFFFF;
 	height:25px;
 	margin:0 auto;
-	background-color:#5B5B5B;
-	position:relative; 
+	background-color:#555;
+	position:relative;
 	padding-top:5px;
 	width:100%;
 	-webkit-transition: color 0.25s;

@@ -13,12 +13,19 @@ function plusSlides(n) {
 function currentSlide(n) {
   	showSlides(slideIndex = n);
 }	
+
+$('#dropbtn').click(function() {
+  $('#dropdowncontent').slideToggle('slow');
+});
+	
+	
 	
 function showDiv() {
 var x = document.getElementById("dropdowncontent");
     if (x.style.display === "none") 
 	{
        	x.style.display = "block";
+		
     } else {
        	x.style.display = "none";
     }
@@ -154,7 +161,30 @@ function check_value(fieldvalue)
 			case 26:
                 document.getElementById("imagetest1").innerHTML = "<img src='OnePlus3Tselect2.png'>";
 				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;
+			case 27:
+                document.getElementById("imagetest2").innerHTML = "<img src='OnePlus3Tselect.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
                     break;	
-							
+			case 28:
+                document.getElementById("imagetest2").innerHTML = "<img src='OnePlus3Tselect1.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;	
+			case 29:
+                document.getElementById("imagetest2").innerHTML = "<img src='OnePlus3Tselect2.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;
+			case 30:
+                document.getElementById("imagetest3").innerHTML = "<img src='OnePlus5select.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;	
+			case 31:
+                document.getElementById("imagetest3").innerHTML = "<img src='OnePlus5select2.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;	
+			case 32:
+                document.getElementById("imagetest3").innerHTML = "<img src='OnePlus5select3.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;						
         }
     }
