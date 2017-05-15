@@ -13,11 +13,11 @@ function plusSlides(n) {
 function currentSlide(n) {
   	showSlides(slideIndex = n);
 }	
-
+/*
 $('#dropbtn').click(function() {
   $('#dropdowncontent').slideToggle('slow');
 });
-	
+	*/
 	
 	
 function showDiv() {
@@ -185,6 +185,46 @@ function check_value(fieldvalue)
 			case 32:
                 document.getElementById("imagetest3").innerHTML = "<img src='OnePlus5select3.png'>";
 				document.getElementById("toggle3").innerHTML = "<display:none>";
-                    break;						
+                    break;
+			case 33:
+                document.getElementById("imagetest1").innerHTML = "<img src='GooglePixelselect.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;	
+			case 34:
+                document.getElementById("imagetest1").innerHTML = "<img src='GooglePixelselect2.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;	
+			case 35:
+                document.getElementById("imagetest1").innerHTML = "<img src='GooglePixelselect3.png'>";
+				document.getElementById("toggle1").innerHTML = "<display:none>";
+                    break;
+			case 36:
+                document.getElementById("imagetest2").innerHTML = "<img src='Nexus5Xselect.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;	
+			case 37:
+                document.getElementById("imagetest2").innerHTML = "<img src='Nexus5Xselect2.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;	
+			case 38:
+                document.getElementById("imagetest2").innerHTML = "<img src='Nexus5Xselect3.png'>";
+				document.getElementById("toggle2").innerHTML = "<display:none>";
+                    break;
+			case 39:
+                document.getElementById("imagetest3").innerHTML = "<img src='Nexus6Pselect.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;	
+			case 40:
+                document.getElementById("imagetest3").innerHTML = "<img src='Nexus6Pselect2.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;	
+			case 41:
+                document.getElementById("imagetest3").innerHTML = "<img src='Nexus6Pselect3.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;
+			case 42:
+                document.getElementById("imagetest3").innerHTML = "<img src='Nexus6Pselect4.png'>";
+				document.getElementById("toggle3").innerHTML = "<display:none>";
+                    break;							
         }
     }
