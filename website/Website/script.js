@@ -1,7 +1,4 @@
 // JavaScript Document
-function myFunction() {
-	alert("hello");
-}
 			
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -12,13 +9,7 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   	showSlides(slideIndex = n);
-}	
-/*
-$('#dropbtn').click(function() {
-  $('#dropdowncontent').slideToggle('slow');
-});
-	*/
-	
+}
 	
 function showDiv() {
 var x = document.getElementById("dropdowncontent");

@@ -92,8 +92,8 @@ header {
 	margin:auto;
 	margin-top: 3px;
 	margin-bottom:0px;
-	margin-left: -30px;             /*avstånd mellan divs*/
-	margin-right: 100px;			/*avstånd mellan divs*/
+	margin-left: -30px;          
+	margin-right: 100px;	
 	display: inline-block;
 	text-align: center;
 }
@@ -109,8 +109,8 @@ header {
 	margin:auto;
 	margin-bottom:0;
 	margin-top:0;
-	margin-left: 10px;           /*storlek padding*/
-	margin-right: 10px;          /*storlek padding*/
+	margin-left: 10px;      
+	margin-right: 10px;          
 	padding: 12px;
 	position: inherit;
 	font-family:"SFR";
@@ -127,7 +127,6 @@ header {
 	text-decoration:none;
 	width:inherit;
 	color:#8a9397;
-	/*background-color: brown;*/
 }
 
 * {
@@ -452,7 +451,6 @@ nav .bildslide {
 #bars {
 	position:inherit;
 	text-align:center;
-	/*background-color:aqua;*/
 	margin:0 auto;
 	top:90%;
 	z-index:10;
@@ -847,8 +845,6 @@ nav ul li #imagetest3 {
 	height:40%;
 }
 
-
-
 .btnRead {
 	position:relative;
 	width: 225px;
@@ -888,9 +884,6 @@ nav ul li #imagetest3 {
 	width:100%;
 }
 
-/*--------------------------------------------------*/
-
-
 input[type="radio"] {
     display:none;
 }
@@ -910,8 +903,6 @@ input[type="radio"] + label{
 input[type="radio"]:checked + label{
      border:2px solid #000;
 }
-
-/*------------------------------------------------------*/
 
 .navselectcopyright {
 	width:100%;
@@ -945,9 +936,8 @@ input[type="radio"]:checked + label{
 	margin:0 auto;
 	border:2px solid #000;
 	padding:10px;
+	font-family:"SFR";
 }
-
-/*--------------------------------------------------*/
 
 .navselects {
 	width:100%;
@@ -1172,7 +1162,6 @@ input[type="radio"]:checked + label{
 	top:-45%;
 	left:-47%;
 }
-
 	
 .navcontainer form {
 	position:relative;
@@ -1225,7 +1214,6 @@ nav ul li #imagetest3 {
 	text-align:center;
 	top:0;
 }
-
 
 .navselects ol ul li {
 	display:inline-block;
@@ -1345,8 +1333,6 @@ nav ul li #imagetest2 {
 	left:-110px;
 }
 
-
-
 nav ul li #imagetest3 {
 	position:relative;
 	margin:0px auto;
@@ -1356,10 +1342,6 @@ nav ul li #imagetest3 {
 	top:-40%;
 	left:-110px;
 }
-
-
-
-
 
 #toggle1, #toggle2, #toggle3 {
 	position:relative;
@@ -1414,9 +1396,6 @@ nav .btnRead {
   	cursor:pointer;
 	top:250px;
 	left:25%;
- 
-	
-
 }
 
 .btnRead a {
@@ -1434,7 +1413,6 @@ nav .btnRead {
 	position:absolute;
 	transition: .25s ease-in-out;
 	z-index:99;
-	
 }
 
 .navselectcopyright {
@@ -1552,7 +1530,11 @@ nav .btnRead {
 	z-index:120;
 }
 	
-	.prev, .next {opacity:1; background-color:#ACACAC; top:300px;}
+.prev, .next {
+	opacity:1; 
+	background-color:#ACACAC; 
+	top:300px;
+}
 
 	
 	.navtext2 h1 {height:80px auto; width:400px auto; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
@@ -1579,8 +1561,8 @@ nav .btnRead {
 	.dropdown {display: inline-block;}
 	#dropbtn {background:rgba(0, 0, 0, 0.8); background-color:#333; color:white; width:100px; top:-8px; padding:16px; font-size:26px; border:none; position:relative; cursor: pointer;}
 	#dropbtn:hover {color:#8a9397; -webkit-transition: 0.25s ease-in-out; -moz-filter: grayscale(1); -moz-transition: 0.25s ease-in-out; -o-filter: grayscale(1); -o-transition: 0.25s ease-in-out;}
-	#dropdowncontent {display:none; width:630px; height:450px; position:relative; margin-top:-20px; background-color:#333; z-index:130; float:left; padding-top:60px;}
-	#dropdowncontent a {color:#FFF; padding-top:20px; padding-bottom:20px; padding-left:20px; margin-top:10px; margin-bottom:10px; text-decoration:none; display:block; font-size:20px; font-family:"SFR"; margin:0 auto; border-bottom:2px solid #FFF; position:relative;}
+	#dropdowncontent {display:none; width:650px; height:450px; position:relative; top:-19px; background-color:#333; opacity:0.8; z-index:130; margin:0 auto; padding-top:60px;}
+	#dropdowncontent a {color:#FFF; width:100px; height:100px; padding-top:20px; left:10%; padding-bottom:20px; text-align:center; text-decoration:none; display:block; font-size:24px; font-family:"SFR"; position:relative;}
 	#dropdowncontent a:hover {background-color:rbga(51, 51, 51, 1); color:#8a9397; -webkit-transition: 0.25s ease-in-out; -moz-filter: grayscale(1); -moz-transition: 0.25s ease-in-out; -o-filter: grayscale(1);  -o-transition: 0.25s ease-in-out;}
 	
 	footer {
@@ -1592,7 +1574,13 @@ nav .btnRead {
   	left: 0;
 	background-color:#333;
 } 
-	footer #footerlist {width:100%;	height:100%; position:relative; padding:0; margin:0 auto;}
+footer #footerlist {
+	width:100%;	
+	height:100%;
+	position:relative; 
+	padding:0; 
+	margin:0 auto;
+}
 	
 
 #footerlist ul {
