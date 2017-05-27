@@ -455,11 +455,6 @@ nav .bildslide {
   animation-duration: 0.75s;
 }
 
-@keyframes fade {
-  from {opacity: .25} 
-  to {opacity: 1}
-}
-
 .btncontainer {
 	position:relative;
 	width: 225px;
