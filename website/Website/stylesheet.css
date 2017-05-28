@@ -1497,7 +1497,7 @@ nav .btnRead {
 }
 
 	
-	.navtext2 h1 {height:80px; width:400px; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
+	.navtext2 h1 {height:80px; width:auto; margin: 0 auto; top:12px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFR", sans-serif; font-size: 5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	.navtext2 p {height:40%; width:100%; margin: 0 auto; top:15px; text-align:center; text-decoration:none; color:#FFF; font-family:"SFL", sans-serif; font-size:3.5vw; z-index:90; display:block; position:relative;-webkit-transition: 0.25s ease-in-out; -moz-transition: 0.25s ease-in-out; -o-transition: 0.25s ease-in-out;}
 	
 	.navtext3 h1 {
