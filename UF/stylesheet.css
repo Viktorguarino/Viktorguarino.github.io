@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#container {
+	min-height:100%;
+	width:100%;
+	position:relative;
+}
+
+header {
+	height:180px;
+	width:100%;
+	position:relative;
+}
+
+header img {
+	margin:auto;
+	height:225px;
+	width:auto;
+	display:block;
+	position:relative;
+}
+
+nav {
+    text-align:center;
+	width:100%;
+	height:40px;
+	position:relative;
+	border-bottom:1px solid rgba(85,85,85,0.80);
+	border-top:1px solid rgba(85,85,85,0.80);
+}
+
+ul {    
+    display:inline-block;
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:center;
+}
+
+ul li {
+    display:block;
+	height:40px;
+	padding-left:50px;
+	padding-right:50px;
+    position:relative;
+    float:left;
+    text-align:center;
+}
+
+ul li a {
+    display:block;
+	font-size:12px;
+	font-weight:600;
+	font-family:"Times New Roman";
+    text-decoration:none;
+	text-align:center;
+	line-height:40px;
+    color:#000;
+    white-space:nowrap;
+}
+
+#searching {
+	padding-left:25px;
+	padding-right:25px;
+	width:10px;
+}
+
+input[type=text] {
+	top:13px;
+	width:50%;
+    box-sizing:border-box;
+	list-style-type:none;
+	border:none;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	margin-left:-15%;
+	padding:0;
+	position:absolute;
+	z-index:99;
+	font-size:12px;
+	font-weight:600;
+	font-family:"Times New Roman";
+}
+
+input[type=text]:focus {
+    width:800px;
+	z-index:100;
+	padding-left:290px;
+	margin-left:-290%;
+	position:absolute;
+	outline:0;
+}
+
+input[type=text]::placeholder {
+  color:#000;
+}
+
+input[type=text]:hover {
+	cursor:pointer;	
+}
+
+li:not(:last-child):after {
+    position: relative;
+    top: -32px;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin-right:-140px;
+    content: '';
+    border-radius: 4px;
+}
+
+li:nth-child(1n):after {
+    background-color:#000000;
+}
+
+li:nth-child(4):after {
+    background-color:#000000;
+	top:8px;
+	z-index:99;
+}
+
+article {
+	height:1500px;
+	width:100%;
+	padding-bottom:100%;
+	position:relative;
+}
+
+footer {
+	height:350px;
+	width:100%;
+	position:relative;
+    background-color:#000;
+}
+
+footer img {
+	margin:auto;
+	height:165px;
+	width:auto;
+	display:block;
+	position:relative;
+	 -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
