@@ -114,6 +114,12 @@ input[type=text]:focus {
 	outline:0;
 }
 
+input[type=text]:focus + img {
+	visibility:visible;
+	z-index:1000;
+	/*-webkit-transition: width 2s ease-in-out;                       HELP ME PLZ KILL KILL KILL*/
+}
+
 input[type=text]::placeholder {
   color:#000;
 }
