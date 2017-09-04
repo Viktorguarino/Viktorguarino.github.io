@@ -65,6 +65,17 @@ ul li a {
     white-space:nowrap;
 }
 
+ul li img {
+	display:block;
+	height:25px;
+	width:auto;
+	position:absolute;
+	top:8px;
+	margin-left:130px;
+	visibility:hidden;
+	z-index:1000;
+}
+
 #searching {
 	padding-left:25px;
 	padding-right:25px;
@@ -89,11 +100,17 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    width:800px;
-	z-index:100;
-	padding-left:290px;
+    width:625px;
+	top:2.5px;
+	background-color:#F0F0F0;
+	border-radius:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:40px;
 	margin-left:-290%;
 	position:absolute;
+	z-index:100;
 	outline:0;
 }
 
