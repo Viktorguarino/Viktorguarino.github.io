@@ -161,7 +161,7 @@ article {
 }
 
 footer {
-	height:250px;
+	height:230px;
 	width:100%;
 	position:relative;
     background-color:#000;
@@ -172,7 +172,7 @@ footer {
 	position:relative;
 	display:block;
 	width:85%;
-	height:65%;
+	height:60%;
 }
 
 .footerContent {
@@ -183,35 +183,54 @@ footer {
 	text-align:center;
 }
 
+.bottom{
+	position:relative;
+	top:-15px;
+}
+
+.bottom p {
+	font-size:8px;
+	letter-spacing:2.5px;
+	color:#868686;
+}
+
 .column {
 	width:auto;
 	height:auto;
+	top:-30px;
 	display:inline-block;
     padding:1rem;
 }
 
+.column:hover {
+	color:#777777;
+}
+
 #logo a{
 	margin:auto;
-	width:200px;
+	width:180px;
 	height:90px;
+	top:25px;
 	background:url(text.png) center;
 	background-size:200px auto;
 	display:block;
-	position:relative;
 	-webkit-filter: invert(100%);
     filter: invert(100%);
+	position:relative;
 }
 
 #social a {
-	text-align:center;
-	width:auto;
+	width:80px;
 	height:auto;
+	display:block;
+	top:-30px;
+	padding-left:10px;
+	position:relative;
 }
 
 #social a:first-child {
 	width:20px;
 	height:20px;
-	margin-right:20%;
 	background:url(facebook.png) center no-repeat;
 	background-size:contain;
 	display:inline-block;
@@ -229,7 +248,9 @@ footer {
 	font-size:13px;
 	margin:15px;
 	text-decoration:none;
+	top:-35px;
 	color:white;
+	letter-spacing:1.25px;
 	position:relative;
 	
 }
