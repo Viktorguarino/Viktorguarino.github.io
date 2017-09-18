@@ -80,10 +80,37 @@ ul li a {
 	z-index:1000;
 }
 
-#searching {
+.searching {
 	padding-left:25px;
 	padding-right:25px;
 	width:10px;
+}
+
+.searchingTwo {
+	margin:0 auto;
+	position:relative;
+	width:75%;
+	height:5%;
+	top:5%;
+}
+
+form:nth-child(2) {
+	text-align:center;
+	position:relative;
+	top:50%;
+}
+
+input[type=textTwo] {
+	width:625px;
+	margin:0 auto;
+	background-color:#F0F0F0;
+	border-radius:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:40px;
+	position:relative;
+	outline:0px;
 }
 
 input[type=text] {
@@ -121,7 +148,6 @@ input[type=text]:focus {
 input[type=text]:focus + .btnSearch {                 /*FIXA DETTA*/
 	visibility:visible;
 	z-index:1000;
-	/*-webkit-transition: width 2s ease-in-out;                       HELP ME PLZ KILL KILL KILL*/
 }
 
 input[type=text]::placeholder {
@@ -202,11 +228,7 @@ footer {
     padding:1rem;
 }
 
-.column:hover {
-	color:#777777;
-}
-
-#logo a{
+.logo a{
 	margin:auto;
 	width:180px;
 	height:90px;
@@ -219,7 +241,7 @@ footer {
 	position:relative;
 }
 
-#social a {
+.social a {
 	width:80px;
 	height:auto;
 	display:block;
@@ -228,7 +250,7 @@ footer {
 	position:relative;
 }
 
-#social a:first-child {
+.social a:first-child {
 	width:20px;
 	height:20px;
 	background:url(facebook.png) center no-repeat;
@@ -236,7 +258,7 @@ footer {
 	display:inline-block;
 }
 
-#social a:last-child {
+.social a:last-child {
 	width:20px;
 	height:20px;
 	background:url(instagram.png) center no-repeat;
@@ -244,7 +266,7 @@ footer {
 	display:inline-block;
 }
 
-#info a {
+.info a {
 	font-size:13px;
 	margin:15px;
 	text-decoration:none;
@@ -253,4 +275,11 @@ footer {
 	letter-spacing:1.25px;
 	position:relative;
 	
+}
+
+.info a:hover {
+	color:#868686;
+	transition-timing-function:ease-in-out;
+	transition: 0.25s;
+
 }
