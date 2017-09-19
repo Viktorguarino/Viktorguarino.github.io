@@ -16,10 +16,10 @@
         <nav>
             <ul>
             	<li>
-                    <a href="#">NEWS</a>
+                    <a href="#">INFO</a>
                 </li>
                 <li>
-                	<a href="#">PODCAST</a>
+                	<a href="#">MALLAR</a>
                 </li>
                 <li>
                     <a href="#">VIDEO</a>
@@ -33,7 +33,7 @@
                     </div>
                 </li>
                 <li>
-                	<a href="#">INFO</a>
+                	<a href="#">KÖP</a>
                 </li>
         	</ul>
         </nav>
@@ -41,7 +41,7 @@
         	<div class="searchingTwo">
             	<form action="Results.php" method="get">
                 	<input type="textTwo" name="k" id="searchTwo" placeholder="SEARCH" value="<?php echo $_GET['k']; ?>"/>
-                   	<input class="btnSearchTwo" value="search" type="submit"/>
+                    <input class="btnSearchTwo" value="search" type="submit"/>
                 </form>
                 <hr>
             </div>

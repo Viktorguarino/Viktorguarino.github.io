@@ -19,7 +19,7 @@
                     <a href="#">INFO</a>
                 </li>
                 <li>
-                	<a href="#">WEBBSIDOR</a>
+                	<a href="#">MALLAR</a>
                 </li>
                 <li>
                     <a href="#">VIDEO</a>
@@ -50,7 +50,7 @@
                         <a href="#"></a>
                     </div>
                     <div class="column info">
-                        <a href="Index.php">TERMS OF USE</a>
+                        <a href="Terms of use.php">TERMS OF USE</a>
 				     	<a href="Index.php">WEBSITE PRIVACY POLICY</a>
                         <a href="Index.php">CONTACT US</a>
                     </div>
