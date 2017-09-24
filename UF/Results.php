@@ -28,7 +28,7 @@
                 	<div class="searching">
                        	<form action="Results.php" method="get">
                         	<input type="text" name="k" id="search" placeholder="SEARCH" value="<?php echo $_GET['k']; ?>"/>
-                   			<input class="btnSearch" value="search" type="submit"/>
+                   			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
                 </li>
@@ -41,7 +41,7 @@
         	<div class="searchingTwo">
             	<form action="Results.php" method="get">
                 	<input type="textTwo" name="k" id="searchTwo" placeholder="SEARCH" value="<?php echo $_GET['k']; ?>"/>
-                    <input class="btnSearchTwo" value="search" type="submit"/>
+                    <input class="btnSearchTwo" value="" type="submit"/>
                 </form>
                 <hr>
             </div>
