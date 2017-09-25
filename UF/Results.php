@@ -58,8 +58,8 @@
                     </div>
                     <div class="column info">
                         <a href="Terms of use.php">TERMS OF USE</a>
-				     	<a href="Index.php">WEBSITE PRIVACY POLICY</a>
-                        <a href="Index.php">CONTACT US</a>
+				     	<a href="Website privacy policy.php">WEBSITE PRIVACY POLICY</a>
+                        <a href="Contact us.php">CONTACT US</a>
                     </div>
                     <div class="bottom">
                     	<p>© COPYRIGHT 2017, WEB CREATOR</p>

@@ -38,6 +38,38 @@
         	</ul>
         </nav>
         <article>
+        	<div class="contact">
+            	<ol>
+                	<li>
+                    	<div class="cirlce"><img src="viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <h2>Simon Måtegen</h2>
+                            <h3>CEO</h3>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="cirlce"><img src="viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <h2>Viktor Guarino</h2>
+                            <h3>CTO</h3>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="cirlce"><img src="viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <h2>Jonathan Zander</h2>
+                            <h3>CFO</h3>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div id="panel">
+                <p>Tryck på knappen för att skriva ett tal.<br>
+                <br>OBS! Endast tal fungerar, bokstäver går inte!</p>
+                <button onclick="myFunction()">Tryck!</button>
+                <p id="skriv"></p>
+            </div>
+            <div id="flip">Push!</div>
         </article>
         <footer>
         	<div class="footerContainer">

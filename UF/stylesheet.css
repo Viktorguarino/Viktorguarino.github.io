@@ -228,6 +228,55 @@ article {
 	font-weight:100;
 }
 
+.contact {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+
+.contact ol{
+	width:100%;
+	height:100%;
+  	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+}
+
+.contact ol li{
+  display:block;
+  border-radius:20px;
+  border:1px solid rgba(166,166,166,0.75);
+  width:65%;
+  height:275px;
+  margin:0 auto;
+  margin-top:50px;
+  margin-bottom:25px;
+}
+
+.cirlce {
+	border-radius:50%;
+	background-color:#FFF;
+	width:175px;
+	height:175px;
+	position:relative;
+	top:17.5%;
+	left:5%;
+	overflow:hidden;
+}
+
+.cirlce img {
+    display:inline;
+    margin:0 auto;
+    height:100%;
+    width:auto;
+}
+
+.contactinfo h2, h3{
+	position:relative;
+	left:10%;
+	top:-100px;
+}
+
 /*----------------------------------------------------------------------------------------------------*/
 
 footer {
