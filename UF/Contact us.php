@@ -72,8 +72,10 @@
                     </li>
                 </ol>
             </div>
-            <div id="slide">click me</div>
-
+            <div id="slide">
+            	<div class="slideDown">What a deal!</div>
+				<span class="grabPromo">Grab This Deal</span>
+            </div>
         </article>
         <footer>
         	<div class="footerContainer">

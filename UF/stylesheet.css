@@ -287,14 +287,13 @@ article {
 
 
 
-#slide {
-    border: 1px solid black;
-    height: 50px;
-    transition:             height 500ms ease;
-        -moz-transition:    height 500ms ease;
-        -ms-transition:     height 500ms ease;
-        -o-transition:      height 500ms ease;
-        -webkit-transition: height 500ms ease;
+
+.slideDown { 
+	background:#00FF05; 
+	display:none;
+}
+.grabPromo { 
+	cursor:pointer; 
 }
 
 
