@@ -246,7 +246,7 @@ article {
   display:block;
   border-radius:20px;
   border:1px solid rgba(166,166,166,0.75);
-  width:65%;
+  width:60%;
   height:275px;
   margin:0 auto;
   margin-top:50px;
@@ -276,6 +276,27 @@ article {
 	left:10%;
 	top:-100px;
 }
+
+.contactinfo h3 {
+	padding:1px;
+}
+
+.contactinfo h3 span {
+	font-weight:200;
+}
+
+
+
+#slide {
+    border: 1px solid black;
+    height: 50px;
+    transition:             height 500ms ease;
+        -moz-transition:    height 500ms ease;
+        -ms-transition:     height 500ms ease;
+        -o-transition:      height 500ms ease;
+        -webkit-transition: height 500ms ease;
+}
+
 
 /*----------------------------------------------------------------------------------------------------*/
 

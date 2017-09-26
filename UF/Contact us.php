@@ -44,32 +44,36 @@
                     	<div class="cirlce"><img src="viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <h2>Simon Måtegen</h2>
-                            <h3>CEO</h3>
+                            <h3><span>CEO / <i>Verkställande Direktor</i></span></h3>
+                            <br>
+                            <h3><span>+46 720 133 850</span></h3>
+                            <h3><span>example@hotmail.com</span></h3>
                         </div>
                     </li>
                     <li>
                     	<div class="cirlce"><img src="viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <h2>Viktor Guarino</h2>
-                            <h3>CTO</h3>
+                            <h3><span>CTO / <i>Webmaster</i></span></h3>
+                            <br>
+                            <h3><span>+46 720 133 850</span></h3>
+                            <h3><span>example@hotmail.com</span></h3>
                         </div>
                     </li>
                     <li>
                     	<div class="cirlce"><img src="viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <h2>Jonathan Zander</h2>
-                            <h3>CFO</h3>
+                            <h3><span>CFO / <i>Finansdirektör</i></span></h3>
+                            <br>
+                            <h3><span>+46 720 133 850</span></h3>
+                            <h3><span>example@hotmail.com</span></h3>
                         </div>
                     </li>
                 </ol>
             </div>
-            <div id="panel">
-                <p>Tryck på knappen för att skriva ett tal.<br>
-                <br>OBS! Endast tal fungerar, bokstäver går inte!</p>
-                <button onclick="myFunction()">Tryck!</button>
-                <p id="skriv"></p>
-            </div>
-            <div id="flip">Push!</div>
+            <div id="slide">click me</div>
+
         </article>
         <footer>
         	<div class="footerContainer">
@@ -78,7 +82,7 @@
                     	<a href="Index.php"></a>
                     </div>
                     <div class="column social">
-                        <a href="#"></a>
+                        <a href="https://www.facebook.com/Web-Creator-1764341753865008/"></a>
                         <a href="#"></a>
                     </div>
                     <div class="column info">
