@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <script type="text/javascript" src="script.js"></script>
-<title>UF</title>
+<title>WebCreator</title>
 </head>
 
 <body>
@@ -57,13 +57,13 @@
                             </ol>
 						</h3>
 					<h2>Do we use 'cookies'?</h2>
-						<h3>We do not use cookies for tracking purposes. You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser's Help Menu to learn the correct way to modify your cookies. If you turn cookies off, Some of the features that make your site experience more efficient may not function properly.that make your site experience more efficient and may not function properly.</h3>
+						<h3>We do not use cookies for tracking purposes. You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser's Help Menu to learn the correct way to modify your cookies. If you turn cookies off, some of the features that make your site experience more efficient may not function properly.that make your site experience more efficient and may not function properly.</h3>
 					<h2>Third-party disclosure</h2>
 						<h3>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.</h3>
 					<h2>Third-party links</h2>
 						<h3>We do not include or offer third-party products or services on our website.</h3>
 					<h2>Google</h2>
-						<h3>Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en. We have not enabled Google AdSense on our site but we may do so in the future.</h3>
+						<h3>Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide a positive experience for users. <a href="https://support.google.com/adwordspolicy/answer/1316548?hl=en">https://support.google.com/adwordspolicy/answer/1316548?hl=en</a>. We have not enabled Google AdSense on our site but we may do so in the future.</h3>
 					<h2>We agree to the following:</h2>
                         <h3>Users can visit our site anonymously. Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website. Our Privacy Policy link includes the word 'Privacy' and can easily be found on the page specified above.                      
                         You will be notified of any Privacy Policy changes:
@@ -75,7 +75,7 @@
 						<h3>We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.</h3>
 					<h2>Does our site allow third-party behavioral tracking?</h2>
 						<h3>It's also important to note that we do not allow third-party behavioral tracking.</h3>
-					<h2>COPPA (Children Online Privacy Protection Act)</h2>
+					<h2>Children Online Privacy Protection</h2>
 						<h3>We do not specifically market to children under the age of 13 years old.</h3>
 					<h2>Fair Information Practices</h2>
 						<h3>The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.</h3>
@@ -85,9 +85,6 @@
       							<li>Within 1 business day</li>
                             </ol>
 						We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.</h3>
-					<h2>CAN SPAM Act</h2>
-						<h3>The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.</h3>
-						<h3>This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</h3>
 					<h2>If at any time you would like to unsubscribe from receiving future emails, you can email us at and we will promptly remove you from ALL correspondence.</h2>
 						<h3>Last Edited on 2017-09-27</h3>
             </div>

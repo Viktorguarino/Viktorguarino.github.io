@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <script type="text/javascript" src="script.js"></script>
-<title>UF</title>
+<title>WebCreator</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
                     	<div class="cirlce"><img src="viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Viktor Guarino</p>
-                            <p><span>CTO / <i>Webmaster</i></span></p>
+                            <p><span>CTO / <i>IT-direktör - Webmaster</i></span></p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
                             <p><span>example@hotmail.com</span></p>
@@ -84,11 +84,11 @@
                     	<a href="Index.php"></a>
                     </div>
                     <div class="column social">
-                        <a href="https://www.facebook.com/Web-Creator-1764341753865008/"></a>
-                        <a href="https://www.instagram.com/webcreatorofficial/"></a>
+                        <a href="https://www.facebook.com/Web-Creator-1764341753865008/" target="_blank"></a>
+                        <a href="https://www.instagram.com/webcreatorofficial/" target="_blank"></a>
                     </div>
                     <div class="column info">
-                        <a href="Terms of use.php">VILLKOR</a>
+                        <a href="Terms of use.php">ANVÄNDARVILLKOR</a>
 				     	<a href="Website privacy policy.php">INTEGRITETSPOLICY</a>
                         <a href="Contact us.php">KONTAKTA OSS</a>
                     </div>
