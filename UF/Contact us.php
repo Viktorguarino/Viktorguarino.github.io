@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -27,7 +27,7 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" id="search" placeholder="SEARCH" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" id="search" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
@@ -43,31 +43,31 @@
                 	<li>
                     	<div class="cirlce"><img src="viktorbild.png"></div>
                         <div class="contactinfo"> 
-                            <h2>Simon Måtegen</h2>
-                            <h3><span>CEO / <i>Verkställande Direktor</i></span></h3>
+                            <p>Simon Måtegen</p>
+                            <p><span>CEO / <i>Verkställande Direktor</i></span></p>
                             <br>
-                            <h3><span>+46 720 133 850</span></h3>
-                            <h3><span>example@hotmail.com</span></h3>
+                            <p><span>+46 720 133 850</span></p>
+                            <p><span>example@hotmail.com</span></p>
                         </div>
                     </li>
                     <li>
                     	<div class="cirlce"><img src="viktorbild.png"></div>
                         <div class="contactinfo"> 
-                            <h2>Viktor Guarino</h2>
-                            <h3><span>CTO / <i>Webmaster</i></span></h3>
+                            <p>Viktor Guarino</p>
+                            <p><span>CTO / <i>Webmaster</i></span></p>
                             <br>
-                            <h3><span>+46 720 133 850</span></h3>
-                            <h3><span>example@hotmail.com</span></h3>
+                            <p><span>+46 720 133 850</span></p>
+                            <p><span>example@hotmail.com</span></p>
                         </div>
                     </li>
                     <li>
                     	<div class="cirlce"><img src="viktorbild.png"></div>
                         <div class="contactinfo"> 
-                            <h2>Jonathan Zander</h2>
-                            <h3><span>CFO / <i>Finansdirektör</i></span></h3>
+                            <p>Jonathan Zander</p>
+                            <p><span>CFO / <i>Finansdirektör</i></span></p>
                             <br>
-                            <h3><span>+46 720 133 850</span></h3>
-                            <h3><span>example@hotmail.com</span></h3>
+                            <p><span>+46 720 133 850</span></p>
+                            <p><span>example@hotmail.com</span></p>
                         </div>
                     </li>
                 </ol>
@@ -85,12 +85,12 @@
                     </div>
                     <div class="column social">
                         <a href="https://www.facebook.com/Web-Creator-1764341753865008/"></a>
-                        <a href="#"></a>
+                        <a href="https://www.instagram.com/webcreatorofficial/"></a>
                     </div>
                     <div class="column info">
-                        <a href="Terms of use.php">TERMS OF USE</a>
-				     	<a href="Website privacy policy.php">WEBSITE PRIVACY POLICY</a>
-                        <a href="Contact us.php">CONTACT US</a>
+                        <a href="Terms of use.php">VILLKOR</a>
+				     	<a href="Website privacy policy.php">INTEGRITETSPOLICY</a>
+                        <a href="Contact us.php">KONTAKTA OSS</a>
                     </div>
                     <div class="bottom">
                     	<p>© COPYRIGHT 2017, WEB CREATOR</p>

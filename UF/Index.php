@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -27,7 +27,7 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" id="search" placeholder="SEARCH" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
@@ -46,13 +46,13 @@
                     	<a href="Index.php"></a>
                     </div>
                     <div class="column social">
-                        <a href="#"></a>
-                        <a href="#"></a>
+                        <a href="https://www.facebook.com/Web-Creator-1764341753865008/"></a>
+                        <a href="https://www.instagram.com/webcreatorofficial/"></a>
                     </div>
                     <div class="column info">
-                        <a href="Terms of use.php">TERMS OF USE</a>
-				     	<a href="Website privacy policy.php">WEBSITE PRIVACY POLICY</a>
-                        <a href="Contact us.php">CONTACT US</a>
+                        <a href="Terms of use.php">VILLKOR</a>
+				     	<a href="Website privacy policy.php">INTEGRITETSPOLICY</a>
+                        <a href="Contact us.php">KONTAKTA OSS</a>
                     </div>
                     <div class="bottom">
                     	<p>© COPYRIGHT 2017, WEB CREATOR</p>
