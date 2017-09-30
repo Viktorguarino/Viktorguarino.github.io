@@ -11,7 +11,7 @@
 <body>
 	<div id="container">	
         <header>
-        	<a href="Index.php"><img src="text.png" alt="logo"></a>
+        	<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
       	</header>
         <nav>
         	<ul>

@@ -11,7 +11,7 @@
 <body>
 	<div id="container">	
         <header>
-        	<a href="Index.php"><img src="text.png" alt="logo"></a>
+        	<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
       	</header>
         <nav>
             <ul>
@@ -46,14 +46,40 @@
                 <hr>
                 <?php 
 					$k = $_GET['k'];
-					
 					$terms = explode(" ", $k);
+					$query = "SELECT * FROM search WHERE ";
 					
 					foreach ($terms as $each) {
-						$i++;
-						
-						
+						$i++;					
+						if($i == 1)
+							$query.= "keywords LIKE '%$each%' ";
+						else
+							$query.= "OR keywords LIKE '%$each%' ";
 					}
+					
+					// anslut
+					mysql_connect("localhost", "root", "korvisinibus1");
+					mysql_select_db("webcreatoruf");
+					
+					$query = mysql_query($query);
+					$numrows = mysql_num_rows($query);
+					if($numrows > 0) {
+						
+						while ($row = mysql_fetch_assoc($query)){
+							$id = $row['id'];
+							$title = $row['title'];
+							$description = $row['description'];
+							$keywords = $row['keywords'];
+							$link = $row['link'];
+							
+							echo "<h2><a href='$link'>$title</a></h2>
+							$description<br /><br />";
+						}	
+					}
+					else
+						echo "Inga träffar hittades för \"<b>$k</b>\"";
+					// koppla ifrån
+					mysql_close();
 				?>
             </div>
         </article>
