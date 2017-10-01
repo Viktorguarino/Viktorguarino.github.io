@@ -39,54 +39,54 @@
         </nav>
         <article>
         	<div class="policy">
-            	<h1>Privacy Policy</h1>						
-					<h2>What personal information do we collect from the people that visit our blog, website or app?</h2>
-						<h3>When ordering or registering on our site, as appropriate, you may be asked to enter your or other details to help you with your experience.</h3>
-					<h2>When do we collect information?</h2>
-						<h3>We collect information from you when you place an order or enter information on our site. Provide us with feedback on our products or services.</h3>
-					<h2>How do we use your information?</h2>
-						<h3>We may use the information we collect from you when you register, make a purchase, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:
+            	<h1>Integritetspolicy</h1>						
+					<h2>Vilken personlig information samlar vi från de personer som besöker vår blogg, hemsida eller app?</h2>
+						<h3>När du beställer på vår sida, kan du bli ombedd att ange dina eller andra uppgifter för att hjälpa dig med din upplevelse.</h3>
+					<h2>När samlar vi information?</h2>
+						<h3>Vi samlar in information från dig när du lägger en order eller anger information på vår webbplats. Ge oss feedback om våra produkter eller tjänster.</h3>
+					<h2>Hur använder vi din information?</h2>
+						<h3>Vi kan använda den information vi samlar in från dig när du registrerar dig, köper, registrerar dig för vårt nyhetsbrev, svarar på en undersökning eller marknadsföringskommunikation, surfar på webbplatsen eller använder vissa andra webbplatsfunktioner på följande sätt:
       						<ol>	
-                            	<li>To quickly process your transactions.</li>
+                            	<li>För att snabbt bearbeta dina transaktioner.</li>
                             </ol>                          
                         </h3>
-					<h2>How do we protect your information?</h2>
-						<h3>Our website is scanned on a regular basis for security holes and known vulnerabilities in order to make your visit to our site as safe as possible. We do use Malware Scanning. We do not use an SSL certificate.
+					<h2>Hur skyddar vi din information?</h2>
+						<h3>Vår hemsida skannas regelbundet för säkerhetshål och kända sårbarheter för att göra ditt besök på vår webbplats så säker som möjligt. Vi använder Malware Scanning. Vi använder inte ett SSL-certifikat.
                         	<ol>
-      							<li>We only provide articles and information. We never ask for personal or private information like names, email addresses, or credit card numbers.</li>
+      							<li>Vi tillhandahåller endast artiklar och information. Vi ber aldrig om personlig eller privat information som namn, e-postadresser eller kreditkortsnummer.</li>
                             </ol>
 						</h3>
-					<h2>Do we use 'cookies'?</h2>
-						<h3>We do not use cookies for tracking purposes. You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser's Help Menu to learn the correct way to modify your cookies. If you turn cookies off, some of the features that make your site experience more efficient may not function properly.that make your site experience more efficient and may not function properly.</h3>
-					<h2>Third-party disclosure</h2>
-						<h3>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.</h3>
-					<h2>Third-party links</h2>
-						<h3>We do not include or offer third-party products or services on our website.</h3>
+					<h2>Använder vi 'cookies'?</h2>
+						<h3>Vi använder inte cookies för spårningsändamål. Du kan välja att din dator varnar dig varje gång en cookie skickas, eller du kan välja att stänga av alla cookies. Du gör det genom dina webbläsarinställningar. Eftersom webbläsaren är lite annorlunda, kolla på din webbläsares hjälpmeny för att lära dig rätt sätt att ändra dina cookies. Om du stänger av cookies kan vissa av de funktioner som gör din webbplats mer effektiv, inte fungera korrekt. Det gör din webbplatsupplevelse effektivare och kanske inte fungerar korrekt.</h3>
+					<h2>Tredjepartsinformation</h2>
+						<h3>Vi säljer inte, handlar eller på annat sätt överför till din personliga identifierbara information till utomstående.</h3>
+					<h2>Tredjepartslänkar</h2>
+						<h3>Vi inkluderar inte eller erbjuder produkter eller tjänster från tredje part på vår hemsida.</h3>
 					<h2>Google</h2>
-						<h3>Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide a positive experience for users. <a href="https://support.google.com/adwordspolicy/answer/1316548?hl=en">https://support.google.com/adwordspolicy/answer/1316548?hl=en</a>. We have not enabled Google AdSense on our site but we may do so in the future.</h3>
-					<h2>We agree to the following:</h2>
-                        <h3>Users can visit our site anonymously. Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website. Our Privacy Policy link includes the word 'Privacy' and can easily be found on the page specified above.                      
-                        You will be notified of any Privacy Policy changes:
+						<h3>Googles annonseringskrav kan summeras av Googles annonseringsprinciper. De införs för att ge en positiv upplevelse för användarna. <a href="https://support.google.com/adwordspolicy/answer/1316548?hl=en">https://support.google.com/adwordspolicy/answer/1316548?hl=en</a>. Vi har inte aktiverat Google AdSense på vår webbplats, men vi kan göra det i framtiden.</h3>
+					<h2>Vi godkänner följande:</h2>
+                        <h3>Användare kan besöka vår sida anonymt. När denna sekretesspolicy har skapats lägger vi till en länk till den på vår hemsida eller som minimum på den första viktiga sidan efter att du har angett vår hemsida. Vår länk för integritetspolicy innehåller ordet "Sekretess" och kan enkelt hittas på sidan som anges ovan. 
+                        Du kommer att bli underrättad om ändringar i sekretesspolicyen:
                         	<ol>
-                            	<li>On our Privacy Policy Page</li>
+                            	<li>På vår integretetsspolicy sida</li>
                         	</ol>
 						</h3>
-					<h2>How does our site handle Do Not Track signals?</h2>
-						<h3>We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.</h3>
-					<h2>Does our site allow third-party behavioral tracking?</h2>
-						<h3>It's also important to note that we do not allow third-party behavioral tracking.</h3>
-					<h2>Children Online Privacy Protection</h2>
-						<h3>We do not specifically market to children under the age of 13 years old.</h3>
+					<h2>Hur hanterar vår webbplats "Spåra inte" signaler?</h2>
+						<h3>Vi hedrar Spåra inte signaler och spåra inte, plantera cookies eller använd reklam när en DNT-webbläsarmekanism finns på plats.</h3>
+					<h2>Kan vår webbplats tillåta beteendespårning från tredje part?</h2>
+						<h3>Det är också viktigt att notera att vi inte tillåter spårning av spårning från tredje part.</h3>
+					<h2>Barn Online Sekretesskydd</h2>
+						<h3>Vi marknadsför inte specifikt för barn under 13 år.</h3>
 					<h2>Fair Information Practices</h2>
-						<h3>The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.</h3>
-					<h2>In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:</h2>
-						<h3>We will notify you via email
+						<h3>Principerna om rättvisa informationspraxis utgör ryggraden i sekretesslag i USA och de begrepp som de inbegriper spelat en viktig roll i utvecklingen av dataskyddslagar runt om i världen. Att förstå principerna om rättvisa praxis och hur de ska genomföras är avgörande för att följa de olika sekretesslagar som skyddar personlig information.</h3>
+					<h2>För att överensstämma med Fair Information Practices kommer vi att vidta följande responsiva åtgärder om en dataöverträdelse inträffar:</h2>
+						<h3>Vi meddelar dig via e-post
                         	<ol>
-      							<li>Within 1 business day</li>
+      							<li>Inom 1 arbetsdag</li>
                             </ol>
-						We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.</h3>
-					<h2>If at any time you would like to unsubscribe from receiving future emails, you can email us at and we will promptly remove you from ALL correspondence.</h2>
-						<h3>Last Edited on 2017-09-27</h3>
+						Vi håller också med om principen om individuell prövning som kräver att enskilda har rätt att lagligt driva verkställbara rättigheter mot datainsamlare och processorer som inte följer lagen. Denna princip kräver inte bara att individer har verkställbara rättigheter gentemot datanvändare, men också att enskilda personer använder domstolar eller myndigheter att undersöka och / eller åtala att processorer inte överensstämmer.</h3>
+					<h2>Om du vill avbryta prenumerationen från mottagande av framtida e-postmeddelanden, kan du maila oss till och vi kommer omedelbart ta bort dig från ALL korrespondens.</h2>
+						<h3>Senast ändrad den 27-09-2017</h3>
             </div>
         </article>
         <footer>
@@ -100,7 +100,7 @@
                         <a href="https://www.instagram.com/webcreatorofficial/"></a>
                     </div>
                     <div class="column info">
-                        <a href="Terms of use.php">VILLKOR</a>
+                        <a href="Terms of use.php">ANVÄNDARVILLKOR</a>
 				     	<a href="Website privacy policy.php">INTEGRITETSPOLICY</a>
                         <a href="Contact us.php">KONTAKTA OSS</a>
                     </div>

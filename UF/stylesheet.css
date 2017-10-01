@@ -280,11 +280,11 @@ article {
 .cirlce {
 	border-radius:50%;
 	background-color:#FFF;
-	width:175px;
-	height:175px;
+	width:185px;
+	height:185px;
 	position:relative;
 	top:17.5%;
-	left:5%;
+	left:10%;
 	overflow:hidden;
 }
 
@@ -297,8 +297,8 @@ article {
 
 .contactinfo p{
 	position:relative;
-	left:10%;
-	top:-100px;
+	left:12.5%;
+	top:-125px;
 	width:40%;
 	margin:auto;
 	font-family:lato;
@@ -315,13 +315,6 @@ article {
 	font-weight:200;
 }
 
-.slideDown { 
-	background:#00FF05; 
-	display:none;
-}
-.grabPromo { 
-	cursor:pointer; 
-}
 
 
 /*----------------------------------------------------------------------------------------------------*/

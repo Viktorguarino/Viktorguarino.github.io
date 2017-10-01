@@ -41,40 +41,41 @@
         	<div class="contact">
             	<ol>
                 	<li>
-                    	<div class="cirlce"><img src="viktorbild.png"></div>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Simon Måtegen</p>
-                            <p><span>CEO / <i>Verkställande Direktor</i></span></p>
+                            <p><span>CEO / <i>Verkställande Direktor - Webbassistent</i></span></p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
                             <p><span>example@hotmail.com</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
                         </div>
                     </li>
                     <li>
-                    	<div class="cirlce"><img src="viktorbild.png"></div>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Viktor Guarino</p>
                             <p><span>CTO / <i>IT-direktör - Webmaster</i></span></p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
-                            <p><span>example@hotmail.com</span></p>
+                            <p><span>guarino.viktor@hotmail.it</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
                         </div>
                     </li>
                     <li>
-                    	<div class="cirlce"><img src="viktorbild.png"></div>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Jonathan Zander</p>
-                            <p><span>CFO / <i>Finansdirektör</i></span></p>
+                            <p><span>CFO / <i>Finansdirektör - Webbassistent</i></span></p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
                             <p><span>example@hotmail.com</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
                         </div>
                     </li>
                 </ol>
             </div>
-            <div id="slide">
-            	<div class="slideDown">What a deal!</div>
-				<span class="grabPromo">Grab This Deal</span>
+            <div id="contactBar">
             </div>
         </article>
         <footer>

@@ -94,7 +94,7 @@
                         <a href="https://www.instagram.com/webcreatorofficial/"></a>
                     </div>
                     <div class="column info">
-                        <a href="Terms of use.php">VILLKOR</a>
+                        <a href="Terms of use.php">ANVÄNDARVILLKOR</a>
 				     	<a href="Website privacy policy.php">INTEGRITETSPOLICY</a>
                         <a href="Contact us.php">KONTAKTA OSS</a>
                     </div>
