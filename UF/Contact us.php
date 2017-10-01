@@ -68,7 +68,7 @@
                             <p>Jonathan Zander</p>
                             <p><span>CFO / <i>Finansdirektör - Webbassistent</i></span></p>
                             <br>
-                            <p><span>+46 720 133 850</span></p>
+                            <p><span>+46 724 320 071</span></p>
                             <p><span>example@hotmail.com</span></p>
                             <p><span>webcreator.help@hotmail.com</span></p>
                         </div>
