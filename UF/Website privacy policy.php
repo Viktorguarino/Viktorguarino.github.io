@@ -96,8 +96,8 @@
                     	<a href="Index.php"></a>
                     </div>
                     <div class="column social">
-                        <a href="https://www.facebook.com/Web-Creator-1764341753865008/"></a>
-                        <a href="https://www.instagram.com/webcreatorofficial/"></a>
+                        <a href="https://www.facebook.com/Web-Creator-1764341753865008/" target="_blank"></a>
+                        <a href="https://www.instagram.com/webcreatorofficial/" target="_blank"></a>
                     </div>
                     <div class="column info">
                         <a href="Terms of use.php">ANVÄNDARVILLKOR</a>

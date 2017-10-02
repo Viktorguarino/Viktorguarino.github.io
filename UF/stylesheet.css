@@ -14,6 +14,13 @@ body {
 
 /*----------------------------------------------------------------------------------------------------*/
 
+@font-face {
+  font-family:"Lato";
+  src:url("Fonts/Lato-Regular.ttf") format("ttf");
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
 header {
 	height:100%;
 	width:100%;
@@ -92,10 +99,11 @@ ul li a {
 	width:25px;
 	cursor:pointer;
 	border:none;
-	position:absolute;
+	position:relative;
 	top:6px;
 	z-index:1000;
-	margin-left:96%;
+	padding-right:35px;
+	float:right;
 }
 
 .searching {
@@ -124,12 +132,18 @@ input[type=textTwo] {
 	width:100%;
 	margin:0 auto;
 	background-color:#F0F0F0;
-	border-radius:5px;
+	box-sizing:border-box;
 	border:none;
+	border-radius:5px;
 	padding-top:10px;
 	padding-bottom:10px;
-	position:relative;
+	padding-right:50px;
+	padding-left:20px;
+	position:absolute;
 	outline:0px;
+	font-size:12px;
+	font-weight:600;
+	font-family:"Times New Roman";
 }
 
 input[type=text] {
@@ -206,47 +220,24 @@ article {
 	position:relative;
 }
 
-.terms h1, h2, h3 {
+.terms .policy, h1, h2, h3 {
 	width:40%;
 	margin:auto;
-	font-family:lato;
+	font-family:"Lato";
 }
 
-.terms h1 {
+.terms .policy, h1 {
 	padding:30px;
 	font-size:36px;
 	font-weight:bold;
 }
 
-.terms h2 {
+.terms .policy, h2 {
 	padding:10px;
 	font-weight:bold;
 }
 
-.terms h3 {
-	padding:10px;
-	font-size:17px;
-	font-weight:100;
-}
-
-.policy h1, h2, h3 {
-	width:40%;
-	margin:auto;
-	font-family:lato;
-}
-
-.policy h1 {
-	padding:30px;
-	font-size:36px;
-	font-weight:bold;
-}
-
-.policy h2 {
-	padding:10px;
-	font-weight:bold;
-}
-
-.policy h3 {
+.terms .policy, h3 {
 	padding:10px;
 	font-size:17px;
 	font-weight:100;
@@ -301,7 +292,7 @@ article {
 	top:-125px;
 	width:40%;
 	margin:auto;
-	font-family:lato;
+	font-family:"Lato";
 }
 
 .contactinfo p {
