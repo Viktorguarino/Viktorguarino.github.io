@@ -27,7 +27,7 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" id="search" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
@@ -38,8 +38,42 @@
         	</ul>
         </nav>
         <article>
-        	<div class="index">
-            	<img src="Images/indeximage.png">
+        	<div class="contact">
+            	<ol>
+                	<li>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <p>Simon Måtegen</p>
+                            <p><span>CEO / <i>Verkställande Direktor - Webbassistent</i></span></p>
+                            <br>
+                            <p><span>+46 720 133 850</span></p>
+                            <p><span>example@hotmail.com</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <p>Viktor Guarino</p>
+                            <p><span>CTO / <i>IT-direktör - Webmaster</i></span></p>
+                            <br>
+                            <p><span>+46 720 133 850</span></p>
+                            <p><span>guarino.viktor@hotmail.it</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <p>Jonathan Zander</p>
+                            <p><span>CFO / <i>Finansdirektör - Webbassistent</i></span></p>
+                            <br>
+                            <p><span>+46 724 320 071</span></p>
+                            <p><span>pelle9900@hotmail.com</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
+                        </div>
+                    </li>
+                </ol>
             </div>
         </article>
         <footer>

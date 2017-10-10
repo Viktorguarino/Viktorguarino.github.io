@@ -33,7 +33,7 @@
                     </div>
                 </li>
                 <li>
-                	<a href="#">KÖP</a>
+                	<a href="Cart.php">KÖP</a>
                 </li>
         	</ul>
         </nav>
@@ -94,9 +94,9 @@
                         <a href="https://www.instagram.com/webcreatorofficial/" target="_blank"></a>
                     </div>
                     <div class="column info">
-                        <a href="Terms of use.php">ANVÄNDARVILLKOR</a>
-				     	<a href="Website privacy policy.php">INTEGRITETSPOLICY</a>
-                        <a href="Contact us.php">KONTAKTA OSS</a>
+                        <a href="Terms_of_use.php">ANVÄNDARVILLKOR</a>
+				     	<a href="Website_privacy_policy.php">INTEGRITETSPOLICY</a>
+                        <a href="Contact_us.php">KONTAKTA OSS</a>
                     </div>
                     <div class="bottom">
                     	<p>© COPYRIGHT 2017, WEB CREATOR</p>

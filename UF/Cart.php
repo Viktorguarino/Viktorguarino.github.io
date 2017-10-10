@@ -27,19 +27,18 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" id="search" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
                 </li>
                 <li>
-                	<a href="Cart.php">KÖP</a>
+                	<a href="Cart.php">&#128722;</a>
                 </li>
         	</ul>
         </nav>
         <article>
-        	<div class="index">
-            	<img src="Images/indeximage.png">
+        	<div class="cart">
             </div>
         </article>
         <footer>

@@ -29,7 +29,7 @@ header {
 
 header img {
 	margin:auto;
-	height:200px;
+	height:180px;
 	width:auto;
 	display:block;
 	position:relative;
@@ -193,13 +193,13 @@ input[type=text]:hover {
 
 nav li:not(:last-child):after {
     position: relative;
-    top: -32px;
+    top:-32px;
     display: inline-block;
     width:4px;
     height:4px;
     margin-right:-140px;
-    content: '';
-    border-radius: 4px;
+    content:'';
+    border-radius:4px;
 }
 
 li:nth-child(1n):after {
@@ -218,6 +218,12 @@ article {
 	height:100%;
 	width:100%;
 	position:relative;
+}
+
+.index {
+	height:100%;
+	width:100%;
+	background:#91d3d4;
 }
 
 .terms .policy, h1, h2, h3 {
@@ -293,9 +299,6 @@ article {
 	width:40%;
 	margin:auto;
 	font-family:"Lato";
-}
-
-.contactinfo p {
 	padding:1px;
 	font-size:22px;
 	font-weight:bold;
@@ -303,11 +306,8 @@ article {
 
 .contactinfo p span {
 	font-size:17px;
-	font-weight:200;
+	font-weight:400;
 }
-
-
-
 /*----------------------------------------------------------------------------------------------------*/
 
 footer {
@@ -356,7 +356,7 @@ footer {
 	margin:auto;
 	width:180px;
 	height:90px;
-	top:25px;
+	top:18px;
 	background:url(Images/text.png) center;
 	background-size:200px auto;
 	display:block;
