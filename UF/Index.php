@@ -10,7 +10,7 @@
 
 <body>
 	<div id="container">	
-        <header>
+      <!--  <header>
         	<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
       	</header>
         <nav>
@@ -36,10 +36,34 @@
                 	<a href="Cart.php">KÖP</a>
                 </li>
         	</ul>
-        </nav>
+        </nav>-->
         <article>
         	<div class="index">
-            	<img src="Images/indeximage.png">
+            	<div class="indexcontent">
+                	<p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
+                    <ul>
+                    	<li>
+                            <div class="btncontainer">
+                                <a href="#">
+                                    <div class="btnTry">LÄS MER</div>
+                                </a>
+                                <div class="overlay"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btncontainer">
+                                <a href="#">
+                                    <div class="btnTry">LÄS M...MER</div>
+                                </a>
+                                <div class="overlay"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            	<div class="indeximges">
+            		<img src="Images/text.png" alt="logo">
+            		<img src="Images/indeximage.png" alt="imageindex">
+                </div>
             </div>
         </article>
         <footer>

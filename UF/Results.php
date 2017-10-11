@@ -25,12 +25,7 @@
                     <a href="#">VIDEO</a>
                 </li>
                 <li>
-                	<div class="searching">
-                       	<form action="Results.php" method="get">
-                        	<input type="text" name="k" id="search" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
-                   			<input class="btnSearch" value="" type="submit"/>
-                        </form>
-                    </div>
+                    <a href="Results.php">SÖK</a>
                 </li>
                 <li>
                 	<a href="Cart.php">KÖP</a>
@@ -58,7 +53,7 @@
 					}
 					
 					// anslut
-					mysql_connect("localhost", "root", "korvisinibus1");
+					mysql_connect("localhost", "root", "korvisinibus1", "test");
 					mysql_select_db("webcreatoruf");
 					
 					$query = mysql_query($query);
