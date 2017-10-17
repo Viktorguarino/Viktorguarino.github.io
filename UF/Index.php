@@ -10,11 +10,11 @@
 
 <body>
 	<div id="container">	
-      <!--  <header>
-        	<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
+    	<header>
+        	<!--<a href="Index.php"><img src="Images/text.png" alt="logo"></a>-->
       	</header>
         <nav>
-        	<ul>
+        	<ul >
             	<li>
                     <a href="#">INFO</a>
                 </li>
@@ -23,6 +23,9 @@
                 </li>
                 <li>
                     <a href="#">VIDEO</a>
+                </li>
+                <li>
+            			<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
                 </li>
                 <li>
                 	<div class="searching">
@@ -36,32 +39,33 @@
                 	<a href="Cart.php">KÖP</a>
                 </li>
         	</ul>
-        </nav>-->
+        </nav>
         <article>
         	<div class="index">
             	<div class="indexcontent">
                 	<p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
-                    <ul>
-                    	<li>
-                            <div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS M...MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="indexbuttons">
+                        <ul>
+                            <li>
+                                <div class="btncontainer">
+                                    <a href="#">
+                                        <div class="btnTry">LÄS MER</div>
+                                    </a>
+                                    <div class="overlay"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btncontainer">
+                                    <a href="#">
+                                        <div class="btnTry">LÄS M...MER</div>
+                                    </a>
+                                    <div class="overlay"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             	<div class="indeximges">
-            		<img src="Images/text.png" alt="logo">
             		<img src="Images/indeximage.png" alt="imageindex">
                 </div>
             </div>
