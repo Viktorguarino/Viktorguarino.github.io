@@ -10,11 +10,8 @@
 
 <body>
 	<div id="container">	
-        <header>
-        	<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
-      	</header>
         <nav>
-        	<ul>
+        	<ul >
             	<li>
                     <a href="#">INFO</a>
                 </li>
@@ -25,15 +22,18 @@
                     <a href="#">VIDEO</a>
                 </li>
                 <li>
+            			<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
+                </li>
+                <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" id="search" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
                 </li>
                 <li>
-                	<a href="Cart.php">&#128722;</a>
+                	<a href="Cart.php">KÖP</a>
                 </li>
         	</ul>
         </nav>

@@ -10,9 +10,6 @@
 
 <body>
 	<div id="container">	
-    	<header>
-        	<!--<a href="Index.php"><img src="Images/text.png" alt="logo"></a>-->
-      	</header>
         <nav>
         	<ul >
             	<li>
@@ -43,7 +40,8 @@
         <article>
         	<div class="index">
             	<div class="indexcontent">
-					<h1>WEB CREATOR</h1>               		<p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
+					<h1>WEB CREATOR</h1>
+                    <p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
                 <div class="indexbuttons">
                 	<ul>
                     	<li>
