@@ -38,35 +38,8 @@
         	</ul>
         </nav>
         <article>
-        	<div class="index">
-            	<div class="indexcontent">
-					<h1>WEB CREATOR</h1>
-                    <p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
-                <div class="indexbuttons">
-                	<ul>
-                    	<li>
-                        	<div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS M...MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+        	<div class="cart">
             </div>
-				<div class="indeximges">
-					<img src="Images/indeximage.png" alt="imageindex">
-				</div>
-        	</div>
         </article>
         <footer>
         	<div class="footerContainer">

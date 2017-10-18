@@ -10,7 +10,7 @@
 
 <body>
 	<div id="container">	
-        <nav>
+       <nav>
         	<ul >
             	<li>
                     <a href="#">INFO</a>
@@ -38,35 +38,43 @@
         	</ul>
         </nav>
         <article>
-        	<div class="index">
-            	<div class="indexcontent">
-					<h1>WEB CREATOR</h1>
-                    <p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
-                <div class="indexbuttons">
-                	<ul>
-                    	<li>
-                        	<div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS M...MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+        	<div class="contact">
+            	<ol>
+                	<li>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <p>Simon Måtegen</p>
+                            <p><span>CEO / <i>Verkställande Direktor - Webbassistent</i></span></p>
+                            <br>
+                            <p><span>+46 720 133 850</span></p>
+                            <p><span>example@hotmail.com</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <p>Viktor Guarino</p>
+                            <p><span>CTO / <i>IT-direktör - Webmaster</i></span></p>
+                            <br>
+                            <p><span>+46 720 133 850</span></p>
+                            <p><span>guarino.viktor@hotmail.it</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                        <div class="contactinfo"> 
+                            <p>Jonathan Zander</p>
+                            <p><span>CFO / <i>Finansdirektör - Webbassistent</i></span></p>
+                            <br>
+                            <p><span>+46 724 320 071</span></p>
+                            <p><span>pelle9900@hotmail.com</span></p>
+                            <p><span>webcreator.help@hotmail.com</span></p>
+                        </div>
+                    </li>
+                </ol>
             </div>
-				<div class="indeximges">
-					<img src="Images/indeximage.png" alt="imageindex">
-				</div>
-        	</div>
         </article>
         <footer>
         	<div class="footerContainer">
