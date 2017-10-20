@@ -41,13 +41,13 @@
         	<div class="index">
             	<div class="indexcontent">
 					<h1>WEB CREATOR</h1>
-                    <p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
+                    <p>En digital mediabyrå i Malmö, Göteborg & Stockholm som arbetar med webblösningar och marknadsföring!</p>
                 <div class="indexbuttons">
                 	<ul>
                     	<li>
                         	<div class="btncontainer">
                                 <a href="#">
-                                    <div class="btnTry">LÄS MER</div>
+                                    <div class="btnTry">OM OSS</div>
                                 </a>
                                 <div class="overlay"></div>
                             </div>
@@ -55,7 +55,7 @@
                         <li>
                             <div class="btncontainer">
                                 <a href="#">
-                                    <div class="btnTry">LÄS M...MER</div>
+                                    <div class="btnTry">EXEMPEL</div>
                                 </a>
                                 <div class="overlay"></div>
                             </div>
