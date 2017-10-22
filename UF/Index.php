@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <script type="text/javascript" src="script.js"></script>
 <title>WebCreator</title>
@@ -41,26 +42,20 @@
         	<div class="index">
             	<div class="indexcontent">
 					<h1>WEB CREATOR</h1>
-                    <p>En digital mediabyrå i Malmö, Göteborg & Stockholm som arbetar med webblösningar och marknadsföring!</p>
+                    <p>En digital mediabyrå i Malmö, Göteborg & Stockholm asdasdsddffdfsdfrsdfsfsadfrsdfsdfdasdar med webblösningasdsdr och marknadsdassadsadssssdsföring!</p>
                 <div class="indexbuttons">
-                	<ul>
-                    	<li>
-                        	<div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">OM OSS</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">EXEMPEL</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                    </ul>
+                	<div class="btncontainer">
+                    	<a href="#">
+                            <div class="btnTry">OM OSS</div>
+                        </a>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="btncontainer">
+                        <a href="#">
+                            <div class="btnTry">EXEMPEL</div>
+                        </a>
+                        <div class="overlay"></div>
+                    </div>   
                 </div>
             </div>
 				<div class="indeximges">

@@ -101,7 +101,7 @@ ul li:nth-child(6) {
 	border:none;
 	position:relative;
 	top:-23px;
-	margin-left:340px;
+	margin-left:17.5vw;
 	visibility:hidden;
 	z-index:1000;
 }
@@ -179,7 +179,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    width:625px;
+    width:32.5vw;
 	top:11px;
 	background-color:#F0F0F0;
 	border-radius:5px;
@@ -255,8 +255,8 @@ article {
     height:auto;
     margin:0 auto;
     text-align:center;
-    font-size:5vw;
-    top:3vw;
+    font-size:5.5vw;
+    top:4vw;
 }
 
 .indexcontent p {
@@ -270,56 +270,49 @@ article {
 	font-family:"Lato";
 	font-size:1.2vw;
 	margin:0 auto;
-	top:11vw;
+	top:11.5vw;
 }
 
-.indexcontent .indexbuttons {
+.indexbuttons {
 	position:absolute;
 	width:100%;
 	height:auto;
 	margin:0 auto;
-	top:17vw;
-	ext-align:center;
+	top:20vw;
+	text-align:center;
 }
 
-.indexcontent .indexbuttons ul {
-	width:100%;
+.btnTry{
 	position:relative;
 	margin:0 auto;
-	display:inline-block;
-}
-
-.indexcontent .indexbuttons ul > li {
-	margin:0 auto;
-	width:100%;
-	height:auto;
-	display:inline-block;
-	position:relative;
+	left:-50%;
+	transform:translate(0%, 0%);
 }
 
 .btncontainer {
 	position:relative;
-    width:12vw;
-    height:2.5vw;
+    width:11vw;
+    height:2vw;
     margin:0 auto;
     border-color:#000;
     border-radius:4px;
     border-style:solid;
     display:block;
     cursor:pointer;
-    top:1vw;
+    top:-1vw;
+	display:inline-block;
+	margin:0% 1% 0% 1%;
+	
 }
 
 .btncontainer a {
 	text-decoration:none;
-    font-size:1.25vw;
+    font-size:1vw;
     font-family:"Lato";
     font-weight:600;
     color:#000;
-    vertical-align:central;
     margin:0 auto;
-    top:0.65vw;
-    text-align:center;
+    top:0.5vw;
     width:100%;
 	line-height:100%;
     position:absolute;
@@ -457,7 +450,7 @@ footer {
 
 .bottom{
 	position:relative;
-	top:-15px;
+	top:-35px;
 }
 
 .bottom p {
@@ -479,11 +472,9 @@ footer {
 	width:180px;
 	height:90px;
 	top:18px;
-	background:url(Images/text.png) center;
+	background:url(Images/textfooter.png) center;
 	background-size:200px auto;
 	display:block;
-	-webkit-filter: invert(100%);
-    filter: invert(100%);
 	position:relative;
 }
 
