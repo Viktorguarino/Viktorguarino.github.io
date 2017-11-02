@@ -28,13 +28,10 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" placeholder="SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
-                </li>
-                <li>
-                	<a href="Cart.php">KÖP</a>
                 </li>
         	</ul>
         </nav>
@@ -42,7 +39,7 @@
         	<div class="index">
             	<div class="indexcontent">
 					<h1>WEB CREATOR</h1>
-                    <p>En digital mediabyrå i Malmö, Göteborg & Stockholm asdasdsddffdfsdfrsdfsfsadfrsdfsdfdasdar med webblösningasdsdr och marknadsdassadsadssssdsföring!</p>
+                    <p>Skapa din egna skräddarsydda websida idag med hjälp av blablablaasdasdsddffdfsdfrsdffs med webblösningasdsdr och marknadsdassadsadssssdsföring!</p>
                 <div class="indexbuttons">
                 	<div class="btncontainer">
                     	<a href="#">
@@ -52,7 +49,7 @@
                     </div>
                     <div class="btncontainer">
                         <a href="#">
-                            <div class="btnTry">EXEMPEL</div>
+                            <div class="btnTry">MALLAR</div>
                         </a>
                         <div class="overlay"></div>
                     </div>   

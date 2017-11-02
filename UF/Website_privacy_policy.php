@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <script type="text/javascript" src="script.js"></script>
 <title>WebCreator</title>
@@ -10,7 +11,7 @@
 
 <body>
 	<div id="container">	
-       <nav>
+        <nav>
         	<ul >
             	<li>
                     <a href="#">INFO</a>
@@ -27,13 +28,10 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" placeholder="SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
-                </li>
-                <li>
-                	<a href="Cart.php">KÖP</a>
                 </li>
         	</ul>
         </nav>

@@ -38,6 +38,7 @@ ul {
     padding:0;
     list-style:none;
     text-align:center;
+	width:100%;
 }
 
 ul li {
@@ -50,9 +51,8 @@ ul li {
 
 ul li a {
     display:block;
-	font-size:14px;
+	font-size:12px;
 	font-weight:600;
-	font-family:"Lato";
     text-decoration:none;
 	text-align:center;
 	vertical-align:middle;
@@ -70,25 +70,22 @@ ul li a img {
 }
 
 ul li:nth-child(-n+3) {
-	padding:0px 45px 0px 45px;
-	left:-30%;
+	padding:0px 50px 0px 3.5vw;
+	left:5%;
+	float:left;
 }
 
 ul li:nth-child(4) {
 	width:200px;
 	height:auto;
-	padding-right:90px;
 	margin:0 auto;
+	left:24%;
 }
 
 ul li:nth-child(5) {
-	padding:0px 45px 0px 0px;
-	left:25%;
-}
-
-ul li:nth-child(6) {
-	padding:0px 0px 0px 0px;
-	left:35%;
+	padding:0px 3.5vw 0px 0px;
+	left:5%;
+	float:right;
 }
 
 .btnSearch {
@@ -100,10 +97,11 @@ ul li:nth-child(6) {
 	cursor:pointer;
 	border:none;
 	position:relative;
-	top:-23px;
-	margin-left:17.5vw;
-	visibility:hidden;
+	top:-57px;
 	z-index:1000;
+	padding-right:13vw;
+	visibility:hidden;
+	left:18.5vw;
 }
 
 .btnSearchTwo {
@@ -117,13 +115,16 @@ ul li:nth-child(6) {
 	position:relative;
 	top:6px;
 	z-index:1000;
-	padding-right:35px;
+	padding-right:305px;
 	float:right;
 }
 
 .searching {
+	margin:0 auto;
+    position:relative;
+	width:30%;
+	height:auto;
 	padding-top:40px;
-	width:50px;
 }
 
 .searchingTwo {
@@ -154,13 +155,12 @@ input[type=textTwo] {
 	padding-left:20px;
 	position:absolute;
 	outline:0px;
-	font-size:14px;
+	font-size:12px;
 	font-weight:600;
-	font-family:"Lato";
 }
 
 input[type=text] {
-	top:21px;
+	top:22px;
 	width:80%;
     box-sizing:border-box;
 	vertical-align:middle;
@@ -173,27 +173,25 @@ input[type=text] {
 	padding:0;
 	position:absolute;
 	z-index:99;
-	font-size:14px;
+	font-size:12px;
 	font-weight:600;
-	font-family:"Lato";
+	font-family:serif;
 }
 
 input[type=text]:focus {
-    width:32.5vw;
-	top:11px;
+    width:25vw;
+	top:-27px;
 	background-color:#F0F0F0;
 	border-radius:5px;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:10px;
-	padding-right:40px;
-	margin-left:-290%;
-	position:absolute;
+	padding:10px 3.5vw 10px 10px;
+	position:relative;
+	margin-right:13vw;
+	right:3vw;
 	z-index:100;
 	outline:0;
 }
 
-input[type=text]:focus + .btnSearch {                 /*FIXA DETTA*/
+input[type=text]:focus + .btnSearch {
 	visibility:visible;
 	z-index:1000;
 }
@@ -316,29 +314,24 @@ article {
     width:100%;
 	line-height:100%;
     position:absolute;
-    transition:.25s ease-in-out;
+    transition:.3s ease-in-out;
 	z-index:100;
 }
 
 .overlay {
 	position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color:#000;
     overflow:hidden;
-    width:0;
-    height:100%;
-    transition:.25s ease;
-	overflow:hidden;
+	transition:.3s ease-in-out;
+	width:100%;
+	height:100%;
 }
 
 .btncontainer:hover a {
-	color:#FFF;
+	color:#fff;
 }
 
-.btncontainer:hover .overlay{
-	width:100%;
+.btncontainer:hover .overlay {
+	background-color:#000;
 }
 
 .terms .policy, h1, h2, h3 {
@@ -471,9 +464,9 @@ footer {
 	margin:auto;
 	width:180px;
 	height:90px;
-	top:18px;
-	background:url(Images/textfooter.png) center;
-	background-size:200px auto;
+	top:22px;
+	background:url(Images/text.png) center;
+	background-size:180px auto;
 	display:block;
 	position:relative;
 }
