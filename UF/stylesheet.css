@@ -76,10 +76,11 @@ ul li:nth-child(-n+3) {
 }
 
 ul li:nth-child(4) {
-	width:200px;
+	width:100%;
 	height:auto;
 	margin:0 auto;
-	left:24%;
+	position:absolute;
+	padding-left:2.5%;
 }
 
 ul li:nth-child(5) {
@@ -390,6 +391,7 @@ article {
 	position:relative;
 	top:17.5%;
 	left:10%;
+	margin:0px 0px 0px 3vw;
 	overflow:hidden;
 }
 
@@ -398,6 +400,10 @@ article {
     margin:0 auto;
     height:100%;
     width:auto;
+}
+
+.contactinfo {
+	padding-left:10%;
 }
 
 .contactinfo p{

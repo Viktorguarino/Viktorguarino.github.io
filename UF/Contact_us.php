@@ -39,7 +39,7 @@
         	<div class="contact">
             	<ol>
                 	<li>
-                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                    	<div class="cirlce"><img src="Images/simonbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Simon Måtegen</p>
                             <p><span>CEO / <i>Verkställande Direktor - Webbassistent</i></span></p>
@@ -61,7 +61,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                    	<div class="cirlce"><img src="Images/jonathanbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Jonathan Zander</p>
                             <p><span>CFO / <i>Finansdirektör - Webbassistent</i></span></p>
