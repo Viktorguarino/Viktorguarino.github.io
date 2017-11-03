@@ -7,6 +7,8 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <script type="text/javascript" src="script.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> <!----hdihhaihauidhuiashduiasduihasu-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <title>WebCreator</title>
 </head>
 
@@ -37,43 +39,9 @@
         	</ul>
         </nav>
         <article>
-        	<div class="contact">
-            	<ol>
-                	<li>
-                    	<div class="cirlce"><img src="Images/simonbild.png"></div>
-                        <div class="contactinfo"> 
-                            <p>Simon Måtegen</p>
-                            <p><span>CEO / <i>Verkställande Direktor - Webbassistent</i></span></p>
-                            <br>
-                            <p><span>+46 720 133 850</span></p>
-                            <p><span>example@hotmail.com</span></p>
-                            <p><span>webcreator.help@hotmail.com</span></p>
-                        </div>
-                    </li>
-                    <li>
-                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
-                        <div class="contactinfo"> 
-                            <p>Viktor Guarino</p>
-                            <p><span>CTO / <i>IT-direktör - Webmaster</i></span></p>
-                            <br>
-                            <p><span>+46 720 133 850</span></p>
-                            <p><span>guarino.viktor@hotmail.it</span></p>
-                            <p><span>webcreator.help@hotmail.com</span></p>
-                        </div>
-                    </li>
-                    <li>
-                    	<div class="cirlce"><img src="Images/jonathanbild.png"></div>
-                        <div class="contactinfo"> 
-                            <p>Jonathan Zander</p>
-                            <p><span>CFO / <i>Finansdirektör - Webbassistent</i></span></p>
-                            <br>
-                            <p><span>+46 724 320 071</span></p>
-                            <p><span>pelle9900@hotmail.com</span></p>
-                            <p><span>webcreator.help@hotmail.com</span></p>
-                        </div>
-                    </li>
-                </ol>
-            </div>
+        	<div class="infopage">
+        		<div id="googleMap" style="width:100%;height:400px;"></div>
+        	</div>
         </article>
         <footer>
         	<div class="footerContainer">

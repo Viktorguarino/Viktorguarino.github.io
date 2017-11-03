@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <script type="text/javascript" src="script.js"></script>
 <title>WebCreator</title>
 </head>
@@ -14,7 +15,7 @@
         <nav>
         	<ul >
             	<li>
-                    <a href="#">INFO</a>
+                    <a href="Info.php">INFO</a>
                 </li>
                 <li>
                 	<a href="#">MALLAR</a>

@@ -60,6 +60,7 @@ ul li a {
 	line-height:60px;
     color:#000;
     white-space:nowrap;
+	position:absolute;
 }
 
 ul li a img {
@@ -70,17 +71,16 @@ ul li a img {
 }
 
 ul li:nth-child(-n+3) {
-	padding:0px 50px 0px 3.5vw;
+	padding:0px 25px 0px 6vw;
 	left:5%;
 	float:left;
 }
 
 ul li:nth-child(4) {
-	width:100%;
 	height:auto;
 	margin:0 auto;
 	position:absolute;
-	padding-left:2.5%;
+	padding-left:50%;
 }
 
 ul li:nth-child(5) {
@@ -226,18 +226,13 @@ article {
 	margin:0 auto;
 	display:block;
 	z-index:10;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
-
-/*.index img:first-child {
-	height:11vw;
-	width:auto;
-	margin:0 auto;
-	display:block;
-	left:50%;
-	transform:translate(-50%,0);
-	position:absolute;
-	top:10px;
-}*/
 
 .indexcontent {
 	margin:0 auto;
@@ -292,11 +287,9 @@ article {
 	position:relative;
     width:11vw;
     height:2vw;
-    margin:0 auto;
     border-color:#000;
     border-radius:4px;
     border-style:solid;
-    display:block;
     cursor:pointer;
     top:-1vw;
 	display:inline-block;
@@ -316,7 +309,7 @@ article {
 	line-height:100%;
     position:absolute;
     transition:.3s ease-in-out;
-	z-index:100;
+	z-index:10;
 }
 
 .overlay {
