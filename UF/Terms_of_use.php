@@ -6,12 +6,37 @@
 <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<script type="text/javascript" src="script.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <title>WebCreator</title>
 </head>
 
 <body>
-	<div id="container">	
+	<div id="container">
+    	<div class="wrappercontainer">
+        	<div class="wrapper">
+            	<div id="sidebar">
+                    <div id="dismiss">
+                        <div>&#10006;</div>
+                    </div>
+                    <div class="sidebar-header">
+                        <h3>WebCreator</h3>
+                    </div>
+                    <ul class="sidebar-list components">
+                    	<p><a href="Info.php">INFO</a></p>
+                        <p><a href="#">Dummy Heading</a></p>
+                        <p><a href="#">Dummy Heading</a></p>
+                    </ul>
+            	</div>
+                <div class="navbar-header">
+                	<button type="button" id="sidebarCollapse" class="btnNavbar">☰</button>
+                </div>
+        	</div>
+        	<div class="overlayside"></div>
+        </div> 
+        <script type="text/javascript" src="script.js"></script>
         <nav>
         	<ul >
             	<li>
