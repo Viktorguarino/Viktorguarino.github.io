@@ -3,20 +3,47 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-<script type="text/javascript" src="script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <title>WebCreator</title>
 </head>
 
 <body>
-	<div id="container">	
+	<div id="container">
+    	<div class="wrappercontainer">
+        	<div class="wrapper">
+            	<div id="sidebar">
+                    <div id="dismiss">
+                        <div>&#10006;</div>
+                    </div>
+                    <div class="sidebar-header">
+                        <h3>WebCreator</h3>
+                    </div>
+                    <ul class="sidebar-list components">
+                    	<p><a href="Info.php">INFO</a></p>
+                        <p><a href="Mallar.php">MALLAR</a></p>
+                        <p><a href="#">Dummy Heading</a></p>
+                    </ul>
+            	</div>
+                <div class="navbar-header">
+                	<button type="button" id="sidebarCollapse" class="btnNavbar">☰</button>
+                </div>
+        	</div>
+        	<div class="overlayside"></div>
+        </div> 
+        <script type="text/javascript" src="script.js"></script>
         <nav>
         	<ul >
             	<li>
-                    <a href="#">INFO</a>
+                    <a href="Info.php">INFO</a>
                 </li>
                 <li>
-                	<a href="#">MALLAR</a>
+                	<a href="Mallar.php">MALLAR</a>
                 </li>
                 <li>
                     <a href="#">VIDEO</a>
@@ -27,13 +54,10 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" placeholder="  SÖK" value="<?php echo $_GET['k']; ?>"/>
+                           	<input type="text" name="k" placeholder="SÖK" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
-                </li>
-                <li>
-                	<a href="Cart.php">KÖP</a>
                 </li>
         	</ul>
         </nav>
@@ -41,26 +65,20 @@
         	<div class="index">
             	<div class="indexcontent">
 					<h1>WEB CREATOR</h1>
-                    <p>jfoisjdfoijsdiofcjiosdjfoidsajiofjcsodijfiocjdsoifjcodisjfoicdshdsuaisuohduoiashudojoijcewoidsjfoijcdwoisfjcdowisjcoijdsoifjcwdoisjfcoijdsoficjdwoisjfoicwdesjfoic</p>
+                    <p>Skapa din egna skräddarsydda websida idag med hjälp av blablablaasdasdsddffdfsdfrsdffs med webblösningasdsdr och marknadsdassadsadssssdsföring!</p>
                 <div class="indexbuttons">
-                	<ul>
-                    	<li>
-                        	<div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="btncontainer">
-                                <a href="#">
-                                    <div class="btnTry">LÄS M...MER</div>
-                                </a>
-                                <div class="overlay"></div>
-                            </div>
-                        </li>
-                    </ul>
+                	<div class="btncontainer">
+                    	<a href="Info.php">
+                            <div class="btnTry">OM OSS</div>
+                        </a>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="btncontainer">
+                        <a href="Mallar.php">
+                            <div class="btnTry">MALLAR</div>
+                        </a>
+                        <div class="overlay"></div>
+                    </div>   
                 </div>
             </div>
 				<div class="indeximges">
@@ -76,6 +94,7 @@
                     </div>
                     <div class="column social">
                         <a href="https://www.facebook.com/Web-Creator-1764341753865008/" target="_blank"></a>
+                        <a href="https://twitter.com/WebCreator_ORG" target="_blank"></a>
                         <a href="https://www.instagram.com/webcreatorofficial/" target="_blank"></a>
                     </div>
                     <div class="column info">

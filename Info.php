@@ -62,47 +62,7 @@
         	</ul>
         </nav>
         <article>
-        	<div class="contact">
-            	<ol>
-                	<li>
-                    	<div class="cirlce"><img src="Images/simonbild.png"></div>
-                        <div class="contactinfo"> 
-                            <p>Simon Måtegen</p>
-                            <p><span><i>Verkställande Direktor - Webbassistent</i></span></p>
-                            <br>
-                            <p><span>+46 720 133 850</span></p>
-                            <p><span>example@hotmail.com</span></p>
-                            <p><span>webcreator.help@hotmail.com</span></p>
-                        </div>
-                    </li>
-                    <li>
-                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
-                        <div class="contactinfo"> 
-                            <p>Viktor Guarino</p>
-                            <p><span><i>IT-direktör - Webmaster</i></span></p>
-                            <br>
-                            <p><span>+46 720 133 850</span></p>
-                            <p><span>guarino.viktor@hotmail.it</span></p>
-                            <p><span>webcreator.help@hotmail.com</span></p>
-                        </div>
-                    </li>
-                    <li>
-                    	<div class="cirlce"><img src="Images/jonathanbild.png"></div>
-                        <div class="contactinfo"> 
-                            <p>Jonathan Zander</p>
-                            <p><span><i>Finansdirektör - Webbassistent</i></span></p>
-                            <br>
-                            <p><span>+46 724 320 071</span></p>
-                            <p><span>pelle9900@hotmail.com</span></p>
-                            <p><span>webcreator.help@hotmail.com</span></p>
-                        </div>
-                    </li>
-                </ol>
-            </div>
-            <div class="googleMap">
-        		<div id="googleMap" style="height:350px; width:100%;"></div>
-			</div>
-        	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqF8mxr2UUJgzOXk-BSoZi0a3_EqS3gaE&callback=myMap"></script>
+        	
         </article>
         <footer>
         	<div class="footerContainer">
