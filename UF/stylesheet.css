@@ -402,13 +402,14 @@ article {
 
 .contactinfo {
 	padding-left:10%;
+	position:relative;
 }
 
 .contactinfo p{
 	position:relative;
-	left:12.5%;
+	left:18.5%;
 	top:-125px;
-	width:40%;
+	width:50%;
 	margin:auto;
 	font-family:"Lato";
 	padding:1px;
@@ -419,6 +420,11 @@ article {
 .contactinfo p span {
 	font-size:17px;
 	font-weight:400;
+}
+
+.googleMap {
+	position:relative;
+	margin:50px 0px 0px 0px;
 }
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -538,6 +544,63 @@ ul li:nth-child(-n+3) {
 	visibility:hidden;
 }	
 	
+ul li:nth-child(5) {
+	padding:0px 3.5vw 0px 0px;
+	left:-5%;
+	float:right;
+}
+
+.searching {
+	width:60%;
+	left:50%;
+}
+
+/*-------------------------------------------------*/
+
+.cirlce {
+	border-radius:50%;
+	background-color:#FFF;
+	width:185px;
+	height:185px;
+	position:relative;
+	top:12%;
+	left:5%;
+	margin:0px 0px 0px 3vw;
+	overflow:hidden;
+}	
+
+.contact ol li{
+  	display:block;
+  	border-radius:20px;
+  	border:1px solid rgba(166,166,166,0.75);
+  	width:80%;
+  	height:235px;
+  	margin:0 auto;
+  	margin-top:40px;
+  	margin-bottom:15px;
+}
+	
+.contactinfo {
+	top:-16px;
+	position:relative;
+}
+	
+.contactinfo p{
+	position:relative;
+	left:20%;
+	top:-125px;
+	width:60%;
+	margin:auto;
+	font-family:"Lato";
+	padding:1px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.contactinfo p span {
+	font-size:15px;
+	font-weight:400;
+}
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
@@ -686,4 +749,93 @@ a.article, a.article:hover {
     top:0;
     right:0;
 }	
+}
+
+@media screen and (max-width: 760px) {
+.cirlce {
+	border-radius:50%;
+	background-color:#FFF;
+	width:150px;
+	height:150px;
+	position:relative;
+	top:15%;
+	left:4%;
+	margin:0px 0px 0px 3vw;
+	overflow:hidden;
+}	
+
+.contact ol li{
+  	display:block;
+  	border-radius:20px;
+  	border:1px solid rgba(166,166,166,0.75);
+  	width:90%;
+  	height:215px;
+  	margin:0 auto;
+  	margin-top:40px;
+  	margin-bottom:15px;
+}
+	
+.contactinfo {
+	top:27.5px;
+	position:relative;
+}
+	
+.contactinfo p{
+	position:relative;
+	left:28.5%;
+	top:-125px;
+	width:60%;
+	margin:auto;
+	font-family:"Lato";
+	padding:1px;
+	font-size:14.5px;
+	font-weight:bold;
+}
+
+.contactinfo p span {
+	font-size:9.5px;
+	font-weight:400;
+}
+/*---------------------------------------------------*/
+
+footer {
+	height:auto;
+	width:100%;
+	position:relative;
+    background-color:#000;
+}
+	
+.footerContainer {
+	margin:auto;
+	position:relative;
+	display:block;
+	width:85%;
+	height:90%;
+}
+
+.footerContent {
+	margin:auto;
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+.column {
+	display:block;
+}
+	
+.logo {
+	padding:0px 0px 45px 0px;             /*FIXA OVERFLOW*/
+}
+	
+.info a {
+	display:block;
+	padding:0px 0px 0px 25px;
+}
+
+.bottom{
+	position:relative;
+	top:-6vh;
+}
 }

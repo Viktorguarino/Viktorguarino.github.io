@@ -26,7 +26,7 @@
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>
-                        <p><a href="#">Dummy Heading</a></p>
+                        <p><a href="Mallar.php">MALLAR</a></p>
                         <p><a href="#">Dummy Heading</a></p>
                     </ul>
             	</div>
@@ -43,7 +43,7 @@
                     <a href="Info.php">INFO</a>
                 </li>
                 <li>
-                	<a href="#">MALLAR</a>
+                	<a href="Mallar.php">MALLAR</a>
                 </li>
                 <li>
                     <a href="#">VIDEO</a>
@@ -68,7 +68,7 @@
                     	<div class="cirlce"><img src="Images/simonbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Simon Måtegen</p>
-                            <p><span>CEO / <i>Verkställande Direktor - Webbassistent</i></span></p>
+                            <p><span><i>Verkställande Direktor - Webbassistent</i></span></p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
                             <p><span>example@hotmail.com</span></p>
@@ -79,7 +79,7 @@
                     	<div class="cirlce"><img src="Images/viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Viktor Guarino</p>
-                            <p><span>CTO / <i>IT-direktör - Webmaster</i></span></p>
+                            <p><span><i>IT-direktör - Webmaster</i></span></p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
                             <p><span>guarino.viktor@hotmail.it</span></p>
@@ -90,7 +90,7 @@
                     	<div class="cirlce"><img src="Images/jonathanbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Jonathan Zander</p>
-                            <p><span>CFO / <i>Finansdirektör - Webbassistent</i></span></p>
+                            <p><span><i>Finansdirektör - Webbassistent</i></span></p>
                             <br>
                             <p><span>+46 724 320 071</span></p>
                             <p><span>pelle9900@hotmail.com</span></p>
@@ -99,6 +99,10 @@
                     </li>
                 </ol>
             </div>
+            <div class="googleMap">
+        		<div id="googleMap" style="height:350px; width:100%;"></div>
+			</div>
+        	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqF8mxr2UUJgzOXk-BSoZi0a3_EqS3gaE&callback=myMap"></script>
         </article>
         <footer>
         	<div class="footerContainer">

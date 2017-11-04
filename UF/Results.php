@@ -26,7 +26,7 @@
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>
-                        <p><a href="#">Dummy Heading</a></p>
+                        <p><a href="Mallar.php">MALLAR</a></p>
                         <p><a href="#">Dummy Heading</a></p>
                     </ul>
             	</div>
@@ -36,14 +36,14 @@
         	</div>
         	<div class="overlayside"></div>
         </div> 
-        <script type="text/javascript" src="script.js"></script>	
+        <script type="text/javascript" src="script.js"></script>
         <nav>
         	<ul >
             	<li>
                     <a href="Info.php">INFO</a>
                 </li>
                 <li>
-                	<a href="#">MALLAR</a>
+                	<a href="Mallar.php">MALLAR</a>
                 </li>
                 <li>
                     <a href="#">VIDEO</a>

@@ -26,7 +26,7 @@
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>
-                        <p><a href="#">Dummy Heading</a></p>
+                        <p><a href="Mallar.php">MALLAR</a></p>
                         <p><a href="#">Dummy Heading</a></p>
                     </ul>
             	</div>
@@ -43,7 +43,7 @@
                     <a href="Info.php">INFO</a>
                 </li>
                 <li>
-                	<a href="#">MALLAR</a>
+                	<a href="Mallar.php">MALLAR</a>
                 </li>
                 <li>
                     <a href="#">VIDEO</a>
@@ -74,7 +74,7 @@
                         <div class="overlay"></div>
                     </div>
                     <div class="btncontainer">
-                        <a href="#">
+                        <a href="Mallar.php">
                             <div class="btnTry">MALLAR</div>
                         </a>
                         <div class="overlay"></div>
