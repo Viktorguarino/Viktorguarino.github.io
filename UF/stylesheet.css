@@ -501,6 +501,21 @@ footer {
 	top:-30px;
 	padding:0px 10px 0px 10px;
 	position:relative;
+	-webkit-filter: brightness(100%);
+	-moz-filter: brightness(100%);
+	-o-filter: brightness(100%);
+	-ms-filter: brightness(100%);
+	filter: brightness(100%);
+}
+
+.social a:hover {
+	transition-timing-function:ease-in-out;
+	transition: 0.25s;
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-o-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+	filter: brightness(50%);
 }
 
 .social a:first-child {
@@ -623,7 +638,7 @@ ul li:nth-child(5) {
 	height:60px;
 	position:absolute;
 	z-index:100;
-	top:12.5px;
+	top:12px;
 	left:10px;
 }
 
@@ -661,7 +676,7 @@ ul li:nth-child(5) {
 }
 	
 #dismiss:hover {
-	color:crimson;
+	color:#e94335;
 }
 
 .overlayside {
@@ -704,6 +719,8 @@ ul li:nth-child(5) {
 #sidebar ul p a {
     color:#000;
 	text-decoration:none;
+	font-weight:600;
+	letter-spacing:0.5px;
     padding:10px;
 }
 

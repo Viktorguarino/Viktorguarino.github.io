@@ -2,7 +2,7 @@
 function myMap() {
 	"use strict";
     var myLatLng = {lat: 55.702145, lng: 13.178157};
-	var newLatLng ={lat: 55.703658, lng: 13.177902};
+	var newLatLng ={lat: 55.703458, lng: 13.177902};
     var map = new google.maps.Map(document.getElementById('googleMap'), {
     	zoom: 16,
         center: newLatLng
@@ -44,7 +44,7 @@ function myMap() {
 	 'use strict';
 	 $("#sidebar").niceScroll({
      	cursorcolor: '#53619d',
-        cursorwidth: 4,
+        cursorwidth: 0,
         cursorborder: 'none'
 	 });
      $('#dismiss, .overlayside').on('click', function () {
