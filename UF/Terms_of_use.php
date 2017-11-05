@@ -22,7 +22,7 @@
                         <div>&#10006;</div>
                     </div>
                     <div class="sidebar-header">
-                        <a href="Index.php"><img src="Images/text.png"></a>
+                        <a href="index.php"><img src="Images/text.png"></a>
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>
@@ -49,7 +49,7 @@
                     <a href="#">VIDEO</a>
                 </li>
                 <li>
-            			<a href="Index.php"><img src="Images/text.png" alt="logo"></a>
+            			<a href="index.php"><img src="Images/text.png" alt="logo"></a>
                 </li>
                 <li>
                 	<div class="searching">
@@ -110,7 +110,7 @@
         	<div class="footerContainer">
             	<div class="footerContent">
                     <div class="column logo">
-                    	<a href="Index.php"></a>
+                    	<a href="index.php"></a>
                     </div>
                     <div class="column social">
                         <a href="https://www.facebook.com/Web-Creator-1764341753865008/" target="_blank"></a>
