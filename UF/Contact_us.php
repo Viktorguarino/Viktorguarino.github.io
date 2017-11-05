@@ -22,7 +22,7 @@
                         <div>&#10006;</div>
                     </div>
                     <div class="sidebar-header">
-                        <h3>WebCreator</h3>
+                    	<a href="Index.php"><img src="Images/text.png"></a>
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>

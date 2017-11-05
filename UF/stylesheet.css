@@ -623,19 +623,19 @@ ul li:nth-child(5) {
 	height:60px;
 	position:absolute;
 	z-index:100;
-	top:13px;
+	top:12.5px;
 	left:10px;
 }
 
 #sidebar {
-    width:250px;
+    width:275px;
     position:fixed;
     top:0;
-    left:-250px;
+    left:-275px;
     height:100%;
     z-index:999;
-    background:#7386D5;
-    color:#fff;
+    background:#FFF;
+    color:#000;
     transition:all 0.3s;
     overflow-y:scroll;
     box-shadow:2px 2px 2px rgba(0, 0, 0, 0.15);
@@ -658,6 +658,10 @@ ul li:nth-child(5) {
     -webkit-transition:all 0.3s;
     -o-transition:all 0.3s;
     transition:all 0.3s;
+}
+	
+#dismiss:hover {
+	color:crimson;
 }
 
 .overlayside {
@@ -683,23 +687,29 @@ ul li:nth-child(5) {
 }
 
 #sidebar .sidebar-header {
-    padding:20px 20px 20px 20px;
-    background:#6d7fcc;
+    padding:30px 20px 20px 20px;
+    background:#F9F9F9;
+	text-align: center;
 }
-
+	
+#sidebar .sidebar-header img {
+    width:165px;
+	height:auto;
+}
+	
 #sidebar ul.components {
     padding:20px 0px 20px 0px;
 }
 
 #sidebar ul p a {
-    color:#fff;
+    color:#000;
 	text-decoration:none;
     padding:10px;
 }
 
 #sidebar ul li a:hover {
-    color:#7386D5;
-    background:#fff;
+    color:#FFF;
+    background:#000;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
@@ -859,7 +869,7 @@ footer {
 }
 	
 .logo {
-	padding:0px 0px 45px 0px;             /*FIXA OVERFLOW*/
+	padding:0px 0px 45px 0px;
 }
 	
 .info a {
