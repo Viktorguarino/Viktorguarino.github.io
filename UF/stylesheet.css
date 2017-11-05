@@ -24,6 +24,11 @@ body {
   src:url("Fonts/Lato-Regular.ttf") format("ttf");
 }
 
+@font-face {
+	font-family:"LatoBlack";
+	src:url(Fonts/Lato-Black.ttf) format("truetype");
+}
+
 /*----------------------------------------------------------------------------------------------------*/
 
 nav {
@@ -347,26 +352,25 @@ article {
 
 .terms .policy, h1, h2, h3 {
 	margin:0 auto;
-	font-family:"Lato";
-	
 }
 
 .terms .policy, h1 {
 	padding:30px 0px 30px 10px;
 	font-size:34px;
-	font-weight:bold;
+	font-family:"LatoBlack";
 }
 
 .terms .policy, h2 {
 	font-size:21px;
 	padding:10px;
-	font-weight:bold;
+	font-family:"LatoBlack";
 }
 
 .terms .policy, h3 {
 	padding:10px;
 	font-size:16px;
 	font-weight:400;
+	font-family:"Lato";
 }
 
 .contact {
@@ -702,11 +706,18 @@ ul li:nth-child(5) {
 }
 
 #sidebar .sidebar-header {
-    padding:30px 20px 20px 20px;
+    padding:15px 20px 15px 0px;
     background:#F9F9F9;
 	text-align: center;
 }
-	
+
+#sidebar .sidebar-list p {
+	padding:10px 0px 10px 37px;
+	text-align:left;
+	font-family:"LatoBlack";
+	color:#000;
+}
+
 #sidebar .sidebar-header img {
     width:165px;
 	height:auto;
@@ -720,13 +731,12 @@ ul li:nth-child(5) {
     color:#000;
 	text-decoration:none;
 	font-weight:600;
-	letter-spacing:0.5px;
+	letter-spacing:0.25px;
     padding:10px;
 }
 
-#sidebar ul li a:hover {
-    color:#FFF;
-    background:#000;
+#sidebar ul p a:hover {
+	color:#868686;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
