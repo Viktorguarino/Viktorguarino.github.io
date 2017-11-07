@@ -19,7 +19,7 @@
         	<div class="wrapper">
             	<div id="sidebar">
                     <div id="dismiss">
-                        <div>&#10006;</div>
+                        <div>☰</div>
                     </div>
                     <div class="sidebar-header">
                     	<a href="index.php"><img src="Images/text.png"></a>
@@ -48,8 +48,8 @@
                 <li>
                     <a href="#">VIDEO</a>
                 </li>
-                <li>
-            			<a href="index.php"><img src="Images/text.png" alt="logo"></a>
+                <li class="centerimage">
+            		<a href="index.php"><img src="Images/text.png" alt="logo"></a>
                 </li>
                 <li>
                 	<div class="searching">
@@ -65,18 +65,18 @@
         	<div class="contact">
             	<ol>
                 	<li>
-                    	<div class="cirlce"><img src="Images/simonbild.png"></div>
+                    	<div class="cirlce"><img src="Images/Headshot/simonbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Simon Måtegen</p>
                             <p><span><i>Verkställande Direktor - Webbassistent</i></span></p>
                             <br>
-                            <p><span>+46 720 133 850</span></p>
-                            <p><span>example@hotmail.com</span></p>
+                            <p><span>+46 763 469 126</span></p>
+                            <p><span>simon.mategen@gmail.com</span></p>
                             <p><span>webcreator.help@hotmail.com</span></p>
                         </div>
                     </li>
                     <li>
-                    	<div class="cirlce"><img src="Images/viktorbild.png"></div>
+                    	<div class="cirlce"><img src="Images/Headshot/viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Viktor Guarino</p>
                             <p><span><i>IT-direktör - Webmaster</i></span></p>
@@ -87,7 +87,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="cirlce"><img src="Images/jonathanbild.png"></div>
+                    	<div class="cirlce"><img src="Images/Headshot/jonathanbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Jonathan Zander</p>
                             <p><span><i>Finansdirektör - Webbassistent</i></span></p>
@@ -99,6 +99,7 @@
                     </li>
                 </ol>
             </div>
+			<div class="telephoneinfo"></div>
             <div class="googleMap">
         		<div id="googleMap" style="height:350px; width:100%;"></div>
 			</div>

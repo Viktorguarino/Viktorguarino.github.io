@@ -19,10 +19,10 @@
         	<div class="wrapper">
             	<div id="sidebar">
                     <div id="dismiss">
-                        <div>&#10006;</div>
+                        <div>☰</div>
                     </div>
                     <div class="sidebar-header">
-                        <a href="index.php"><img src="Images/text.png"></a>
+                    	<a href="index.php"><img src="Images/text.png"></a>
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>
@@ -48,8 +48,8 @@
                 <li>
                     <a href="#">VIDEO</a>
                 </li>
-                <li>
-            			<a href="index.php"><img src="Images/text.png" alt="logo"></a>
+                <li class="centerimage">
+            		<a href="index.php"><img src="Images/text.png" alt="logo"></a>
                 </li>
                 <li>
                 	<div class="searching">
@@ -62,7 +62,32 @@
         	</ul>
         </nav>
         <article>
-        	
+        	<div class="templates">
+				<ul>
+					<li>
+						<div class="temp template1"><a href="#">demo</a></div>
+						<h2>EXEMPEL</h2>
+						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+					</li>
+					<li>
+						<div class="temp template2"></div>
+						<h2>EXEMPEL</h2>
+						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar isisisisisisisisisisii</p>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="temp template1"></div>
+						<h2>EXEMPEL</h2>
+						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+					</li>
+					<li>
+						<div class="temp template2"></div>
+						<h2>EXEMPEL</h2>
+						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+					</li>
+				</ul>
+			</div>
         </article>
         <footer>
         	<div class="footerContainer">

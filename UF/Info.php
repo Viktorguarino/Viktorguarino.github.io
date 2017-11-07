@@ -19,10 +19,10 @@
         	<div class="wrapper">
             	<div id="sidebar">
                     <div id="dismiss">
-                        <div>&#10006;</div>
+                        <div>☰</div>
                     </div>
                     <div class="sidebar-header">
-                        <a href="index.php"><img src="Images/text.png"></a>
+                    	<a href="index.php"><img src="Images/text.png"></a>
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>
@@ -48,8 +48,8 @@
                 <li>
                     <a href="#">VIDEO</a>
                 </li>
-                <li>
-            			<a href="index.php"><img src="Images/text.png" alt="logo"></a>
+                <li class="centerimage">
+            		<a href="index.php"><img src="Images/text.png" alt="logo"></a>
                 </li>
                 <li>
                 	<div class="searching">

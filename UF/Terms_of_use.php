@@ -19,10 +19,10 @@
         	<div class="wrapper">
             	<div id="sidebar">
                     <div id="dismiss">
-                        <div>&#10006;</div>
+                        <div>☰</div>
                     </div>
                     <div class="sidebar-header">
-                        <a href="index.php"><img src="Images/text.png"></a>
+                    	<a href="index.php"><img src="Images/text.png"></a>
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="Info.php">INFO</a></p>
@@ -48,8 +48,8 @@
                 <li>
                     <a href="#">VIDEO</a>
                 </li>
-                <li>
-            			<a href="index.php"><img src="Images/text.png" alt="logo"></a>
+                <li class="centerimage">
+            		<a href="index.php"><img src="Images/text.png" alt="logo"></a>
                 </li>
                 <li>
                 	<div class="searching">
@@ -66,26 +66,23 @@
             	<div class="termscontainer">
                     <h1>Användarvillkor</h1>
                         <h2>Introduktion</h2>
-                            <h3>Webbplatsens standardvillkor som skrivs på denna webbsida ska hantera din användning av denna webbplats. Dessa villkor tillämpas fullständigt och påverkar din användning av denna webbplats. 
-                            Genom att använda denna webbplats godkände du att acceptera alla villkor som skrivs här. Du får inte använda den här webbplatsen om du inte håller med någon av dessa användarvillkor för webbplatsen.</h3>
+							<h3>Standardvillkor som skrivs på denna webbsida ska hantera din användning av denna webbplats. Dessa villkor tillämpas fullständigt och påverkar din användning av denna webbplats.</h3>
+							<h3>Genom att använda denna webbplats godkänner du alla villkor som skrivs i våran <a href="Website_privacy_policy.php" style="color:#000;">Integretetspolicy</a>. Du får inte använda den här webbplatsen om du inte håller med någon av dessa användarvillkor för webbplatsen.</h3>
                         <h2>Immateriella Rättigheter</h2>
                             <h3>Utöver innehållet du äger, enligt dessa villkor äger WebCreator och / eller dess licensgivare alla immateriella rättigheter och material som finns på denna webbplats. 
                             Du beviljas endast begränsad licens för att se materialet på denna webbplats.</h3>
                         <h2>Begränsningar</h2>
                             <h3>Du är specifikt begränsad från följande:
                                 <ol>
-                                    <li>publicera material från denna webbplats i andra media;</li>
-                                    <li>säljea, underlicensiera och / eller på annat sätt marknadsföra något material från WebCreator;</li>
-                                    <li>offentligt utföra och / eller visa material från WebCreator;</li>
-                                    <li>användning av denna webbplats på något sätt som är eller kan vara skadlig för denna webbplats,</li>
-                                    <li>användning av denna webbplats på något sätt som påverkar användaråtkomsten till denna webbplats,</li>
-                                    <li>användning av denna webbplats i strid med gällande lagar och förordningar eller på något sätt kan skada webbplatsen eller till någon person eller affärsenhet.</li>
-                                    <li>engagera sig i datautvinning, datainsamling, datautvinning eller annan liknande verksamhet i förhållande till denna webbplats,</li>
+                                    <li>Publicera material från denna webbplats i andra media.</li>
+                                    <li>Sälja, underlicensiera och / eller på annat sätt marknadsföra något material från WebCreator.</li>
+                                    <li>Offentligt utföra och / eller visa material från WebCreator.</li>
+                                    <li>Använda denna webbplats på något sätt som är eller kan vara skadlig för denna webbplats.</li>
+                                    <li>Använda denna webbplats på något sätt som påverkar användaråtkomsten till denna webbplats.</li>
+                                    <li>Använda denna webbplats i strid med gällande lagar och förordningar eller på något sätt kan skada webbplatsen eller till någon person eller affärsenhet.</li>
+                                    <li>Engagera dig i datainsamling, datautvinning eller annan liknande verksamhet i förhållande till denna webbplats.</li>
                                 </ol>
                             Vissa områden på den här webbplatsen är begränsade från att du får tillgång till det, och WebCreator kan när som helst begränsa åtkomsten till dig på alla områden på denna webbplats, när som helst, efter eget gottfinnande.</h3>
-                        <h2>Ditt Innehåll</h2>
-                            <h3>I dessa användarvillkor för webbsidor betyder "Ditt innehåll" alla ljud, videotekst, bilder eller annat material du väljer att visa på denna webbplats. Genom att visa ditt innehåll ger du WebCreator en icke-exklusiv, världsomspännande, oåterkallelig licens för att licensiera, reproducera, anpassa, publicera, översätta och distribuera det i alla media. 
-                            Ditt innehåll måste vara ditt eget och får inte invadera någon tredje parts rättigheter. WebCreator förbehåller sig rätten att när som helst, utan föregående meddelande, ta bort något av Ditt innehåll från denna webbplats.</h3>
                         <h2>Inga Garantier</h2>
                             <h3>Denna webbplats tillhandahålls "som det är" med alla fel, och WebCreator uttrycker inga förbehåll eller garantier av något slag som är relaterat till denna webbplats eller materialet på denna webbplats. Dessutom ska inget innehåll på denna webbplats tolkas som att ge dig råd.</h3>
                         <h2>Ansvarsbegränsning</h2>
@@ -102,7 +99,7 @@
                             <h3>Dessa villkor utgör hela avtalet mellan WebCreator och dig i förhållande till din användning av denna webbplats och ersätter alla tidigare avtal och överenskommelser.</h3>
                         <h2>Gällande Lag Och Jurisdiktion</h2>
                             <h3>Dessa villkor styrs av och tolkas i enlighet med Sveriges lagar, och du lämnar in till de icke-exklusiva jurisdiktionerna för de statliga domstolarna i Sverige för att lösa eventuella tvister.</h3>
-                            <h3>Senast ändrad den 27-09-2017</h3>
+					<h3>Senast ändrad den <b>6-11-2017</b></h3>
             	</div>
         	</div>        
         </article>

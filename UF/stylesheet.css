@@ -39,7 +39,7 @@ nav {
 	z-index:98;
 	overflow:hidden;
 	background:#FFF;
-	box-shadow: 0 2.25px 4px -2px gray;
+	box-shadow:0 -62.5px 20px 54px black;
 }
 
 ul {    
@@ -338,6 +338,73 @@ article {
 	background-color:#000;
 }
 
+.templates {
+	margin:0 auto;
+	display:block;
+	padding:0px 0px 10% 0px;
+}
+
+.templates ul {
+	vertical-align:middle;
+	padding:25px 0px 25px 0px;
+	margin:2.5% auto 2.5% auto;
+	text-align: center;
+	
+}
+
+.templates ul li {
+	height:18vw;
+    width:30vw;
+    margin:auto 3% auto 3%;
+    padding:0;
+	border-radius:10px;
+	border:solid 1px #C4C4C4;
+    float: none;
+    left: 0px;
+    display: inline-block;
+}
+
+.templates ul li a {
+	position:absolute;
+	padding:10px 0px 0px 0px;
+	top:6vw;
+	font-family:"Lato";
+	font-size:1.4vw;
+	font-weight:600;
+	color:#222;
+	letter-spacing:0.25px;
+	width:100%;
+	text-align:left;
+}
+
+.templates ul li h2 {
+	position:absolute;
+	padding:10px 0px 0px 0px;
+	top:19vw;
+	font-family:"Lato";
+	font-size:1.4vw;
+	font-weight:600;
+	color:#222;
+	letter-spacing:0.25px;
+	width:100%;
+	text-align:left;
+}
+
+.templates ul li p {
+	position:absolute;
+	padding:10px 0px 0px 0px;
+	top:20.5vw;
+	font-family:"Lato";
+	font-size:1.1vw;
+	letter-spacing:0.2px;
+	font-weight:400;
+	color:#707070;
+	width:100%;
+	text-align:left;
+}
+
+
+
 .policy, .terms {
 	margin:0 auto;
 	padding:0px 15px 0px 15px;
@@ -371,6 +438,7 @@ article {
 	font-size:16px;
 	font-weight:400;
 	font-family:"Lato";
+	line-height:160%;
 }
 
 .contact {
@@ -437,6 +505,13 @@ article {
 .contactinfo p span {
 	font-size:17px;
 	font-weight:400;
+}
+
+.telephoneinfo {
+	width:70%;
+	height:350px;
+	background:grey;
+	margin:0 auto;
 }
 
 .googleMap {
@@ -525,7 +600,7 @@ footer {
 .social a:first-child {
 	width:20px;
 	height:20px;
-	background:url(Images/facebook.png) center no-repeat;
+	background:url(Images/Social/facebook.png) center no-repeat;
 	background-size:contain;
 	display:inline-block;
 }
@@ -533,7 +608,7 @@ footer {
 .social a:nth-child(2n) {
 	width:20px;
 	height:20px;
-	background:url(Images/twitter.png) center no-repeat;
+	background:url(Images/Social/twitter.png) center no-repeat;
 	background-size:contain;
 	display:inline-block;
 }
@@ -541,7 +616,7 @@ footer {
 .social a:last-child {
 	width:20px;
 	height:20px;
-	background:url(Images/instagram.png) center no-repeat;
+	background:url(Images/Social/instagram.png) center no-repeat;
 	background-size:contain;
 	display:inline-block;
 }
@@ -657,7 +732,6 @@ ul li:nth-child(5) {
     color:#000;
     transition:all 0.3s;
     overflow-y:scroll;
-    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.15);
 }
 
 #sidebar.active {
@@ -671,9 +745,10 @@ ul li:nth-child(5) {
     text-align:center;
     background:transparent;
     position:absolute;
-    top:10px;
-    right:10px;
+    top:12.5px;
+    left:7.5px;
     cursor:pointer;
+	font-size:24px;
     -webkit-transition:all 0.3s;
     -o-transition:all 0.3s;
     transition:all 0.3s;
@@ -687,7 +762,6 @@ ul li:nth-child(5) {
     position:fixed;
     width:100vw;
     height:100vh;
-    background:rgba(0, 0, 0, 0.7);
     z-index:998;
     display:none;
 	top:0;
@@ -703,12 +777,15 @@ ul li:nth-child(5) {
 	cursor:pointer;
 	font-size:24px;
 	position:fixed;
+	z-index:999;
 }
 
 #sidebar .sidebar-header {
-    padding:15px 20px 15px 0px;
-    background:#F9F9F9;
+    padding:0;
+    background:#FFF;
 	text-align: center;
+	width:100%;
+	height:60px;
 }
 
 #sidebar .sidebar-list p {
@@ -719,12 +796,14 @@ ul li:nth-child(5) {
 }
 
 #sidebar .sidebar-header img {
-    width:165px;
-	height:auto;
+    width:153.594px;
+    height:60px;
+	margin: 0 auto;
 }
 	
 #sidebar ul.components {
-    padding:20px 0px 20px 0px;
+    box-shadow: inset -53px 54px 20px -62.5px black;
+    padding: 20px 0px 20px 0px;
 }
 
 #sidebar ul p a {
