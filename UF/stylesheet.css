@@ -337,7 +337,7 @@ article {
 .btncontainer:hover .overlay {
 	background-color:#000;
 }
-
+/*-------------------------------------------------*/
 .templates {
 	margin:0 auto;
 	display:block;
@@ -357,24 +357,51 @@ article {
     width:30vw;
     margin:auto 3% auto 3%;
     padding:0;
-	border-radius:10px;
+	border-radius:6px;
 	border:solid 1px #C4C4C4;
-    float: none;
-    left: 0px;
-    display: inline-block;
+    float:none;
+    left:0;
+    display:inline-block;
+}
+
+
+.templates ul li .btncontainer {
+	position:relative;
+    width:11vw;
+    height:2vw;
+    border:solid 3px #000;
+    cursor:pointer;
+ 	top:45%;
+    display:inline-block;
+}
+
+.templates ul li .tempcontainer {
+	margin-top:20px;
+	padding-top:20%;
+	border-top:solid 1px #C4C4C4;
 }
 
 .templates ul li a {
-	position:absolute;
-	padding:10px 0px 0px 0px;
-	top:6vw;
-	font-family:"Lato";
-	font-size:1.4vw;
-	font-weight:600;
-	color:#222;
-	letter-spacing:0.25px;
-	width:100%;
-	text-align:left;
+	top:1727%;
+}
+
+.templates ul li a div:hover {
+	color: antiquewhite;
+}
+
+.templates ul li a div{
+	position: relative;
+    top: -34.8vw;
+    font-family: "Lato";
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 150%;
+    color: #222;
+    vertical-align: middle;
+    height: 1.8vw;
+    letter-spacing: 0.25px;
+    left:0;
+    padding:4px;
 }
 
 .templates ul li h2 {
@@ -402,9 +429,7 @@ article {
 	width:100%;
 	text-align:left;
 }
-
-
-
+/*-------------------------------------------------*/
 .policy, .terms {
 	margin:0 auto;
 	padding:0px 15px 0px 15px;
@@ -708,6 +733,8 @@ ul li:nth-child(5) {
 	font-size:15px;
 	font-weight:400;
 }
+	
+
 
 /* ---------------------------------------------------
     SIDEBAR STYLE

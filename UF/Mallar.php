@@ -65,26 +65,54 @@
         	<div class="templates">
 				<ul>
 					<li>
-						<div class="temp template1"><a href="#">demo</a></div>
-						<h2>EXEMPEL</h2>
-						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						<div class="tempcontainer">
+							<div class="btncontainer">
+							<a href="Info.php">
+								<div class="btnTry">OM OSS</div>
+							</a>
+							<div class="overlay"></div>
+							</div>
+							<h2>EXEMPEL</h2>
+							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						</div>
 					</li>
 					<li>
-						<div class="temp template2"></div>
-						<h2>EXEMPEL</h2>
-						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar isisisisisisisisisisii</p>
+						<div class="tempcontainer">
+							<div class="btncontainer">
+							<a href="Info.php">
+								<div class="btnTry">OM OSS</div>
+							</a>
+							<div class="overlay"></div>
+							</div>
+							<h2>EXEMPEL</h2>
+							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						</div>
 					</li>
 				</ul>
 				<ul>
 					<li>
-						<div class="temp template1"></div>
-						<h2>EXEMPEL</h2>
-						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						<div class="tempcontainer">
+							<div class="btncontainer">
+							<a href="Info.php">
+								<div class="btnTry">OM OSS</div>
+							</a>
+							<div class="overlay"></div>
+							</div>
+							<h2>EXEMPEL</h2>
+							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						</div>
 					</li>
 					<li>
-						<div class="temp template2"></div>
-						<h2>EXEMPEL</h2>
-						<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						<div class="tempcontainer">
+							<div class="btncontainer">
+							<a href="Info.php">
+								<div class="btnTry">OM OSS</div>
+							</a>
+							<div class="overlay"></div>
+							</div>
+							<h2>EXEMPEL</h2>
+							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						</div>
 					</li>
 				</ul>
 			</div>
