@@ -63,8 +63,20 @@
         </nav>
         <article>
         	<div class="templates">
-				<ul>
-					<li>
+				<div class="temps">
+					<div class="innertemps">
+						<div class="tempcontainer">
+							<div class="btncontainer">
+							<a href="Info.php">
+								<div class="btnTry">OM OSS</div>
+							</a>
+							<div class="overlay"></div>
+							</div>
+							<h2>EXEMPEL</h2>
+							<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+						</div>
+					</div>
+					<div class="innertemps">
 						<div class="tempcontainer">
 							<div class="btncontainer">
 							<a href="Info.php">
@@ -75,8 +87,10 @@
 							<h2>EXEMPEL</h2>
 							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
 						</div>
-					</li>
-					<li>
+					</div>
+				</div>
+				<div class="temps">
+					<div class="innertemps">
 						<div class="tempcontainer">
 							<div class="btncontainer">
 							<a href="Info.php">
@@ -87,10 +101,8 @@
 							<h2>EXEMPEL</h2>
 							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
 						</div>
-					</li>
-				</ul>
-				<ul>
-					<li>
+					</div>
+					<div class="innertemps">
 						<div class="tempcontainer">
 							<div class="btncontainer">
 							<a href="Info.php">
@@ -101,20 +113,8 @@
 							<h2>EXEMPEL</h2>
 							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
 						</div>
-					</li>
-					<li>
-						<div class="tempcontainer">
-							<div class="btncontainer">
-							<a href="Info.php">
-								<div class="btnTry">OM OSS</div>
-							</a>
-							<div class="overlay"></div>
-							</div>
-							<h2>EXEMPEL</h2>
-							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
-						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
         </article>
         <footer>

@@ -341,21 +341,23 @@ article {
 .templates {
 	margin:0 auto;
 	display:block;
-	padding:0px 0px 10% 0px;
+	position:relative;
+	padding:0px 0px 5% 0px;
+	overflow: hidden;
 }
 
-.templates ul {
+.temps {
 	vertical-align:middle;
 	padding:25px 0px 25px 0px;
-	margin:2.5% auto 2.5% auto;
+	margin:3.5% auto 3.5% auto;
 	text-align: center;
 	
 }
 
-.templates ul li {
-	height:18vw;
+.innertemps {
+	height:19vw;
     width:30vw;
-    margin:auto 3% auto 3%;
+    margin:auto 3% 3% 3%;
     padding:0;
 	border-radius:6px;
 	border:solid 1px #C4C4C4;
@@ -365,7 +367,7 @@ article {
 }
 
 
-.templates ul li .btncontainer {
+.templates .temps .innertemps .btncontainer {
 	position:relative;
     width:11vw;
     height:2vw;
@@ -375,21 +377,21 @@ article {
     display:inline-block;
 }
 
-.templates ul li .tempcontainer {
+.tempcontainer {
 	margin-top:20px;
 	padding-top:20%;
 	border-top:solid 1px #C4C4C4;
 }
 
-.templates ul li a {
+.templates .temps .innertemps a {
 	top:1727%;
 }
 
-.templates ul li a div:hover {
+.templates .temps .innertemps a div:hover {
 	color: antiquewhite;
 }
 
-.templates ul li a div{
+.templates .temps .innertemps a div{
 	position: relative;
     top: -34.8vw;
     font-family: "Lato";
@@ -400,14 +402,12 @@ article {
     vertical-align: middle;
     height: 1.8vw;
     letter-spacing: 0.25px;
-    left:0;
     padding:4px;
 }
 
-.templates ul li h2 {
+.templates .temps .innertemps h2 {
 	position:absolute;
-	padding:10px 0px 0px 0px;
-	top:19vw;
+	padding:10.5vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.4vw;
 	font-weight:600;
@@ -417,16 +417,16 @@ article {
 	text-align:left;
 }
 
-.templates ul li p {
+.templates .temps .innertemps p {
 	position:absolute;
-	padding:10px 0px 0px 0px;
-	top:20.5vw;
+	padding:12.5vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.1vw;
 	letter-spacing:0.2px;
 	font-weight:400;
 	color:#707070;
-	width:100%;
+	width:27.25em;
+	word-wrap: break-word;
 	text-align:left;
 }
 /*-------------------------------------------------*/
@@ -733,7 +733,13 @@ ul li:nth-child(5) {
 	font-size:15px;
 	font-weight:400;
 }
-	
+
+.templates {
+	margin:0 auto;
+	display:block;
+	overflow: visible;
+	padding:0px 0px 10% 0px;
+}
 
 
 /* ---------------------------------------------------
