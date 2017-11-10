@@ -40,6 +40,12 @@ nav {
 	overflow:hidden;
 	background:#FFF;
 	box-shadow:0 -62.5px 20px 54px black;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 ul {    
@@ -342,7 +348,7 @@ article {
 	margin:0 auto;
 	display:block;
 	position:relative;
-	padding:0px 0px 5% 0px;
+	padding:0px 0px 3% 0px;
 	overflow: hidden;
 }
 
@@ -357,7 +363,7 @@ article {
 .innertemps {
 	height:19vw;
     width:30vw;
-    margin:auto 3% 3% 3%;
+    margin:auto 3% 5% 3%;
     padding:0;
 	border-radius:6px;
 	border:solid 1px #C4C4C4;
@@ -366,6 +372,10 @@ article {
     display:inline-block;
 }
 
+.innertemps:hover + .btncontainer {
+	background-color: aqua;
+	opacity:1.0;
+}
 
 .templates .temps .innertemps .btncontainer {
 	position:relative;
@@ -375,6 +385,7 @@ article {
     cursor:pointer;
  	top:45%;
     display:inline-block;
+	opacity:0.1;
 }
 
 .tempcontainer {
@@ -392,9 +403,9 @@ article {
 }
 
 .templates .temps .innertemps a div{
-	position: relative;
-    top: -34.8vw;
-    font-family: "Lato";
+	position:relative;
+    top:-34.8vw;
+    font-family:"Lato";
     font-size: 1.25vw;
     font-weight: 600;
     line-height: 150%;
@@ -407,19 +418,19 @@ article {
 
 .templates .temps .innertemps h2 {
 	position:absolute;
-	padding:10.5vw 0vw 0vw 0vw;
+	padding:11vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.4vw;
 	font-weight:600;
 	color:#222;
-	letter-spacing:0.25px;
+	letter-spacing:0.75px;
 	width:100%;
 	text-align:left;
 }
 
 .templates .temps .innertemps p {
 	position:absolute;
-	padding:12.5vw 0vw 0vw 0vw;
+	padding:13vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.1vw;
 	letter-spacing:0.2px;
@@ -752,6 +763,12 @@ ul li:nth-child(5) {
 	z-index:100;
 	top:12px;
 	left:10px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 #sidebar {
@@ -843,6 +860,7 @@ ul li:nth-child(5) {
     color:#000;
 	text-decoration:none;
 	font-weight:600;
+	transition:.3s ease-in-out;
 	letter-spacing:0.25px;
     padding:10px;
 }
