@@ -106,7 +106,9 @@
                     <input type="contacttext" placeholder="E-mail" name="email" />
                     <textarea name="comments" placeholder="Medelande" rows="10" cols="20"></textarea>
                     <br />
-                    <input type="submit" name="submit" value="Skicka" />
+                    <div>
+                    	<input type="submit" name="submit" value="Skicka" />
+                    </div>
                 </form>
             </div>
             <div id="flip">E-maila oss</div>

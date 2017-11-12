@@ -566,7 +566,6 @@ article {
 #panel {
     display:none; 
 	width:60%;
-	height:45vh;  
 	border:1px solid rgba(166,166,166,0.75);
 	border-radius:20px;
 	text-align:center; 
@@ -597,14 +596,21 @@ article {
     height:25%;
 	resize:none;
 	margin:3.5% auto 1% auto;
-	padding-left:10px;
+	padding:10px 0px 0px 10px;
 	position:relative;
 }
 
+#panel form div input[type=submit] {
+	width:186px;
+	height:100%;
+	margin:1vh auto 2.5vh auto;
+	padding:5px 0px 5px 0px;
+	font-family:"Lato";
+	font-weight:bold;
+	font-size:23px;
+}
+
 input[type=submit] {
-	position:relative;
-    width:180px;
-    height:4.5vh;
     border:3px solid #000;
 	background:transparent;
     border-radius:8px;
@@ -613,8 +619,6 @@ input[type=submit] {
     vertical-align:middle;
     margin:2.5vh auto -1vh auto;
     font-family:"Lato";
-	font-weight:bolder;
-    font-size:23px;
 	text-align:center; 
 	transition:0.3s ease-in-out;
 }
