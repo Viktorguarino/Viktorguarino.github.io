@@ -361,8 +361,8 @@ article {
 }
 
 .innertemps {
-	height:19vw;
-    width:30vw;
+	height:18vw;
+    width:27vw;
     margin:auto 3% 5% 3%;
     padding:0;
 	border-radius:6px;
@@ -383,9 +383,8 @@ article {
     height:2vw;
     border:solid 3px #000;
     cursor:pointer;
- 	top:45%;
+ 	top:50%;
     display:inline-block;
-	opacity:0.1;
 }
 
 .tempcontainer {
@@ -394,51 +393,42 @@ article {
 	border-top:solid 1px #C4C4C4;
 }
 
-.templates .temps .innertemps a {
-	top:1727%;
-}
-
-.templates .temps .innertemps a div:hover {
-	color: antiquewhite;
-}
-
-.templates .temps .innertemps a div{
+.templates .temps .innertemps a div {
 	position:relative;
-    top:-34.8vw;
+    top:-0.75vh;
     font-family:"Lato";
-    font-size: 1.25vw;
-    font-weight: 600;
-    line-height: 150%;
-    color: #222;
-    vertical-align: middle;
-    height: 1.8vw;
+    font-size:1.25vw;
+    font-weight:600;
+    color:#222;
+    vertical-align:middle;
+    height:1.8vw;
     letter-spacing: 0.25px;
     padding:4px;
 }
 
 .templates .temps .innertemps h2 {
 	position:absolute;
-	padding:11vw 0vw 0vw 0vw;
+	padding:10vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.4vw;
 	font-weight:600;
 	color:#222;
 	letter-spacing:0.75px;
-	width:100%;
-	text-align:left;
+	width:27.52%;
+	text-align:center;
 }
 
 .templates .temps .innertemps p {
 	position:absolute;
-	padding:13vw 0vw 0vw 0vw;
+	padding:12vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.1vw;
 	letter-spacing:0.2px;
 	font-weight:400;
 	color:#707070;
-	width:27.25em;
+	width:24.55em;
 	word-wrap: break-word;
-	text-align:left;
+	text-align:center;
 }
 /*-------------------------------------------------*/
 .policy, .terms {

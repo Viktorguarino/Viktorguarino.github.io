@@ -66,7 +66,7 @@
             	<div class="policycontainer">
                     <h1>Integritetspolicy</h1>
 						<h2>Introduktion</h2>
-							<h3>Den här integritetspolicyn ger ett värdefullt skydd för våran webbsida och dess användare. Framförallt ökar det tilliten. Genom att tillhandahålla en okomplicerad policy på enkel svenska, som beskriver de faktiska skydden, får webbsidan ett övertag gentemot de konkurrenter som har en komplex och förvirrande policy.</h3>				
+							<h3>Den här integritetspolicyn ger ett värdefullt skydd för våran webbsida och dess användare. Framförallt ökar det tilliten. Genom att tillhandahålla en okomplicerad policy på enkel svenska, som beskriver de faktiska skydden, får webbsidan ett övertag gentemot de konkurrenter som har en komplex och förvirrande policy.</h3>	
                         <h2>1.1 Samling av personlig information</h2>
                             <h3>Vi samlar in information från dig när du anger information på vår webbplats genom att kontakta oss. Ingen information lagras på webbsidan.</h3>
                         <h2>1.2 Användning av personlig information</h2>
@@ -93,15 +93,15 @@
 							<h3>Det är också viktigt att notera att vi inte tillåter spårning av spårning från tredje part.</h3>
                         <h2>4. Google</h2>
                             <h3>Googles annonseringskrav kan summeras av Googles annonseringsprinciper. De införs för att ge en positiv upplevelse för användarna. <a href="https://support.google.com/adwordspolicy/answer/1316548?hl=en" style="color: #000;">Adwords Policy</a>. Vi har inte aktiverat Google AdSense på vår webbplats, men vi kan göra det i framtiden.</h3>
-								<h3>Vi änväder oss utav google maps för att hänvisa vår huvudkontor där man möta oss personligen. Detta anges vid våran <a href="Contact_us.php" style="color: #000;">Kontakta Oss</a> sida.</h3>
+							<h3>Vi änväder oss utav google maps för att hänvisa vår huvudkontor där man möta oss personligen. Detta anges vid våran <a href="Contact_us.php" style="color: #000;">Kontakta Oss</a> sida.</h3>
                         <h2>5. Marknadsföring</h2>
                             <h3>Vi marknadsför inte till specifika personer. Vem som helst kan köpa våra hemsidor givet att de är över 18 år.</h3>
                         <h2>6. Kontakt</h2>
 							<h3>För att kontakta oss kan du besöka <a href="Contact_us.php" style="color:#000;">Kontakta Oss</a> på vår sida.</h3>
 							<h3>Vi meddelar dig tillbaks via e-post inom 48 timmar.</h3>
 						<h2>7. Modifieringar</h2>
-					<h3>Vi kommer möjligtvist modifiera våran integretetspolicy i framtiden, och kommer att lägga ut den på webbsidan. Om eventuella modifieringar skulle orsaka problem för dig medelar vi dig enligt de procedurer som anges i ovan.</h3>
-					<h3>Senast ändrad den <b>6-11-2017</b></h3>
+							<h3>Vi kommer möjligtvist modifiera våran integretetspolicy i framtiden, och kommer att lägga ut den på webbsidan. Om eventuella modifieringar skulle orsaka problem för dig medelar vi dig enligt de procedurer som anges i ovan.</h3>
+							<h3>Senast ändrad den <b>6-11-2017</b></h3>
             	</div>
             </div>
         </article>
