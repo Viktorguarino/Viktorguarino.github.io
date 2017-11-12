@@ -68,7 +68,7 @@
                     	<div class="cirlce"><img src="Images/Headshot/simonbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Simon Måtegen</p>
-                            <p><span><i>Verkställande Direktor - Webbassistent</i></span></p>
+                            <p><span><i>Verkställande Direktör - Webbassistent</i></span></p>
                             <br>
                             <p><span>+46 763 469 126</span></p>
                             <p><span>simon.mategen@gmail.com</span></p>
@@ -99,7 +99,17 @@
                     </li>
                 </ol>
             </div>
-			<div class="telephoneinfo"></div>
+            <div id="panel">              
+            	<form action="form_process.php" method="post"> 
+                    <input type="contacttext" placeholder="Namn" name="name" required pattern="[a-zA-2] {3,15}$"/>
+                    <input type="contacttext" placeholder="Efternamn" name="lastname" required pattern="[a-zA-2] {3,15}$"/> 
+                    <input type="contacttext" placeholder="E-mail" name="email" />
+                    <textarea name="comments" placeholder="Medelande" rows="10" cols="20"></textarea>
+                    <br />
+                    <input type="submit" name="submit" value="Skicka" />
+                </form>
+            </div>
+            <div id="flip">E-maila oss</div>
             <div class="googleMap">
         		<div id="googleMap" style="height:350px; width:100%;"></div>
 			</div>

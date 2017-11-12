@@ -61,3 +61,9 @@ function myMap() {
         $('a[aria-expanded=true]').attr('aria-expanded', 'false');
 	 });
 });
+
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});

@@ -310,7 +310,6 @@ article {
     top:-1vw;
 	display:inline-block;
 	margin:0% 1% 0% 1%;
-	
 }
 
 .btncontainer a {
@@ -361,8 +360,8 @@ article {
 }
 
 .innertemps {
-	height:18vw;
-    width:27vw;
+	height:19vw;
+    width:30vw;
     margin:auto 3% 5% 3%;
     padding:0;
 	border-radius:6px;
@@ -383,8 +382,9 @@ article {
     height:2vw;
     border:solid 3px #000;
     cursor:pointer;
- 	top:50%;
+ 	top:45%;
     display:inline-block;
+	opacity:0.1;
 }
 
 .tempcontainer {
@@ -393,42 +393,51 @@ article {
 	border-top:solid 1px #C4C4C4;
 }
 
-.templates .temps .innertemps a div {
+.templates .temps .innertemps a {
+	top:1727%;
+}
+
+.templates .temps .innertemps a div:hover {
+	color: antiquewhite;
+}
+
+.templates .temps .innertemps a div{
 	position:relative;
-    top:-0.75vh;
+    top:-34.8vw;
     font-family:"Lato";
-    font-size:1.25vw;
-    font-weight:600;
-    color:#222;
-    vertical-align:middle;
-    height:1.8vw;
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 150%;
+    color: #222;
+    vertical-align: middle;
+    height: 1.8vw;
     letter-spacing: 0.25px;
     padding:4px;
 }
 
 .templates .temps .innertemps h2 {
 	position:absolute;
-	padding:10vw 0vw 0vw 0vw;
+	padding:11vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.4vw;
 	font-weight:600;
 	color:#222;
 	letter-spacing:0.75px;
-	width:27.52%;
-	text-align:center;
+	width:100%;
+	text-align:left;
 }
 
 .templates .temps .innertemps p {
 	position:absolute;
-	padding:12vw 0vw 0vw 0vw;
+	padding:13vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.1vw;
 	letter-spacing:0.2px;
 	font-weight:400;
 	color:#707070;
-	width:24.55em;
+	width:27.25em;
 	word-wrap: break-word;
-	text-align:center;
+	text-align:left;
 }
 /*-------------------------------------------------*/
 .policy, .terms {
@@ -487,9 +496,7 @@ article {
   border:1px solid rgba(166,166,166,0.75);
   width:60%;
   height:275px;
-  margin:0 auto;
-  margin-top:50px;
-  margin-bottom:25px;
+  margin:35px auto 35px auto;
 }
 
 .cirlce {
@@ -533,12 +540,90 @@ article {
 	font-weight:400;
 }
 
-.telephoneinfo {
-	width:70%;
-	height:350px;
-	background:grey;
-	margin:0 auto;
+#flip {
+	position:relative;
+    width:180px;
+    height:3.5vh;
+    border:3px solid #000;
+    border-radius:8px;
+    cursor:pointer;
+	line-height:3.5vh;
+    vertical-align:middle;
+    margin:0 auto;
+    font-family:"Lato";
+	font-weight:bolder;
+    font-size:23px;
+    padding:5px 0px 5px 0px;
+	text-align:center; 
+	transition:0.3s ease-in-out;
 }
+
+#flip:hover {
+	color:#FFF;
+	background-color:#000;
+}
+
+#panel {
+    display:none; 
+	width:60%;
+	height:45vh;  
+	border:1px solid rgba(166,166,166,0.75);
+	border-radius:20px;
+	text-align:center; 
+	margin:15px auto 40px auto;
+}
+
+#panel form {
+	margin:0 auto;
+	height:100%;
+	width:100%;
+}
+
+#panel form input:nth-child(-n+3) {
+	font-size:14px;
+	font-family:"LatoBlack";
+	display:block;
+	position:relative;
+	width:45vw;
+	margin:3.5% auto -1.5% auto;
+	padding-left:10px;
+	height:30px;
+}
+
+#panel form textarea {
+	font-size:14px;
+	font-family:"LatoBlack";
+	width:45vw; 
+    height:25%;
+	resize:none;
+	margin:3.5% auto 1% auto;
+	padding-left:10px;
+	position:relative;
+}
+
+input[type=submit] {
+	position:relative;
+    width:180px;
+    height:4.5vh;
+    border:3px solid #000;
+	background:transparent;
+    border-radius:8px;
+    cursor:pointer;
+	line-height:3.5vh;
+    vertical-align:middle;
+    margin:2.5vh auto -1vh auto;
+    font-family:"Lato";
+	font-weight:bolder;
+    font-size:23px;
+	text-align:center; 
+	transition:0.3s ease-in-out;
+}
+
+input[type=submit]:hover {
+	color:#FFF;
+	background-color:#000;
+}
+
 
 .googleMap {
 	position:relative;
@@ -708,9 +793,7 @@ ul li:nth-child(5) {
   	border:1px solid rgba(166,166,166,0.75);
   	width:80%;
   	height:235px;
-  	margin:0 auto;
-  	margin-top:40px;
-  	margin-bottom:15px;
+    margin:35px auto 35px auto;
 }
 	
 .contactinfo {
@@ -733,6 +816,16 @@ ul li:nth-child(5) {
 .contactinfo p span {
 	font-size:15px;
 	font-weight:400;
+}
+
+#panel {
+    display:none; 
+	width:80%;
+	height:400px;  
+	border:1px solid rgba(166,166,166,0.75);
+	border-radius:20px;
+	text-align:center; 
+	margin:15px auto 40px auto;
 }
 
 .templates {
@@ -960,9 +1053,7 @@ a.article, a.article:hover {
   	border:1px solid rgba(166,166,166,0.75);
   	width:90%;
   	height:215px;
-  	margin:0 auto;
-  	margin-top:40px;
-  	margin-bottom:15px;
+  	margin:35px auto 35px auto;
 }
 	
 .contactinfo {
@@ -985,6 +1076,16 @@ a.article, a.article:hover {
 .contactinfo p span {
 	font-size:9.5px;
 	font-weight:400;
+}
+
+#panel {
+    display:none; 
+	width:90%;
+	height:400px;  
+	border:1px solid rgba(166,166,166,0.75);
+	border-radius:20px;
+	text-align:center; 
+	margin:15px auto 40px auto;
 }
 /*---------------------------------------------------*/
 
