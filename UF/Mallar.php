@@ -54,7 +54,7 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" placeholder="SÖK" value="<?php echo $_GET['k']; ?>"/>
+                            <input type="text" name="k" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
