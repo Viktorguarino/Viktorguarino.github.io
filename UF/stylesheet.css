@@ -149,6 +149,8 @@ ul li:nth-child(5) {
 
 .searchingTwo form {
 	height:4.5vh;
+	border-bottom:1.5px solid #0F0F0F;
+    padding:1.5vh 0px 1.5vh 0px;
 }
 
 form:nth-child(2) {
@@ -163,7 +165,6 @@ input[type=textTwo] {
 	background-color:transparent;
 	box-sizing:border-box;
 	border:none;
-	border-radius:5px;
 	padding:10px 50px 10px 2px;
 	position:absolute;
 	outline:0px;
