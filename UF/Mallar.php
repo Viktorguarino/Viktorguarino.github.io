@@ -65,6 +65,11 @@
         	<div class="templates">
 				<div class="temps">
 					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
 						<div class="tempcontainer">
 							<div class="btncontainer">
 							<a href="Info.php">
@@ -77,6 +82,11 @@
 						</div>
 					</div>
 					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
 						<div class="tempcontainer">
 							<div class="btncontainer">
 							<a href="Info.php">
@@ -91,6 +101,11 @@
 				</div>
 				<div class="temps">
 					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
 						<div class="tempcontainer">
 							<div class="btncontainer">
 							<a href="Info.php">
@@ -103,6 +118,11 @@
 						</div>
 					</div>
 					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
 						<div class="tempcontainer">
 							<div class="btncontainer">
 							<a href="Info.php">

@@ -351,13 +351,13 @@ article {
 	margin:0 auto;
 	display:block;
 	position:relative;
-	padding:0px 0px 3% 0px;
+	padding:2% 0px 2% 0px;
 	overflow: hidden;
 }
 
 .temps {
 	vertical-align:middle;
-	padding:25px 0px 25px 0px;
+	padding:auto 0px 25px 0px;
 	margin:3.5% auto 3.5% auto;
 	text-align: center;
 	
@@ -375,9 +375,20 @@ article {
     display:inline-block;
 }
 
-.innertemps:hover + .btncontainer {
-	background-color: aqua;
-	opacity:1.0;
+.circles {
+	padding:0px 0px 0px 10px;
+	margin:1vh 0px 0px 0px;
+}
+
+.circle {
+	display:inline-block;
+	border-radius:50%;
+	width:0.4vw;
+	height:0.4vw;
+	background-color:#C4C4C4;
+	float:left;
+	padding:0;
+	margin:0px 3px 0px 3px;
 }
 
 .templates .temps .innertemps .btncontainer {
@@ -388,7 +399,7 @@ article {
     cursor:pointer;
  	top:45%;
     display:inline-block;
-	opacity:0.1;
+	opacity:1;
 }
 
 .tempcontainer {
@@ -420,20 +431,19 @@ article {
 }
 
 .templates .temps .innertemps h2 {
-	position:absolute;
-	padding:11vw 0vw 0vw 0vw;
+	position:relative;
+	padding:10.5vw 0vw 0vw 0vw;
 	font-family:"Lato";
-	font-size:1.4vw;
+	font-size:1.5vw;
 	font-weight:600;
 	color:#222;
 	letter-spacing:0.75px;
-	width:100%;
-	text-align:left;
+	text-align:center;
 }
 
 .templates .temps .innertemps p {
-	position:absolute;
-	padding:13vw 0vw 0vw 0vw;
+	position:relative;
+	padding:0vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.1vw;
 	letter-spacing:0.2px;
@@ -441,7 +451,7 @@ article {
 	color:#707070;
 	width:27.25em;
 	word-wrap: break-word;
-	text-align:left;
+	text-align:center;
 }
 /*-------------------------------------------------*/
 .policy, .terms {
