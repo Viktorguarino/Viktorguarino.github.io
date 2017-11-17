@@ -67,7 +67,6 @@
                 	<input type="textTwo" name="k" id="searchTwo" placeholder="SÖK" value="<?php echo $_GET['k']; ?>"/>
                     <input class="btnSearchTwo" value="" type="submit"/>
                 </form>
-                <hr>
                 <?php 
 					$k = $_GET['k'];
 					$terms = explode(" ", $k);
