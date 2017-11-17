@@ -235,18 +235,9 @@ article {
 }
 
 .index {
-	height:400px;
+	height:100%;
 	width:100%;
 	background:linear-gradient(#bde7e7 10%, #91d3d4 90%);
-}
-
-.indexcontent {
-	max-width:500px;
-}
-
-.mySlides {
-	width:100%;
-	display:none;
 }
 
 .btnTry {

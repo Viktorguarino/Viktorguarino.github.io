@@ -63,12 +63,7 @@
         </nav>
 		<article>
         	<div class="index">
-         		<div class="indexcontent">
-                	<img class="mySlides" src="Images/logo.png">
-                    <img class="mySlides" src="Images/indeximage.png">
-                    <img class="mySlides" src="Images/Headshot/viktorbild.png">
-                </div>
-                <script type="text/javascript" src="script.js"></script>
+            	<script type="text/javascript" src="script.js"></script>
         	</div>
         </article>
         <footer>
