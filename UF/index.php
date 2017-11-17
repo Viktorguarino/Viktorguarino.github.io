@@ -25,9 +25,9 @@
                     	<a href="index.php"><img src="Images/text.png"></a>
                     </div>
                     <ul class="sidebar-list components">
-                    	<p><a href="Info.php">INFO</a></p>
+                    	<p><a href="index.php">INFO</a></p>
                         <p><a href="Mallar.php">MALLAR</a></p>
-                        <p><a href="#">Dummy Heading</a></p>
+                        <p><a href="Info.php">Dummy Heading</a></p>
                     </ul>
             	</div>
                 <div class="navbar-header">
@@ -40,13 +40,13 @@
         <nav>
         	<ul >
             	<li>
-                    <a href="Info.php">INFO</a>
+                    <a href="index.php">INFO</a>
                 </li>
                 <li>
                 	<a href="Mallar.php">MALLAR</a>
                 </li>
                 <li>
-                    <a href="#">VIDEO</a>
+                    <a href="Info.php">VIDEO</a>
                 </li>
                 <li class="centerimage">
             		<a href="index.php"><img src="Images/text.png" alt="logo"></a>
@@ -61,29 +61,14 @@
                 </li>
         	</ul>
         </nav>
-        <article>
+		<article>
         	<div class="index">
-            	<div class="indexcontent">
-					<h1>WEB CREATOR</h1>
-                    <p>Skapa din egna skräddarsydda websida idag med hjälp av blablablaasdasdsddffdfsdfrsdffs med webblösningasdsdr och marknadsdassadsadssssdsföring!</p>
-                <div class="indexbuttons">
-                	<div class="btncontainer">
-                    	<a href="Info.php">
-                            <div class="btnTry">OM OSS</div>
-                        </a>
-                        <div class="overlay"></div>
-                    </div>
-                    <div class="btncontainer">
-                        <a href="Mallar.php">
-                            <div class="btnTry">MALLAR</div>
-                        </a>
-                        <div class="overlay"></div>
-                    </div>   
+         		<div class="indexcontent">
+                	<img class="mySlides" src="Images/logo.png">
+                    <img class="mySlides" src="Images/indeximage.png">
+                    <img class="mySlides" src="Images/Headshot/viktorbild.png">
                 </div>
-            </div>
-				<div class="indeximges">
-					<img src="Images/indeximage.png" alt="imageindex">
-				</div>
+                <script type="text/javascript" src="script.js"></script>
         	</div>
         </article>
         <footer>
