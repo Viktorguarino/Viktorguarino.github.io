@@ -63,7 +63,26 @@
         </nav>
 		<article>
         	<div class="index">
+  				<div class="slideshow-container">
+					<div class="mySlides">
+						<img src="Images/indeximage.png" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="Images/indeximage.png" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="Images/indeximage.png" style="width:100%">
+					</div>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+					<div class="dots">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+					    <span class="dot" onclick="currentSlide(2)"></span> 
+					    <span class="dot" onclick="currentSlide(3)"></span> 
+					</div>
             	<script type="text/javascript" src="script.js"></script>
+				<div style="width:100%; height: 100px; background-color: aqua;"></div>
         	</div>
         </article>
         <footer>
