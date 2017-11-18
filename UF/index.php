@@ -35,8 +35,7 @@
                 </div>
         	</div>
         	<div class="overlayside"></div>
-        </div> 
-        <script type="text/javascript" src="script.js"></script>
+        </div>
         <nav>
         	<ul >
             	<li>
@@ -65,13 +64,13 @@
         	<div class="index">
   				<div class="slideshow-container">
 					<div class="mySlides">
-						<img src="Images/indeximage.png" style="width:100%">
+						<img src="Images/indeximage.png" style="width:100%; display:block;">
 					</div>
 					<div class="mySlides fade">
-						<img src="Images/indeximage.png" style="width:100%">
+						<img src="Images/indeximage.png" style="width:100%; display:block;">
 					</div>
 					<div class="mySlides fade">
-						<img src="Images/indeximage.png" style="width:100%">
+						<img src="Images/indeximage.png" style="width:100%; display:block;">
 					</div>
 					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 					<a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -81,9 +80,9 @@
 					    <span class="dot" onclick="currentSlide(2)"></span> 
 					    <span class="dot" onclick="currentSlide(3)"></span> 
 					</div>
-            	<script type="text/javascript" src="script.js"></script>
-				<div style="width:100%; height: 100px; background-color: aqua;"></div>
+				<div style="width:100%; height: 20vw; background-color: aqua;"></div>
         	</div>
+            <script type="text/javascript" src="script.js"></script>
         </article>
         <footer>
         	<div class="footerContainer">

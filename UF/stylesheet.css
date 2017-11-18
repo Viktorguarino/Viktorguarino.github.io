@@ -286,7 +286,7 @@ article {
 
 .dot {
     cursor:pointer;
-    height:0.6vh;
+    height:0.5vh;
     width:6vw;
 	margin:0px 1vw 0px 1vw;
     background-color: #bbb;
@@ -294,17 +294,14 @@ article {
     display: inline-block;
     transition: background-color 0.6s ease;
 	text-align: center;
-    top: -40px;
+    top:-40px;
     position: relative;
-	z-index:1000;
+	z-index:1;
 }
 
 .active {
     background-color: #717171;
 }
-
-
-
 
 .btnTry {
 	position:relative;
