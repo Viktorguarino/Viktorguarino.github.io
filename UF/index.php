@@ -10,6 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <title>WebCreator</title>
 </head>
 
@@ -62,26 +63,34 @@
         </nav>
 		<article>
         	<div class="index">
-  				<div class="slideshow-container">
-					<div class="mySlides">
-						<img src="Images/indeximage.png" style="width:100%; display:block;">
-					</div>
-					<div class="mySlides fade">
-						<img src="Images/indeximage.png" style="width:100%; display:block;">
-					</div>
-					<div class="mySlides fade">
-						<img src="Images/indeximage.png" style="width:100%; display:block;">
-					</div>
-					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-					<a class="next" onclick="plusSlides(1)">&#10095;</a>
-				</div>
-					<div class="dots">
-						<span class="dot" onclick="currentSlide(1)"></span> 
-					    <span class="dot" onclick="currentSlide(2)"></span> 
-					    <span class="dot" onclick="currentSlide(3)"></span> 
-					</div>
-				<div style="width:100%; height: 20vw; background-color: aqua;"></div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
         	</div>
+            
             <script type="text/javascript" src="script.js"></script>
         </article>
         <footer>
