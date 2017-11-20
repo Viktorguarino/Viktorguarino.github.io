@@ -10,7 +10,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <title>WebCreator</title>
 </head>
 
@@ -37,6 +36,7 @@
         	</div>
         	<div class="overlayside"></div>
         </div>
+        <script type="text/javascript" src="script.js"></script>
         <nav>
         	<ul >
             	<li>
@@ -65,18 +65,16 @@
         	<div class="index">
 				<div id="slider">
 					<ul id="slideWrap"> 
-						<li style="background-color:red;"></li>
+						<li style="background-color:teal;"><img src="Images/indeximage.png" /></li>
 						<li style="background-color:blue;"></li>
-						<li style="background-color:green;"></li>
-						<li style="background-color:mediumvioletred;"></li>
-						<li style="background-color:greenyellow;"></li>
 				  	</ul>
 				  	<a id="prev" href="#">&#10094;</a>
 				  	<a id="next" href="#">&#10095;</a>
 				</div>
-        	</div>
-            <script type="text/javascript" src="script.js"></script>
+				<div style="width:100%; height:400px; position:relative;"></div>
+			</div>
         </article>
+        
         <footer>
         	<div class="footerContainer">
             	<div class="footerContent">
