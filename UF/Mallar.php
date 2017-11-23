@@ -70,15 +70,16 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div class="tempcontainer">
+						<div class="tempcontainer tempcontainer1">
 							<div class="btncontainer">
 							<a href="Info.php">
-								<div class="btnTry">OM OSS</div>
+								<div class="btnTry btnTry1">DEMO</div>
 							</a>
-							<div class="overlay"></div>
 							</div>
-							<h2>EXEMPEL</h2>
-							<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+                            <div class="containertext">
+								<h2>EXEMPEL</h2>
+								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+                            </div>
 						</div>
 					</div>
 					<div class="innertemps">
@@ -87,15 +88,16 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div class="tempcontainer">
+						<div class="tempcontainer tempcontainer2">
 							<div class="btncontainer">
 							<a href="Info.php">
-								<div class="btnTry">OM OSS</div>
+								<div class="btnTry btnTry2">DEMO</div>
 							</a>
-							<div class="overlay"></div>
 							</div>
-							<h2>EXEMPEL</h2>
-							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+							<div class="containertext">
+								<h2>EXEMPEL</h2>
+								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+                            </div>
 						</div>
 					</div>
 				</div>
@@ -106,15 +108,16 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div class="tempcontainer">
+						<div class="tempcontainer tempcontainer3">
 							<div class="btncontainer">
 							<a href="Info.php">
-								<div class="btnTry">OM OSS</div>
+								<div class="btnTry btnTry3">DEMO</div>
 							</a>
-							<div class="overlay"></div>
 							</div>
-							<h2>EXEMPEL</h2>
-							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+							<div class="containertext">
+								<h2>EXEMPEL</h2>
+								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+                            </div>
 						</div>
 					</div>
 					<div class="innertemps">
@@ -123,15 +126,16 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div class="tempcontainer">
+						<div class="tempcontainer tempcontainer4">
 							<div class="btncontainer">
 							<a href="Info.php">
-								<div class="btnTry">OM OSS</div>
+								<div class="btnTry btnTry4">DEMO</div>
 							</a>
-							<div class="overlay"></div>
 							</div>
-							<h2>EXEMPEL</h2>
-							<p>allah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+							<div class="containertext">
+								<h2>EXEMPEL</h2>
+								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+                            </div>
 						</div>
 					</div>
 				</div>

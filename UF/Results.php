@@ -64,7 +64,7 @@
         <article>
         	<div class="searchingTwo">
             	<form action="Results.php" method="get">
-                	<input type="textTwo" name="k" id="searchTwo" placeholder="SÖK" value="<?php echo $_GET['k']; ?>"/>
+                	<input type="text Two" name="k" id="searchTwo" placeholder="SÖK" value="<?php echo $_GET['k']; ?>"/>
                     <input class="btnSearchTwo" value="" type="submit"/>
                 </form>
                 <?php 
@@ -83,60 +83,7 @@
             		$search = $_GET ['search']; 
 
 					if(!$button)
-					echo "<p>Sorry but we can't find any results if you do not      submit a keyword</p>";
-					else
-					{
-					if(strlen($search)<=1)
-					echo "<p>Sorry but the search term you provided is too short for     us to find any items related.</p> ";
-					else{
-					echo "<p>You searched for <b>$search</b> <hr size='1'></br></p><p>If your site hasn't shown up just visit the Members area and submit it!</p>";
-					mysql_connect("localhost","username","password");
-					mysql_select_db("database");
-
-					$search_exploded = explode (" ", $search);
-
-					foreach($search_exploded as $search_each)
-					{
-					$x++;
-					if($x==1)
-					$construct .="keywords LIKE '%$search_each%'";
-					else
-					$construct .="AND keywords LIKE '%$search_each%'";
-
-					}
-
-					$construct ="SELECT * FROM searchengine WHERE $construct";
-					$run = mysql_query($construct);
-
-					$foundnum = mysql_num_rows($run);
-
-					if ($foundnum==0)
-					echo "<p>Sorry, there are no matching results for     <b>$search</b>.</br></br>1. 
-					Try more general words. for example: If you want to search 'how     to create a website'
-					then use general keyword like 'create' 'website'</br>2. Try different words with similar
-					 meaning</br>3. Please check your spelling.</br>4. If you have any ideas on sites you want to show up submit it to our database.</p>";
-					else
-					{
-					echo "<p>We found $foundnum results!</p>";
-
-					while($runrows = mysql_fetch_assoc($run))
-					{
-					$title = $runrows ['title'];
-					$desc = $runrows ['description'];
-					$url = $runrows ['url'];
-
-					echo "
-					<p><a href='$url'><b>$title</b></a><br>
-					$desc<br>
-					<a href='$url'>$url</a></p>
-
-					";
-
-					}
-					}
-
-					}
-					}
+					echo "<p>Sorry but we can't find any results for <?php echo'$k'?></p>";
 					
 					// anslut
 					/*mysql_connect("localhost", "root", "korvisinibus1", "test");

@@ -63,15 +63,27 @@
         </nav>
 		<article>
         	<div class="index">
-				<div id="slider">
-					<ul id="slideWrap"> 
-						<li style="background-color:teal;"><img src="Images/indeximage.png" /></li>
-						<li style="background-color:blue;"></li>
-				  	</ul>
-				  	<a id="prev" href="#">&#10094;</a>
-				  	<a id="next" href="#">&#10095;</a>
-				</div>
-				<div style="width:100%; height:400px; position:relative;"></div>
+                <div class="slider-holder">
+                    <span id="slider-image-1"></span>
+                    <span id="slider-image-2"></span>
+                    <div class="image-holder">
+                    	<div>
+                            <div>
+                            	<h1 style="position:absolute;">WEBCREATOR</h1>
+                            	<img src="Images/indeximage.png" style="width:100vw;" class="slider-image">
+                            </div>
+                            <div>
+                            	<h1 style="position:absolute;">WEBCREATOR</h1>
+                            	<img src="Images/indeximage.png" style="width:100vw;" class="slider-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-holder">
+                        <a href="#slider-image-1" class="slider-change">&#10094;</a>
+                        <a href="#slider-image-2" class="slider-change">&#10095;</a>
+                    </div>
+            	</div>
+                <div style="height:400px; width:100%; background-color:#fff;"></div>
 			</div>
         </article>
         

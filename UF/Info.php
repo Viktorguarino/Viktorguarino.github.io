@@ -62,7 +62,32 @@
         	</ul>
         </nav>
         <article>
-        	
+        	<div class="inform">
+            	<div class="topinform">
+                	<h1>Bra kvalitet & snabbt</h1>
+                    <p>sdiuof dfsd fds f sdf sd fsd f sdf ds f sdf sad rf dsf dsa f sadf  sdf sd fa sdf a sdf sda f sdfds f das f ds  f sd fd  s  f dsf sdf s fsd</p>
+                </div>
+                <hr style="width:50%; border:solid 1px rgba(0,0,0,0.125)">
+                <div class="iconinform">
+                	<ul>
+                    	<li>
+                        	<img src="Images/Icons/code.png" alt=""/>
+                            <h2>Bra kodning</h2>
+                            <p>dhsaudhai   uhdiuashdi u sasdfdsf sdf sdf dsf sdf sdfiudhasi</p>
+                        </li>
+                        <li>
+                        	<img src="Images/Icons/phone.png" alt=""/>
+                            <h2>Mobil justering</h2>
+                            <p>ddddddddddsaudhai   uhdiuashdi u sasdfdsf sdadf sdf dsf sdf </p>
+                        </li>
+                        <li>
+                        	<img src="Images/Icons/computer.png" alt=""/>
+                            <h2>Unik design</h2>
+                            <p>dhsaudhai   uhdiuashdi u sasdfdsf sdf sdf dsf sdf sdfiudhasi</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </article>
         <footer>
         	<div class="footerContainer">

@@ -68,7 +68,7 @@
                     	<div class="cirlce"><img src="Images/Headshot/simonbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Simon Måtegen</p>
-                            <p><span><i>Verkställande Direktör - Webbassistent</i></span></p>
+                            <p><span><i>Verkställande Direktör</i></span></p>
                             <br>
                             <p><span>+46 763 469 126</span></p>
                             <p><span>simon.mategen@gmail.com</span></p>
@@ -79,7 +79,7 @@
                     	<div class="cirlce"><img src="Images/Headshot/viktorbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Viktor Guarino</p>
-                            <p><span><i>IT-direktör - Webmaster</i></span></p>
+                            <p><span><i>IT-direktör</i></span></p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
                             <p><span>guarino.viktor@hotmail.it</span></p>
@@ -90,7 +90,7 @@
                     	<div class="cirlce"><img src="Images/Headshot/jonathanbild.png"></div>
                         <div class="contactinfo"> 
                             <p>Jonathan Zander</p>
-                            <p><span><i>Finansdirektör - Webbassistent</i></span></p>
+                            <p><span><i>Finansdirektör</i></span></p>
                             <br>
                             <p><span>+46 724 320 071</span></p>
                             <p><span>pelle9900@hotmail.com</span></p>
@@ -101,20 +101,20 @@
             </div>
             <div id="panel">
             <?php
-$name = $_POST['name'];
-$lastname = $_POST['lastname'];
-$email = $_POST['email'];
-$comments = $_POST['comments'];
-
-$to = "webcreator.help@hotmail.com";
-$subject = "Nytt medelande";
-
-mail ($to, $subject, $comments, "Från: " . $name . $lastname);
-?>          
+			$name = $_POST['name'];
+			$lastname = $_POST['lastname'];
+			$email = $_POST['email'];
+			$comments = $_POST['comments'];
+			
+			$to = "webcreator.help@hotmail.com";
+			$subject = "Nytt medelande";
+			
+			mail ($to, $subject, $comments, "Från: " . $name . $lastname);
+			?>          
             	<form method="post"> 
-                    <input type="contacttext" placeholder="Namn" name="name" required pattern="[a-zA-2] {3,15}$"/>
-                    <input type="contacttext" placeholder="Efternamn" name="lastname" required pattern="[a-zA-2] {3,15}$"/> 
-                    <input type="contacttext" placeholder="E-mail" name="email" />
+                    <input type="text Three" class="textcont" placeholder="Namn" name="name" required pattern="[a-zA-2] {3,15}$"/>
+                    <input type="text Three" class="textcont" placeholder="Efternamn" name="lastname" required pattern="[a-zA-2] {3,15}$"/> 
+                    <input type="text Three" class="textcont" placeholder="E-mail" name="email" />
                     <textarea name="comments" placeholder="Medelande" rows="10" cols="20"></textarea>
                     <br />
                     <div>

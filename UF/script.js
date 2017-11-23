@@ -113,11 +113,61 @@ var responsiveSlider = function() {
   prev.addEventListener("click", function() {
     prevSlide();
   });
-  
-
-
 };
 
 window.onload = function() {
   responsiveSlider();  
 }
+
+$(function() {
+  $('.tempcontainer1').hover(function() {
+    $('.btnTry1').css('visibility', 'visible');
+	$('.tempcontainer1').css('background-color', 'rgba(255,255,255,0.1)');
+  }, function() {
+	  
+
+    // on mouseout, reset the background colour
+   $('.tempcontainer1').css('background-color', '');
+   $('.btnTry1').css('visibility', 'hidden');
+   
+  });
+});
+
+$(function() {
+  $('.tempcontainer2').hover(function() {
+    $('.btnTry2').css('visibility', 'visible');
+	$('.tempcontainer2').css('background-color', 'rgba(255,255,255,0.1)');
+  }, function() {
+	  
+
+    // on mouseout, reset the background colour
+   $('.tempcontainer2').css('background-color', '');
+   $('.btnTry2').css('visibility', 'hidden');
+  });
+});
+
+$(function() {
+  $('.tempcontainer3').hover(function() {
+    $('.btnTry3').css('visibility', 'visible');
+	$('.tempcontainer3').css('background-color', 'rgba(255,255,255,0.1)');
+  }, function() {
+	  
+
+    // on mouseout, reset the background colour
+   $('.tempcontainer3').css('background-color', '');
+   $('.btnTry3').css('visibility', 'hidden');
+  });
+});
+
+$(function() {
+  $('.tempcontainer4').hover(function() {
+    $('.btnTry4').css('visibility', 'visible');
+	$('.tempcontainer4').css('background-color', 'rgba(255,255,255,0.1)');
+  }, function() {
+	  
+
+    // on mouseout, reset the background colour
+   $('.tempcontainer4').css('background-color', '');
+   $('.btnTry4').css('visibility', 'hidden'); 
+  });
+});
