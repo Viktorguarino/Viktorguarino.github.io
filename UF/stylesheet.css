@@ -502,6 +502,28 @@ article {
   width:60%;
   height:275px;
   margin:35px auto 35px auto;
+  overflow:hidden;
+}
+
+.contact ol li:nth-child(1) {
+	-webkit-animation-name:slide2;
+    -webkit-animation-duration:0.5s;
+    animation-name:slide2;
+    animation-duration:0.5s;
+}
+
+.contact ol li:nth-child(2) {
+	-webkit-animation-name:slide3;
+    -webkit-animation-duration:1s;
+    animation-name:slide3;
+    animation-duration:1s;
+}
+
+.contact ol li:nth-child(3) {
+	-webkit-animation-name:slide4;
+    -webkit-animation-duration:1.5s;
+    animation-name:slide4;
+    animation-duration:1.5s;
 }
 
 .cirlce {
@@ -729,6 +751,22 @@ input.textcont {
    0%   {opacity:0; top:0%;}
    100% {opacity:1; top:50%;}
 }
+
+@keyframes slide2 {
+   0%   {opacity:0; margin:-20% auto 20% auto;}
+   100% {opacity:1; margin:35px auto 35px auto;}
+}
+
+@keyframes slide3 {
+   0%   {opacity:0; margin:-40% auto 40% auto;}
+   100% {opacity:1; margin:35px auto 35px auto;}
+}
+
+@keyframes slide4 {
+   0%   {opacity:0; margin:-60% auto 60% auto;}
+   100% {opacity:1; margin:35px auto 35px auto;}
+}
+
 /*----------------------------------------------------------------------------------------------------*/
 
 footer {
