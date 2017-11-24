@@ -398,10 +398,6 @@ article {
 	border-top:solid 1px #C4C4C4;
 }
 
-/*.templates .temps .innertemps a {
-	top:1727%;
-}*/
-
 .templates .temps .innertemps a div:hover {
 	color: antiquewhite;
 }
@@ -442,7 +438,7 @@ article {
 	font-family:"Lato";
 	font-size:1.1vw;
 	letter-spacing:0.2px;
-	font-weight:400;
+	font-weight:300;
 	color:#707070;
 	width:27.25em;
 	word-wrap: break-word;
@@ -651,7 +647,40 @@ input.textcont {
 .topinform {
 	width:100%;
 	height:400px;
-	background-color:rgba(163,167,205,1.00);
+}
+
+.topinform ul {
+	width:80%;
+	position:relative;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	top:50%;
+  	transform:translateY(-50%);
+	text-align:center;
+}
+
+.topinform li {
+	text-align:-webkit-center;
+}
+
+.topinform h1 {
+	font-family:"Lato";
+	font-size:1.8em;
+	padding:20px 0;
+	width:60%;
+	line-height:40px;
+	font-weight:400;
+}
+
+.topinform p {
+	font-family:"Lato";
+	font-size:1.1em;
+	width:inherit;
+	width:55%;
+	font-weight:200;
+	line-height:25px;
+	color:#767676;
 }
 
 .iconinform {
@@ -660,7 +689,7 @@ input.textcont {
 }
 
 .iconinform ul {
-	padding:0;
+	padding:60px;
 	margin:0 auto;
 	position:relative;
 	text-align:center;
@@ -682,13 +711,14 @@ input.textcont {
 }
 
 .iconinform p {
-	width:10vw;
+	width:11vw;
 	height:100px;
-	word-break:break-all;
+	word-break:break-word;
 	margin:0 auto;
     font-size:18px;
     font-family:"Lato";
     padding:10px;
+	color:#767676;
 }
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -825,15 +855,32 @@ nav ul li:nth-child(-n+3) {
 	
 nav ul li:nth-child(5) {
 	padding:0px 3.5vw 0px 0px;
-	left:-5%;
+	left:0;
 	float:right;
 }
 
-.searching {
-	width:60%;
-	left:50%;
+input[type=text] {
+	top:18px;
+	vertical-align: middle;
+	width:25px;
+	height:25px;
+	color:transparent;
+    box-sizing:border-box;
+	list-style-type:none;
+	border:none;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	margin-left:5%;
+	padding:0;
+	position:absolute;
+	z-index:99;
+	font-size:12px;
+	font-family:"LatoBlack";
+	background:url(Images/searchlens.png) no-repeat;
+	background-size:contain;
+	font-weight:600;
+	letter-spacing:0.65px;
 }
-
 /*-------------------------------------------------*/
 
 .cirlce {
@@ -942,6 +989,45 @@ nav ul li:nth-child(5) {
 	float:left;
 	padding:0;
 	margin:0px 3px 0px 3px;
+}
+
+.topinform {
+	width:100%;
+	height:500px;
+}
+
+.topinform ul {
+	width:90%;
+	position:relative;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	top:50%;
+  	transform:translateY(-50%);
+	text-align:center;
+}
+
+.topinform li {
+	text-align:-webkit-center;
+}
+
+.topinform h1 {
+	font-family:"Lato";
+	font-size:1.5em;
+	padding:20px 0;
+	width:80%;
+	line-height:35px;
+	font-weight:400;
+}
+
+.topinform p {
+	font-family:"Lato";
+	font-size:0.9em;
+	width:inherit;
+	width:80%;
+	font-weight:200;
+	line-height:20px;
+	color:#767676;
 }
 
 /* ---------------------------------------------------
@@ -1224,7 +1310,7 @@ a.article, a.article:hover {
 
 .iconinform p {
 	width:fit-content;
-	word-break:break-all;
+	word-break:break-word;
 	margin:0 auto;
     font-size: 18px;
     font-family:"Lato";

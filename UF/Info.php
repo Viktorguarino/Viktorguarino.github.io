@@ -26,8 +26,8 @@
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="index.php">INFO</a></p>
-                        <p><a href="Mallar.php">MALLAR</a></p>
-                        <p><a href="Info.php">Dummy Heading</a></p>
+                        <p><a href="Mallar.php">IDÉER</a></p>
+                        <p><a href="Info.php">OM FÖRETAGET</a></p>
                     </ul>
             	</div>
                 <div class="navbar-header">
@@ -43,10 +43,10 @@
                     <a href="index.php">INFO</a>
                 </li>
                 <li>
-                	<a href="Mallar.php">MALLAR</a>
+                	<a href="Mallar.php">IDÉER</a>
                 </li>
                 <li>
-                    <a href="Info.php">VIDEO</a>
+                    <a href="Info.php">OM FÖRETAGET</a>
                 </li>
                 <li class="centerimage">
             		<a href="index.php"><img src="Images/text.png" alt="logo"></a>
@@ -64,26 +64,32 @@
         <article>
         	<div class="inform">
             	<div class="topinform">
-                	<h1>Bra kvalitet & snabbt</h1>
-                    <p>sdiuof dfsd fds f sdf sd fsd f sdf ds f sdf sad rf dsf dsa f sadf  sdf sd fa sdf a sdf sda f sdfds f das f ds  f sd fd  s  f dsf sdf s fsd</p>
+                	<ul>
+                    	<li>
+                			<h1>WebCreator gör unika websidor för att hjälpa företag med kreativa affärsidéer att bli framgångsrika.</h1>
+                        </li>
+                        <li>    
+                    		<p>Vår service kommer att tillåta vem som helst — från helt vanliga individer till egenföretagare som växer deras småföretag till mycket större företag — att växa deras företag till bättre, större och mer framgångsrika för att nå en större kundbas.</p>
+                        </li>
+                    </ul>
                 </div>
-                <hr style="width:50%; border:solid 1px rgba(0,0,0,0.125)">
+                <hr style="width:60%; border:solid 1px rgba(0,0,0,0.125)">
                 <div class="iconinform">
                 	<ul>
                     	<li>
                         	<img src="Images/Icons/code.png" alt=""/>
                             <h2>Bra kodning</h2>
-                            <p>dhsaudhai   uhdiuashdi u sasdfdsf sdf sdf dsf sdf sdfiudhasi</p>
+                            <p>HTML, CSS, JS samt C# är bara några av många språk vi kan. Kort sagt är väldigt lite vi inte kan göra.</p>
                         </li>
                         <li>
                         	<img src="Images/Icons/phone.png" alt=""/>
-                            <h2>Mobil justering</h2>
-                            <p>ddddddddddsaudhai   uhdiuashdi u sasdfdsf sdadf sdf dsf sdf </p>
+                            <h2>Responsiv</h2>
+                            <p>Våra webbsidor är mobilanpassade och de anpassas automatiskt till alla elektroniska enheter.</p>
                         </li>
                         <li>
                         	<img src="Images/Icons/computer.png" alt=""/>
                             <h2>Unik design</h2>
-                            <p>dhsaudhai   uhdiuashdi u sasdfdsf sdf sdf dsf sdf sdfiudhasi</p>
+                            <p>Varje webbsida görs från början. De skräddarsys efter eget tycke och är på så vis helt unika.</p>
                         </li>
                     </ul>
                 </div>
