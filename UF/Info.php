@@ -69,7 +69,7 @@
                 			<h1>WebCreator gör unika websidor för att hjälpa företag med kreativa affärsidéer att bli framgångsrika.</h1>
                         </li>
                         <li>    
-                    		<p>Vår service kommer att tillåta vem som helst — från helt vanliga individer till egenföretagare som växer deras småföretag till mycket större företag — att växa deras företag till bättre, större och mer framgångsrika för att nå en större kundbas.</p>
+                    		<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
                         </li>
                     </ul>
                 </div>
@@ -79,7 +79,7 @@
                     	<li>
                         	<img src="Images/Icons/code.png" alt=""/>
                             <h2>Bra kodning</h2>
-                            <p>HTML, CSS, JS samt C# är bara några av många språk vi kan. Kort sagt är väldigt lite vi inte kan göra.</p>
+                            <p>HTML, CSS, JS samt C# är bara några av många språk vi kan. Kort sagt finns det väldigt lite vi inte kan göra.</p>
                         </li>
                         <li>
                         	<img src="Images/Icons/phone.png" alt=""/>

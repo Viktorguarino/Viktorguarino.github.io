@@ -658,6 +658,10 @@ input.textcont {
 	top:50%;
   	transform:translateY(-50%);
 	text-align:center;
+	-webkit-animation-name:slide1;
+    -webkit-animation-duration:1s;
+    animation-name:slide1;
+    animation-duration:1s;
 }
 
 .topinform li {
@@ -689,7 +693,7 @@ input.textcont {
 }
 
 .iconinform ul {
-	padding:60px;
+	padding:50px 0px 0px 0px;
 	margin:0 auto;
 	position:relative;
 	text-align:center;
@@ -711,7 +715,7 @@ input.textcont {
 }
 
 .iconinform p {
-	width:11vw;
+	width:13vw;
 	height:100px;
 	word-break:break-word;
 	margin:0 auto;
@@ -719,6 +723,11 @@ input.textcont {
     font-family:"Lato";
     padding:10px;
 	color:#767676;
+}
+
+@keyframes slide1 {
+   0%   {opacity:0; top:0%;}
+   100% {opacity:1; top:50%;}
 }
 /*----------------------------------------------------------------------------------------------------*/
 
