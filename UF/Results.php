@@ -83,7 +83,8 @@
             		$search = $_GET ['search']; 
 
 					if(!$button)
-					echo "<p>Sorry but we can't find any results for <?php echo'$k'?></p>";
+					echo '<br />';
+					echo 'Inga resultat hittades för: ' . htmlspecialchars($_GET['k']) . '.';
 					
 					// anslut
 					/*mysql_connect("localhost", "root", "korvisinibus1", "test");

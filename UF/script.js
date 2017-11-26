@@ -68,56 +68,40 @@ $(document).ready(function(){
     });
 });
 
-var responsiveSlider = function() {
+$(function() {
 
-  var slider = document.getElementById("slider");
-  var sliderWidth = slider.offsetWidth;
-  var slideList = document.getElementById("slideWrap");
-  var count = 1;
-  var items = slideList.querySelectorAll("li").length;
-  var prev = document.getElementById("prev");
-  var next = document.getElementById("next");
+  var inWrap = $('.inner-wrapper');
 
-  window.addEventListener('resize', function() {
-    sliderWidth = slider.offsetWidth;
+  $('.prev').on('click', function() {
+
+    inWrap.animate({left: '0%'}, 300, function(){
+
+      inWrap.css('left', '-100%');
+
+      $('.slide').first().before($('.slide').last());
+
+    });
+
+
   });
 
-  var prevSlide = function() {
-    if(count > 1) {
-      count = count - 2;
-      slideList.style.left = "-" + count * sliderWidth + "px";
-      count++;
-    }
-    else if(count = 1) {
-      count = items - 1;
-      slideList.style.left = "-" + count * sliderWidth + "px";
-      count++;
-    }
-  };
 
-  var nextSlide = function() {
-    if(count < items) {
-      slideList.style.left = "-" + count * sliderWidth + "px";
-      count++;
-    }
-    else if(count = items) {
-      slideList.style.left = "0px";
-      count = 1;
-    }
-  };
-  
-  next.addEventListener("click", function() {
-    nextSlide();
+
+  $('.next').on('click', function() {
+
+    inWrap.animate({left: '-200%'}, 300, function(){
+
+      inWrap.css('left', '-100%');
+
+      $('.slide').last().after($('.slide').first());
+
+    });
+
+
   });
 
-  prev.addEventListener("click", function() {
-    prevSlide();
-  });
-};
 
-window.onload = function() {
-  responsiveSlider();  
-}
+})
 
 $(function() {
   $('.tempcontainer1').hover(function() {

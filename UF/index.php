@@ -63,27 +63,26 @@
         </nav>
 		<article>
         	<div class="index">
-                <div class="slider-holder">
-                    <span id="slider-image-1"></span>
-                    <span id="slider-image-2"></span>
-                    <div class="image-holder">
-                    	<div>
-                            <div>
-                            	<h1 style="position:absolute;">WEBCREATOR</h1>
-                            	<img src="Images/indeximage.png" style="width:100vw;" class="slider-image">
+                <div class="container">           
+                    <div class="slider-wrapper">
+                    	<div class="inner-wrapper">
+                        	<div class="slide">
+                                <h1 style="position:absolute; top:10px;">TEST1</h1>
+                                <div style="background:#E54B4B; height:100%;"><img src="Images/indeximage.png" style="width:100%;position:relative;"></div>
                             </div>
-                            <div>
-                            	<h1 style="position:absolute;">WEBCREATOR</h1>
-                            	<img src="Images/indeximage.png" style="width:100vw;" class="slider-image">
+                            	<div class="slide">
+                                <h1 style="position:absolute; top:10px;">TEST2</h1>
+                                <div style="background:#35AC4E;; height:100%;"><img src="Images/indeximage.png" style="width:100%;position:relative;"></div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="button-holder">
-                        <a href="#slider-image-1" class="slider-change">&#10094;</a>
-                        <a href="#slider-image-2" class="slider-change">&#10095;</a>
-                    </div>
-            	</div>
-                <div style="height:400px; width:100%; background-color:#fff;"></div>
+                            	<div class="slide">
+                                <h1 style="position:absolute; top:10px;">TEST3</h1>
+                                <div style="background:#B44AB0; height:100%;"><img src="Images/indeximage.png" style="width:100%;position:relative;"></div>
+                            </div>
+                      	</div>
+                    </div>               
+                    <div class="button prev">&#8249;</div>
+                    <div class="button next">&#8250;</div>                        
+              </div>
 			</div>
         </article>
         
