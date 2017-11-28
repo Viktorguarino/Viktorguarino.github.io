@@ -126,7 +126,7 @@
 							</a>
 							</div>
 							<div class="containertext">
-								<h2></h2>
+								<h2>BLOGG</h2>
 								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
                             </div>
 						</div>
@@ -144,7 +144,7 @@
 							</a>
 							</div>
 							<div class="containertext">
-								<h2>EXEMPEL</h2>
+								<h2>SPORT</h2>
 								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
                             </div>
 						</div>

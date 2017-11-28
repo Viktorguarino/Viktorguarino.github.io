@@ -235,14 +235,13 @@ article {
 
 .index {
 	width:100%;
-	background:linear-gradient(#bde7e7 10%, #91d3d4 90%);
 }
 
 .container {
   	display: flex;
   	justify-content: center;
   	align-items: center;
-  	height:47vw;
+  	height:42.5vw;
 }
 
 .slider-wrapper {
@@ -270,14 +269,37 @@ article {
   	align-items: center;
 }
 
+.slide h1 {
+	z-index:1;
+	position:absolute;
+	padding:0;
+	-webkit-transform: translate3d(0, 0, 0);
+ transform: translate3d(0, 0, 0);
+}
+
+.slideimg {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.slideimg img {
+	position:absolute;
+	height:100%;
+	width:auto;
+	left:50%;
+	transform:translate(-50%, 0%);
+}
+
 .button {
-  	width:5vw;
-  	height:auto;
+  	width:15vw;
+    padding:25% 0px 25% 0px;
   	font-size:70px;
   	position:absolute;
   	text-align:center;
-  	color:#fff;
+	color:transparent;
   	cursor:pointer;
+	transition:.3s ease-in-out;
   	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
@@ -285,12 +307,20 @@ article {
 	user-select: none;
 }
 
+.button:hover {
+	 color:#fff;
+}
+
 .prev {
-  	left:1.5%;
+  	left:0;
+	padding-left:25px;
+	text-align:left;
 }
 
 .next {
-  	right:1.5%;
+  	right:0;
+	padding-right:25px;
+	text-align:right;
 }
 
 .btnTry {
@@ -1137,14 +1167,16 @@ input[type=text] {
 #sidebar ul p a {
     color:#000;
 	text-decoration:none;
-	font-weight:600;
+	font-weight:500;
+    font-family:"Lato";
 	transition:.3s ease-in-out;
 	letter-spacing:0.25px;
+	transition:.3s ease-in-out;
     padding:10px;
 }
 
 #sidebar ul p a:hover {
-	color:#868686;
+	color:#e94335;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {

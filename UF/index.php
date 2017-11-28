@@ -67,16 +67,16 @@
                     <div class="slider-wrapper">
                     	<div class="inner-wrapper">
                         	<div class="slide">
-                                <h1 style="position:absolute; top:10px;">TEST1</h1>
-                                <div style="background:#E54B4B; height:100%;"><img src="Images/indeximage.png" style="width:100%;position:relative;"></div>
+                                <h1>TEST1</h1>
+                                <div class="slideimg" style="background:#E54B4B;"><img src="Images/Pics/indeximage.png"></div>
                             </div>
                             	<div class="slide">
-                                <h1 style="position:absolute; top:10px;">TEST2</h1>
-                                <div style="background:#35AC4E;; height:100%;"><img src="Images/indeximage.png" style="width:100%;position:relative;"></div>
+                                <h1>TEST2</h1>
+                                <div class="slideimg" style="background:#35AC4E;"><img src="Images/Pics/indeximage.png"></div>
                             </div>
                             	<div class="slide">
-                                <h1 style="position:absolute; top:10px;">TEST3</h1>
-                                <div style="background:#B44AB0; height:100%;"><img src="Images/indeximage.png" style="width:100%;position:relative;"></div>
+                                <h1 style="margin: -1.5% 0% 0% -5.5%;font-size:7.5vw;">MALLAR</h1>
+                                <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
                             </div>
                       	</div>
                     </div>               
