@@ -63,6 +63,17 @@
         </nav>
         <article>
         	<div class="templates">
+        	<div class="topinform">
+                	<ul>
+                    	<li>
+                		<h1>Här finner du olika idéer som du kan inspirera din webbsidas utseende. Ändringar görs av oss efter ditt egna tycke.</h1>
+                        </li>
+                        <li>    
+                    		<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
+                        </li>
+                    </ul>
+                </div>
+                <hr style="width:60%; border:solid 1px rgba(0,0,0,0.125)">
 				<div class="temps">
 					<div class="innertemps">
 						<div class="circles">
@@ -77,7 +88,7 @@
 							</a>
 							</div>
                             <div class="containertext">
-								<h2>EXEMPEL</h2>
+								<h2>FÖRETAG</h2>
 								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
                             </div>
 						</div>
@@ -95,7 +106,7 @@
 							</a>
 							</div>
 							<div class="containertext">
-								<h2>EXEMPEL</h2>
+								<h2>AFFÄR</h2>
 								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
                             </div>
 						</div>
@@ -115,7 +126,7 @@
 							</a>
 							</div>
 							<div class="containertext">
-								<h2>EXEMPEL</h2>
+								<h2></h2>
 								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
                             </div>
 						</div>
