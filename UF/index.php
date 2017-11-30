@@ -68,11 +68,11 @@
                     	<div class="inner-wrapper">
                         	<div class="slide">
                                 <h1>TEST1</h1>
-                                <div class="slideimg" style="background:#E54B4B;"><img src="Images/Pics/indeximage.png"></div>
+                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
                             </div>
                             	<div class="slide">
                                 <h1>TEST2</h1>
-                                <div class="slideimg" style="background:#35AC4E;"><img src="Images/Pics/indeximage.png"></div>
+                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
                             </div>
                             	<div class="slide">
                                 <h1 style="margin: -1.5% 0% 0% -5.5%;font-size:7.5vw;">MALLAR</h1>
@@ -82,7 +82,20 @@
                     </div>               
                     <div class="button prev">&#8249;</div>
                     <div class="button next">&#8250;</div>                        
-              </div>
+              	</div>
+				<div class="topinform">
+                	<ul>
+                    	<li>
+                			<h1>WebCreator</h1>
+                        </li>
+                        <li>    
+                    		<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
+                        </li>
+                    </ul>
+                </div>
+				<div style="width:100%; height:400px; background-color: rgba(228,228,228,1.00)">
+					
+				</div>
 			</div>
         </article>
         
