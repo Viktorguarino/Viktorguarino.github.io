@@ -155,3 +155,15 @@ $(function() {
    $('.btnTry4').css('visibility', 'hidden'); 
   });
 });
+
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 100) 
+	{
+		$('.innerinfo').fadeIn(0);
+	}
+	else 
+	{
+		$('.innerinfo').style.display = "block";	
+	}
+	});

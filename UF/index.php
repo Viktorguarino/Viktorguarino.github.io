@@ -36,7 +36,6 @@
         	</div>
         	<div class="overlayside"></div>
         </div>
-        <script type="text/javascript" src="script.js"></script>
         <nav>
         	<ul >
             	<li>
@@ -83,20 +82,25 @@
                     <div class="button prev">&#8249;</div>
                     <div class="button next">&#8250;</div>                        
               	</div>
-				<div class="topinform">
-                	<ul>
-                    	<li>
-                			<h1>WebCreator</h1>
-                        </li>
-                        <li>    
-                    		<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
-                        </li>
-                    </ul>
+                
+                
+				<div class="information">
+                	<div class="innerinfo">
+                        <ul>
+                            <li>
+                                <h1>WebCreator</h1>
+                            </li>
+                            <li>
+                                <p>vi är den mestr jdsfojsdpf pdsajf opijdsfipo asd aw dasd asd a dads as das djdsipo fjipdsj foipjdsfo ijdsoifjdsoi fsjjsdf osjdoif asf as das daej</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 				<div style="width:100%; height:400px; background-color: rgba(228,228,228,1.00)">
 					
 				</div>
 			</div>
+            <script type="text/javascript" src="script.js"></script>
         </article>
         
         <footer>
