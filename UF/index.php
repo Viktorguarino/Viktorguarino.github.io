@@ -65,17 +65,25 @@
                 <div class="container">           
                     <div class="slider-wrapper">
                     	<div class="inner-wrapper">
-                        	<div class="slide">
-                                <h1>TEST1</h1>
-                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
-                            </div>
-                            	<div class="slide">
-                                <h1>TEST2</h1>
-                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
-                            </div>
-                            	<div class="slide">
-                                <h1 style="margin: -1.5% 0% 0% -5.5%;font-size:7.5vw;">MALLAR</h1>
+                        	 <div class="slide">
+                                <h1>MALLAR</h1>
                                 <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
+                            </div>
+                            <div class="slide">
+                                <h1>LÄS OM VÅRT MÅL HOSS WEBCREATOR</h1>
+                                <p>Läs mer om WebCreator.</p>
+                                <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
+                            </div>
+                             <div class="slide">
+                                <h1>MALLAR</h1>
+                                <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
+                            </div>
+                            <div class="slide">
+                                <h1>LÄS OM VÅRT MÅL HOSS WEBCREATOR</h1>
+                                <p>Läs mer om WebCreator.</p>
+                                <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
                             </div>
                       	</div>
                     </div>               
