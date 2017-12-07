@@ -70,20 +70,24 @@
                                 <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
                             </div>
                             <div class="slide">
-                                <h1>LÄS OM VÅRT MÅL HOSS WEBCREATOR</h1>
-                                <p>Läs mer om WebCreator.</p>
+                                <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
+                                <br>
+                                <span>Vi bygger din egna drömm webbsida.</span>
+                                </h1>
                                 <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
-                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
+                                <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
                              <div class="slide">
                                 <h1>MALLAR</h1>
                                 <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
                             </div>
                             <div class="slide">
-                                <h1>LÄS OM VÅRT MÅL HOSS WEBCREATOR</h1>
-                                <p>Läs mer om WebCreator.</p>
+                                <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
+                                <br>
+                                <span>Vi bygger din egna drömm webbsida.</span>
+                                </h1>
                                 <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
-                                <div class="slideimg"><img src="Images/Pics/indeximage.png"></div>
+                                <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
                       	</div>
                     </div>               

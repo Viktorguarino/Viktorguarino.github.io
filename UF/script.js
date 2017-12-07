@@ -158,7 +158,7 @@ $(function() {
 
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= 220) 
+    if ($(this).scrollTop() >= 100) 
 	{
 		$('.innerinfo').fadeIn(0);
 	}

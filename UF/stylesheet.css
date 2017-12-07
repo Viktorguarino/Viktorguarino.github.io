@@ -235,13 +235,17 @@ article {
 
 .index {
 	width:100%;
+	-webkit-animation-name:droptop;
+    -webkit-animation-duration:2s;
+    animation-name:droptop;
+    animation-duration:2s;
 }
 
 .container {
   	display: flex;
   	justify-content: center;
   	align-items: center;
-  	height:44vw;
+  	height:100%;
 }
 
 .slider-wrapper {
@@ -260,7 +264,7 @@ article {
 
 .slide {
   	width: calc(100% / 5);
-  	height: 100%;
+  	height:700px;
   	float: left;
   	font-size: 100px;
   	color: black;
@@ -275,13 +279,15 @@ article {
 }
 
 .slide h1:nth-child(odd) {
-	top:9%;
-	padding-right:10%;
+	top:130px;
+	transform:translate(0%, 130px);
 	position:absolute;
 	line-height:110%;
-	font-size:3.25vw;
+	text-align:center;
+	font-size:50px;
 	font-weight:900;
-	font-family:"Lato";
+	letter-spacing:1px;
+	font-family:"LatoBlack";
 	width:40vw;
 }
 
@@ -290,33 +296,40 @@ article {
 	font-size:7.5vw;"
 }
 
-.slide p {
-	top:25%;
-	padding-right:15.2%;
-	position:absolute;
-	font-size:1.25vw;
-	font-weight:600;
+.slide h1 span {
+	font-size:22px;
+	font-weight:500;
+	letter-spacing:0.5px;
+	margin:0 auto;
+	text-align:center;
 	font-family:"Lato";
+}
+
+.btnInfo {
+	width:100%;
 	position:absolute;
+	margin:0 auto;
 }
 
 .btnInfo a {
 	position:absolute;
-    width:2%;
-    height:1.7vw;
+    width:200px;
+    height:38px;
+	line-height:38px;
     border: 3px solid #000;
     border-radius: 8px;
     cursor: pointer;
-    line-height:1.7vw;
     vertical-align: middle;
-    margin:-1% 0% 0% 1%;
+    left:50%;
+	transform:translate(-50%, 0%);
     font-family: "Lato";
     font-weight: bolder;
 	color:#000;
 	text-decoration:none;
-    font-size:1.2vw;
+    font-size:23px;
     padding:5px 0px 5px 0px;
     text-align: center;
+	top:135px;
     transition: 0.3s ease-in-out;
 	z-index:1;
 }
@@ -332,8 +345,9 @@ article {
 	position: relative;
 	background: 
     linear-gradient(
-      rgba(44, 145, 222, 0.8), 
-      rgba(44, 145, 222, 0.8)
+    	145deg,
+		rgba(100,70,135,0.75) 0%,
+		rgba(35,135,170,0.75) 100%
     ),
     url(Images/Pics/clouds.png);
 	background-position:center;
@@ -343,15 +357,21 @@ article {
 
 .slideimg img {
 	position:absolute;
-	height:100%;
+	height:140px;
 	width:auto;
 	left:50%;
-	transform:translate(-50%, 0%);
+	top:40px;
+	transform:translate(-50%, 40px);
 }
 
 @-webkit-keyframes swing {
 	0% {opacity:0; left:0%; transform:translate(-15%, 0%); overflow:hidden;}
 	100% {opacity:1; left:50%; transform:translate(0%, 0%); overflow:hidden;}
+}
+
+@-webkit-keyframes droptop {
+	0% {opacity:0; top:0%; transform:translate(0%, -5%); overflow:hidden;}
+	100% {opacity:1; top:0%; transform:translate(0%, 0%); overflow:hidden;}
 }
 
 .information {
@@ -1026,28 +1046,25 @@ input[type=text] {
 
 .btnInfo a {
 	position:absolute;
-    width:3%;
-    height:2.7vw;
-    border:3px solid #000;
+    width:200px;
+    height:38px;
+	line-height:38px;
+    border: 3px solid #000;
     border-radius: 8px;
     cursor: pointer;
-    line-height:2.7vw;
     vertical-align: middle;
-    margin:-1% 0% 0% 2%;
+    left:50%;
+	transform:translate(-50%, 0%);
     font-family: "Lato";
     font-weight: bolder;
 	color:#000;
 	text-decoration:none;
-    font-size:1.7vw;
+    font-size:23px;
     padding:5px 0px 5px 0px;
     text-align: center;
+	top:210px;
     transition: 0.3s ease-in-out;
 	z-index:1;
-}
-
-.btnInfo a:hover {
-	color: #FFF;
-    background-color: #000;
 }
 
 .information li p {
@@ -1517,6 +1534,26 @@ a.article, a.article:hover {
 .iconinform ul li {
 	display:inline-block;
 	padding:2vw 2vw;
+}
+
+.slide {
+  	height:800px;
+}
+
+.slide h1 span {
+	font-size:18px;
+}
+
+.slide h1:nth-child(odd) {
+	top:130px;
+	transform:translate(0%, 130px);
+	position:absolute;
+	line-height:110%;
+	text-align:center;
+	font-size:45px;
+	font-weight:900;
+	font-family:"LatoBlack";
+	width:75vw;
 }
 /*---------------------------------------------------*/
 
