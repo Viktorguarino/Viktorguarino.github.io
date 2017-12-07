@@ -72,7 +72,7 @@
                             <div class="slide">
                                 <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
                                 <br>
-                                <span>Vi bygger din egna drömm webbsida.</span>
+                                <span>Vi bygger din egna drömmsida.</span>
                                 </h1>
                                 <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
                                 <div class="slideimg"><img src="Images/logo.png"></div>
@@ -84,7 +84,7 @@
                             <div class="slide">
                                 <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
                                 <br>
-                                <span>Vi bygger din egna drömm webbsida.</span>
+                                <span>Vi bygger din egna drömmsida.</span>
                                 </h1>
                                 <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
                                 <div class="slideimg"><img src="Images/logo.png"></div>
@@ -100,10 +100,17 @@
                 	<div class="innerinfo">
                         <ul>
                             <li>
-                                <h1>WebCreator</h1>
+                            	<ul>
+                                	<li style="text-align:left;">
+                                        <h1>WebCreator</h1>
+                                    </li>
+                                    <li style="text-align:left;">
+                                        <p>vi är den mestr jdsfojsdpf pdsajf opijdsfipo asd aw dasd asd a dads as das djdsipo fjipdsj foipjdsfo ijdsoifjdsoi fsjjsdf osjdoif asf as das daej</p>
+                                    </li>
+                            	</ul>
                             </li>
-                            <li>
-                                <p>vi är den mestr jdsfojsdpf pdsajf opijdsfipo asd aw dasd asd a dads as das djdsipo fjipdsj foipjdsfo ijdsoifjdsoi fsjjsdf osjdoif asf as das daej</p>
+                            <li style="text-align:left;">
+                            	<img src="Images/Icons/computer.png">
                             </li>
                         </ul>
                     </div>
