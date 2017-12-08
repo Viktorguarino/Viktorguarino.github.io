@@ -10,9 +10,9 @@ function myMap() {
     var contentString = '<div id="content">'+
     	'<div id="siteNotice">'+
         '</div>'+
-        '<h1 id="firstHeading" class="firstHeading" style="padding:0; margin-bottom:-20px;">Polhemskolan</h1>'+
+        '<h1 id="firstHeading" class="firstHeading" style="padding:0;">Polhemskolan</h1>'+
         '<div id="bodyContent">'+
-        '<p style="margin-bottom:-20px;"><b>Polhemskolan</b> är en kommunal gymnasieskola i <b>Lund</b>. '+
+        '<p><b>Polhemskolan</b> är en kommunal gymnasieskola i <b>Lund</b>. '+
         'Skolan är Sveriges största gymnasieskola med sina 2 400 elever. '+
         'Eftersom vi inte har ett huvudkontor har vi varit '+
         'använt våran skola som adress för den. '+

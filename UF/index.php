@@ -101,11 +101,14 @@
                         <ul>
                             <li>
                             	<ul>
-                                	<li style="text-align:left;">
+                                	<li>
                                         <h1>WebCreator</h1>
                                     </li>
-                                    <li style="text-align:left;">
+                                    <li>
                                         <p>vi är den mestr jdsfojsdpf pdsajf opijdsfipo asd aw dasd asd a dads as das djdsipo fjipdsj foipjdsfo ijdsoifjdsoi fsjjsdf osjdoif asf as das daej</p>
+                                    </li>
+                                    <li style="height:25%;">
+                                    	<div class="btnInfo"><a href="Contact_us.php">KONTAKTA OSS</a></div>
                                     </li>
                             	</ul>
                             </li>

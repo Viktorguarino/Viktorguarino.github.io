@@ -407,13 +407,34 @@ article {
 
 .information ul li ul {
 	display:block;
-	top:275px;
+    top:50%;
+    transform:translate(-50%, -80%);
+    width:80%;
+    height:auto;
+}
+
+.information ul li ul li{
+	text-align:left;
+}
+
+.information ul li ul li .btnInfo {
+	height:inherit;
+}
+
+.information ul li ul li .btnInfo a {
+	top:50%;
+    transform:translate(-120%, 0%);
+	width:9vw;
+    height:2vw;
+	line-height:2vw;
+	font-size:1vw;
+
 }
 
 .information li h1 {
 	font-family:"Lato";
-	font-size:1.8em;
-	padding:50px 0;
+	font-size:1.9vw;
+	padding:1.5vw 0;
 	width:70%;
 	line-height:40px;
 	font-weight:400;
@@ -421,10 +442,10 @@ article {
 
 .information li p {
 	font-family:"Lato";
-	font-size:1.1em;
+	font-size:1.1vw;
 	width:70%;
 	font-weight:200;
-	line-height:25px;
+	line-height:1.5vw;
 	color:#767676;
 	margin:0 auto;
 }
@@ -1081,8 +1102,84 @@ input[type=text] {
 	z-index:1;
 }
 
-.information li p {
+.information {
+	height:500px;
+}
+
+.innerinfo {
+	height:inherit;
+	width:inherit;
+	display:none;
+	-webkit-animation-name:swing;
+    -webkit-animation-duration:0.8s;
+    animation-name:swing;
+    animation-duration:0.8s;
+}
+
+.information ul {
 	width:80%;
+	height:90%;
+	position:relative;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+    display:inline-flex;
+    top:50%;
+	left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.information ul li {
+	width:100%;
+}
+
+.information ul li ul {
+	display:block;
+    top:50%;
+    transform:translate(-50%, -80%);
+    width:80%;
+    height:auto;
+}
+
+.information ul li ul li .btnInfo {
+	height:inherit;
+}
+
+.information ul li ul li .btnInfo a {
+	top:50%;
+    transform:translate(-120%, 0%);
+	width:9vw;
+    height:2vw;
+	line-height:2vw;
+	font-size:1vw;
+
+}
+
+.information li h1 {
+	font-family:"Lato";
+	font-size:1.9vw;
+	padding:1.5vw 0;
+	width:70%;
+	line-height:40px;
+	font-weight:400;
+}
+
+.information li p {
+	font-family:"Lato";
+	font-size:1.1vw;
+	width:70%;
+	font-weight:200;
+	line-height:1.5vw;
+	color:#767676;
+	margin:0 auto;
+}
+
+.innerinfo li img {
+	height:auto;
+	width:80%;
+	position:relative;
+	top:50%;
+	transform:translate(0%, -50%);
 }
 
 .cirlce {
@@ -1236,12 +1333,7 @@ input[type=text] {
 	display:block;
 }
 
-.information p {
-	width:70%;
-}
-
 .information .innerinfo ul {
-	height:100%;
 	margin:0 auto;
 }
 /* ---------------------------------------------------
@@ -1381,12 +1473,6 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
 }
 a[aria-expanded="true"]::before {
     content: '\e260';
-}
-
-ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #6d7fcc;
 }
 
 ul.CTAs {
@@ -1555,7 +1641,7 @@ a.article, a.article:hover {
 }
 
 .slide h1 span {
-	font-size:18px;
+	font-size:16px;
 }
 
 .slide h1:nth-child(odd) {
@@ -1568,6 +1654,88 @@ a.article, a.article:hover {
 	font-weight:900;
 	font-family:"LatoBlack";
 	width:75vw;
+}
+
+.information {
+	height:120vw;
+}
+
+.innerinfo {
+	height:inherit;
+	width:inherit;
+	display:none;
+	-webkit-animation-name:swing;
+    -webkit-animation-duration:0.8s;
+    animation-name:swing;
+    animation-duration:0.8s;
+}
+
+.information ul {
+	width:100%;
+	height:100%;
+	position:relative;
+	list-style-type:none;
+	padding:0;
+    display:block;
+}
+
+.information ul li {
+	width:100%;
+	height:auto;
+}
+
+.information ul li ul {
+	display:block;
+    width:100%;
+    height:100%;
+}
+
+.information ul li ul li{
+	text-align:center;
+}
+
+.information .innerinfo ul {
+	top:75%;
+}
+
+.information ul li ul li .btnInfo {
+	height:50%;
+	transform:translate(27.5%, 0%);
+}
+
+.information ul li ul li .btnInfo a {
+	width: 38vw;
+    height: 5vw;
+    line-height: 5vw;
+    font-size: 4vw;
+}
+
+.information li h1 {
+	font-family:"Lato";
+	font-size:6vw;
+	padding:1.5vw 0;
+	width:70%;
+	line-height:40px;
+	font-weight:400;
+}
+
+.information li p {
+	font-family:"Lato";
+	font-size:3vw;
+	width:70%;
+	font-weight:200;
+	line-height:3.5vw;
+	color:#767676;
+	margin:0 auto;
+}
+
+.innerinfo li img {
+	height:auto;
+	width:80%;
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, 0%);
 }
 /*---------------------------------------------------*/
 
