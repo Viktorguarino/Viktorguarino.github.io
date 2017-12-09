@@ -369,6 +369,11 @@ article {
 	100% {opacity:1; left:50%; transform:translate(0%, 0%); overflow:hidden;}
 }
 
+@-webkit-keyframes dropside {
+	0% {opacity:0; left:80%; transform:translate(0%, -50%); overflow:hidden;}
+	100% {opacity:1; left:60%; transform:translate(-50%, -50%); overflow:hidden;}
+}
+
 @-webkit-keyframes droptop {
 	0% {opacity:0; top:0%; transform:translate(0%, -5%); overflow:hidden;}
 	100% {opacity:1; top:0%; transform:translate(0%, 0%); overflow:hidden;}
@@ -496,7 +501,11 @@ article {
     position: relative;
     left:60%;
     top:50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+	-webkit-animation-name:dropside;
+    -webkit-animation-duration:0.5s;
+    animation-name:dropside;
+    animation-duration:0.5s;
 }
 
 .process table {
