@@ -94,18 +94,16 @@
                     <div class="button prev">&#8249;</div>
                     <div class="button next">&#8250;</div>                        
               	</div>
-                
-                
 				<div class="information">
                 	<div class="innerinfo">
                         <ul>
                             <li>
                             	<ul>
                                 	<li>
-                                        <h1>WebCreator</h1>
+                                        <h1>Vad vi gör</h1>
                                     </li>
                                     <li>
-                                        <p>vi är den mestr jdsfojsdpf pdsajf opijdsfipo asd aw dasd asd a dads as das djdsipo fjipdsj foipjdsfo ijdsoifjdsoi fsjjsdf osjdoif asf as das daej</p>
+                                        <p>Web Creator utvecklar din drömm webbsida som är skräddarsydd efter ditt eget nöje. Vill du ha din egna webbsida idag kontakta oss när som helst.</p>
                                     </li>
                                     <li style="height:25%;">
                                     	<div class="btnInfo"><a href="Contact_us.php">KONTAKTA OSS</a></div>
@@ -118,8 +116,45 @@
                         </ul>
                     </div>
                 </div>
-				<div style="width:100%; height:400px; background-color: rgba(228,228,228,1.00)">
-					
+				<div class="process">
+                	<div class="innerprocess">
+                    	<ul>
+                        	<li>
+                            	<img src="Images/Pics/pad.png">
+                            </li>
+                            <li>
+                            	<table style="width:100%">
+                                  <tr>
+                                    <th colspan="2">Från ideé till webbsida</th>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="Images/Social/phone.png"></td>
+                                    <td>
+                                    	<span>Planering</span>
+                                        <br>
+                                        <p>Processen börjar med att du möter oss personligen. På det sättet kommer du att förklara hur din webbsida ska se ut.</p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="Images/Social/gears.png"></td>
+                                    <td>
+                                    	<span>Arbete</span>
+                                        <br>
+                                        <p>När vi har fått all information börjar vi bygga webbsidan från grunden. Tiden beror på hur stort arbetet är, priset beror på arbetet.</p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="Images/Social/party.png"></td>
+                                    <td>
+                                    	<span>Enjoy</span>
+                                        <br>
+                                        <p>När webbsidan är färdig kommer den att vara din så fort betalningen har gått igenom. </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
 				</div>
 			</div>
             <script type="text/javascript" src="script.js"></script>

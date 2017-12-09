@@ -396,9 +396,9 @@ article {
 	margin:0 auto;
 	padding:0;
     display:inline-flex;
-    top:50%;
+    top:0%;
 	left:50%;
-    transform:translate(-50%, -50%);
+    transform:translate(-50%, 0%);
 }
 
 .information ul li {
@@ -456,6 +456,90 @@ article {
 	position:relative;
 	top:50%;
 	transform:translate(0%, -50%);
+}
+
+.process {
+	width:100%; 
+	height:650px; 
+	background-color:#5797DE;
+}
+
+.innerprocess {
+	height:inherit;
+	width:inherit;
+}
+
+.process ul {
+	width:100%;
+	height:100%;
+	position:relative;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+    display:inline-flex;
+}
+
+.process ul li:nth-child(1) {
+	margin:0 auto;
+	width:55%;
+}
+
+.process ul li:nth-child(2) {
+	margin:0 auto;
+	width:40%;
+	padding-right:5.5vw;
+}
+
+.process img {
+	height:auto;
+    width:420px;
+    position: relative;
+    left:60%;
+    top:50%;
+    transform: translate(-50%, -50%)
+}
+
+.process table {
+	position:relative;
+    left:45%;
+    top:50%;
+    transform:translate(-50%, -50%);
+	font-family:"Lato";
+	color:#fff;
+}
+
+.process th {
+	font-size:34px;
+	padding:0px 0px 25px 5px;
+}
+
+.process td img {
+	width:25px;
+	height:25px;
+	top:0%;
+	transform:translate(-50%, -75%); 
+	padding:0px 5px 0px 5px;
+}
+
+.process td span {
+	font-family:"LatoBlack";
+	letter-spacing:1.5px;
+	padding:0px 0px 3.5px 5px;
+	font-size:20px;
+}
+
+.process td p {
+	letter-spacing:1px;
+	margin:0 auto;
+	padding:3.5px 100px 15px 5px;
+}
+
+.process table, th, td {
+    border-collapse: collapse;
+}
+
+.process th, td {
+    text-align: left;    
 }
 
 .button {
@@ -1124,9 +1208,9 @@ input[type=text] {
 	margin:0 auto;
 	padding:0;
     display:inline-flex;
-    top:50%;
+    top:0%;
 	left:50%;
-    transform:translate(-50%, -50%);
+    transform:translate(-50%, 0%);
 }
 
 .information ul li {
@@ -1695,7 +1779,12 @@ a.article, a.article:hover {
 }
 
 .information .innerinfo ul {
-	top:75%;
+	top:65%;
+	transform:translate(-50%, -50%);
+}
+
+.information .innerinfo ul li img {
+	padding:10vw 0;
 }
 
 .information ul li ul li .btnInfo {
