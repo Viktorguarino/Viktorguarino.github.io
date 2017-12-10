@@ -293,7 +293,7 @@ article {
 
 .slide h1:nth-child(even) {
 	margin:-1.5% 0% 0% -5.5%;
-	font-size:7.5vw;"
+	font-size:7.5vw;
 }
 
 .slide h1 span {
@@ -510,6 +510,7 @@ article {
 
 .process table {
 	position:relative;
+	width:100%;
     left:45%;
     top:50%;
     transform:translate(-50%, -50%);
@@ -1245,7 +1246,51 @@ input[type=text] {
     height:2vw;
 	line-height:2vw;
 	font-size:1vw;
+}
+	
+.process table {
+	position:relative;
+	width: 100%;
+    left:45%;
+    top:50%;
+    transform:translate(-50%, -50%);
+	font-family:"Lato";
+	color:#fff;
+}
+	
+.process li:nth-child(1) img {
+	display:none;	
+}
+	
+.process ul li:nth-child(2) {
+	width:100%;		
+}
+	
+.process th {
+	font-size:3.5vw;
+	padding:0px 0px 25px 5px;
+}
 
+.process td img {
+	width:2.5vw;
+	height:2.5vw;
+	top:0%;
+	transform:translate(-50%, -75%); 
+	padding:0px 5px 0px 5px;
+}
+
+.process td span {
+	font-family:"LatoBlack";
+	letter-spacing:1.5px;
+	padding:0px 0px 3.5px 5px;
+	font-size:2.5vw;
+}
+
+.process td p {
+	letter-spacing:1px;
+	margin:0 auto;
+	font-size:1.75vw;
+	padding:3.5px 100px 15px 5px;
 }
 
 .information li h1 {
@@ -1834,6 +1879,39 @@ a.article, a.article:hover {
 	top:50%;
 	left:50%;
 	transform:translate(-50%, 0%);
+}
+	
+.process table {
+	width:150%;
+	left:50%;
+	transform: translate(-47.5%, -50%);
+}
+	
+.process th {
+	font-size:5.5vw;
+	padding:0px 0px 25px 5px;
+}
+
+.process td img {
+	width:3.5vw;
+	height:3.5vw;
+	top:0%;
+	transform:translate(-50%, -75%); 
+	padding:0px 5px 0px 5px;
+}
+
+.process td span {
+	font-family:"LatoBlack";
+	letter-spacing:1.5px;
+	padding:0px 0px 3.5px 5px;
+	font-size:4vw;
+}
+
+.process td p {
+	letter-spacing:1px;
+	margin:0 auto;
+	font-size:3.25vw;
+	padding:3.5px 100px 15px 5px;
 }
 /*---------------------------------------------------*/
 

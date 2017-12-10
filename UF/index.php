@@ -78,8 +78,8 @@
                                 <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
                              <div class="slide">
-                                <h1>MALLAR</h1>
-                                <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
+                                <h1>IDÉER</h1>
+                                <div class="slideimg"><img src="Images/Logo.png"></div>
                             </div>
                             <div class="slide">
                                 <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
@@ -123,7 +123,7 @@
                             	<img src="Images/Pics/pad.png">
                             </li>
                             <li>
-                            	<table style="width:100%">
+                            	<table>
                                   <tr>
                                     <th colspan="2">Från ideé till webbsida</th>
                                   </tr>
@@ -132,7 +132,7 @@
                                     <td>
                                     	<span>Planering</span>
                                         <br>
-                                        <p>Processen börjar med att du möter oss personligen. På det sättet kommer du att förklara hur din webbsida ska se ut.</p>
+                                        <p>Processen börjar med ett möte. På det mötet kommer du att förklara hur du vill att din webbsida ska se ut, och vi börjar sen skissa.</p>
                                     </td>
                                   </tr>
                                   <tr>
@@ -140,7 +140,7 @@
                                     <td>
                                     	<span>Arbete</span>
                                         <br>
-                                        <p>När vi har fått all information börjar vi bygga webbsidan från grunden. Tiden beror på hur stort arbetet är, priset beror på arbetet.</p>
+                                        <p>När vi har fått all information och skissen har blivigt godkänd börjar vi bygga din webbsida från grunden så att allt blit precis som du vill ha det.</p>
                                     </td>
                                   </tr>
                                   <tr>
@@ -148,7 +148,8 @@
                                     <td>
                                     	<span>Enjoy</span>
                                         <br>
-                                        <p>När webbsidan är färdig kommer den att vara din så fort betalningen har gått igenom. </p>
+                                        <p>När webbsidan är färdig är det bara att njuta!
+                                        </p>
                                     </td>
                                   </tr>
                                 </table>

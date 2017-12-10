@@ -89,7 +89,7 @@
 							</div>
                             <div class="containertext">
 								<h2>FÖRETAG</h2>
-								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+								<p>Vårt primära syfte är att skapa webbsidor till mindre företag. Vi gör då utifrån era takar och mål. Allt efter kundens önskemål.</p>
                             </div>
 						</div>
 					</div>
@@ -107,7 +107,7 @@
 							</div>
 							<div class="containertext">
 								<h2>AFFÄR</h2>
-								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+								<p>Företag med en butik eller affär kan vi också hjälpa till. Våran service tillåter vilka företag som helst att få en webbsita.</p>
                             </div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 							</div>
 							<div class="containertext">
 								<h2>BLOGG</h2>
-								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+								<p>Även en blogg är något som vår sevice inringar. Att skapa en blogg för de som verkigen är i ett behov av det är inget problem.</p>
                             </div>
 						</div>
 					</div>
@@ -145,7 +145,7 @@
 							</div>
 							<div class="containertext">
 								<h2>SPORT</h2>
-								<p>alldhsaidiuasdsauiduiah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbarallah auhakbar</p>
+								<p>Sport temat är roligt och spännade. Vi har alla kunskaper och förutsättningar för att kunna skapa din perfekta sporthemsidan.</p>
                             </div>
 						</div>
 					</div>
