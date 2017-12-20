@@ -596,6 +596,7 @@ article {
 	margin:0% 1% 0% 1%;
 	transition:.3s ease-in-out;
 	color:#000;
+	background:#fff;
 	font-size:1vw;
     font-family:"Lato";
 	line-height:100%;
@@ -610,7 +611,7 @@ article {
 
 .btnTry:hover {
 	color:#fff;
-	background-color:#000;
+	background:#000;
 }
 /*-------------------------------------------------*/
 .templates {
@@ -677,6 +678,10 @@ article {
 	margin-top:25px;
 	height:95%;
 	border-top:solid 1px #C4C4C4;
+}
+
+.tempcontainer4:hover {
+	backgorund-color:#fff;
 }
 
 .templates .temps .innertemps a div:hover {
@@ -1410,6 +1415,10 @@ input[type=text] {
 	font-size:2vw;
 }
 
+.tempcontainer:hover .tempcontainer4 {
+	opacity:0.5;
+}
+
 .circles {
     margin:0.7vh 0px 0.7vh 10px;
     width:30vw;
@@ -1473,6 +1482,29 @@ input[type=text] {
 
 .information .innerinfo ul {
 	margin:0 auto;
+}
+
+.templates .temps .innertemps .btnTry {
+	position:relative;
+    width:18vw;
+	height:3vw;
+	border:solid 3px #000;
+    cursor:pointer;
+    top:2vw;
+	display:inline-block;
+	margin:0% 1% 0% 1%;
+	transition:.3s ease-in-out;
+	color:#000;
+	background:#fff;
+	font-size:3vw;
+    font-family:"Lato";
+	line-height:3vw;
+	vertical-align:middle;
+}
+
+.templates .temps .innertemps .btnTry:hover {
+	color:#fff;
+	background:#000;
 }
 /* ---------------------------------------------------
     SIDEBAR STYLE

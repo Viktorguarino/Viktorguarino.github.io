@@ -70,9 +70,9 @@
                                 <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
                             </div>
                             <div class="slide">
-                                <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
+                                <h1>SKAPA DIN EGEN WEBBSIDA IDAG
                                 <br>
-                                <span>Vi bygger din egna drömmsida.</span>
+                                <span>Vi bygger din egna drömsida.</span>
                                 </h1>
                                 <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
                                 <div class="slideimg"><img src="Images/logo.png"></div>

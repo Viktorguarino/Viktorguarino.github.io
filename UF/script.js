@@ -151,7 +151,7 @@ $(function() {
 	  
 
     // on mouseout, reset the background colour
-   $('.tempcontainer4').css('background-color', '');
+   $('.tempcontainer4').css('color', '#fff');
    $('.btnTry4').css('visibility', 'hidden'); 
   });
 });

@@ -83,9 +83,9 @@
 						</div>
 						<div class="tempcontainer tempcontainer1">
 							<div class="btncontainer">
-							<a href="Info.php">
-								<div class="btnTry btnTry1">DEMO</div>
-							</a>
+                                <a href="Info.php">
+                                    <div class="btnTry btnTry1">DEMO</div>
+                                </a>
 							</div>
                             <div class="containertext">
 								<h2>FÖRETAG</h2>
@@ -101,9 +101,9 @@
 						</div>
 						<div class="tempcontainer tempcontainer2">
 							<div class="btncontainer">
-							<a href="Info.php">
-								<div class="btnTry btnTry2">DEMO</div>
-							</a>
+                                <a href="Info.php">
+                                    <div class="btnTry btnTry2">DEMO</div>
+                                </a>
 							</div>
 							<div class="containertext">
 								<h2>AFFÄR</h2>
@@ -121,9 +121,9 @@
 						</div>
 						<div class="tempcontainer tempcontainer3">
 							<div class="btncontainer">
-							<a href="Info.php">
-								<div class="btnTry btnTry3">DEMO</div>
-							</a>
+                                <a href="Info.php">
+                                    <div class="btnTry btnTry3">DEMO</div>
+                                </a>
 							</div>
 							<div class="containertext">
 								<h2>BLOGG</h2>
@@ -137,11 +137,11 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div class="tempcontainer tempcontainer4">
+						<div style="background:url(Images/Pics/websitepics/sport.png) no-repeat; background-attachment:local;background-size:cover;" class="tempcontainer tempcontainer4">
 							<div class="btncontainer">
-							<a href="Info.php">
-								<div class="btnTry btnTry4">DEMO</div>
-							</a>
+                                <a>
+                                    <div class="btnTry btnTry4">DEMO</div>
+                                </a>
 							</div>
 							<div class="containertext">
 								<h2>SPORT</h2>
