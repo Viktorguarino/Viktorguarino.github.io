@@ -54,7 +54,7 @@
                 <li>
                 	<div class="searching">
                        	<form action="Results.php" method="get">
-                           	<input type="text" name="k" value="<?php echo $_GET['k']; ?>"/>
+                            <input type="text" name="k" value="<?php echo $_GET['k']; ?>"/>
                    			<input class="btnSearch" value="" type="submit"/>
                         </form>
                     </div>
@@ -62,11 +62,11 @@
         	</ul>
         </nav>
         <article>
-        	<div class="inform">
-            	<div class="topinform">
+        	<div class="templates">
+        	<div class="topinform">
                 	<ul>
                     	<li>
-                			<h1>WebCreator gör unika websidor för att hjälpa företag med kreativa affärsidéer att bli framgångsrika.</h1>
+                			<h1>Här finner du olika idéer som du kan inspirera din webbsidas utseende. Ändringar görs av oss efter ditt egna tycke.</h1>
                         </li>
                         <li>    
                     		<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
@@ -74,64 +74,83 @@
                     </ul>
                 </div>
                 <hr style="width:60%; border:solid 1px rgba(0,0,0,0.125)">
-                <div class="iconinform">
-                	<ul>
-                    	<li>
-                        	<img src="Images/Icons/code.png" alt=""/>
-                            <h2>Bra kodning</h2>
-                            <p>HTML, CSS, JS är bara några av många språk vi kan. Kort sagt finns det väldigt lite vi inte kan göra.</p>
-                        </li>
-                        <li>
-                        	<img src="Images/Icons/phone.png" alt=""/>
-                            <h2>Responsiv</h2>
-                            <p>Våra webbsidor är mobilanpassade och de anpassas automatiskt till alla elektroniska enheter.</p>
-                        </li>
-                        <li>
-                        	<img src="Images/Icons/computer.png" alt=""/>
-                            <h2>Unik design</h2>
-                            <p>Varje webbsida görs från början. De skräddarsys efter eget tycke och är på så vis helt unika.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="bot">
-					<div class="topinform topbot">
-						<ul>
-							<li>
-								<h1>MER OM OSS</h1>
-							</li>
-							<li>    
-								<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre.</p>
-							</li>
-						</ul>
-					</div>
-					<div class="botinform">
-						<ul>
-							<li>
-								<h1>VÅRT MÅL</h1>
-							</li>
-							<li>    
-								<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
-							</li>
-						</ul>
-						<div class="imgbot">
-							<img src="Images/indeximage.png">
+				<div class="temps">
+					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
+						<div class="tempcontainer tempcontainer1">
+							<div class="btncontainer">
+                                <a href="Info.php">
+                                    <div class="btnTry btnTry1">DEMO</div>
+                                </a>
+							</div>
+                            <div class="containertext">
+								<h2>FÖRETAG</h2>
+								<p>Vårt primära syfte är att skapa webbsidor till mindre företag. Vi gör då utifrån era takar och mål. Allt efter kundens önskemål.</p>
+                            </div>
 						</div>
 					</div>
-					<div class="botinform">
-						<ul style="float:right;">
-							<li>
-								<h1>NÅT ANNAT</h1>
-							</li>
-							<li>    
-								<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
-							</li>
-						</ul>
-						<div class="imgbot">
-							<img src="Images/indeximage.png">
+					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
+						<div class="tempcontainer tempcontainer2">
+							<div class="btncontainer">
+                                <a href="Info.php">
+                                    <div class="btnTry btnTry2">DEMO</div>
+                                </a>
+							</div>
+							<div class="containertext">
+								<h2>AFFÄR</h2>
+								<p>Företag med en butik eller affär kan vi också hjälpa till. Våran service tillåter vilka företag som helst att få en webbsita.</p>
+                            </div>
 						</div>
 					</div>
 				</div>
-            </div>
+				<div class="temps">
+					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
+						<div class="tempcontainer tempcontainer3">
+							<div class="btncontainer">
+                                <a href="Info.php">
+                                    <div class="btnTry btnTry3">DEMO</div>
+                                </a>
+							</div>
+							<div class="containertext">
+								<h2>BLOGG</h2>
+								<p>Även en blogg är något som vår sevice inringar. Att skapa en blogg för de som verkigen är i ett behov av det är inget problem.</p>
+                            </div>
+						</div>
+					</div>
+					<div class="innertemps">
+						<div class="circles">
+							<div class="circle"></div>
+							<div class="circle"></div>
+							<div class="circle"></div>
+						</div>
+						<div style="background:url(Images/Pics/websitepics/sport.png) no-repeat; background-attachment:local;background-size:cover;" class="tempcontainer tempcontainer4">
+							<div class="btncontainer">
+                                <a>
+                                    <div class="btnTry btnTry4">DEMO</div>
+                                </a>
+							</div>
+							<div class="containertext">
+								<h2>SPORT</h2>
+								<p>Sport temat är roligt och spännade. Vi har alla kunskaper och förutsättningar för att kunna skapa din perfekta sporthemsidan.</p>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
         </article>
         <footer>
         	<div class="footerContainer">

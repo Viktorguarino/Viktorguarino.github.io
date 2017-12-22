@@ -26,7 +26,7 @@
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="index.php">INFO</a></p>
-                        <p><a href="Mallar.php">IDÉER</a></p>
+                        <p><a href="Ideeas.php">IDÉER</a></p>
                         <p><a href="Info.php">OM FÖRETAGET</a></p>
                     </ul>
             	</div>
@@ -43,7 +43,7 @@
                     <a href="index.php">INFO</a>
                 </li>
                 <li>
-                	<a href="Mallar.php">IDÉER</a>
+                	<a href="Ideeas.php">IDÉER</a>
                 </li>
                 <li>
                     <a href="Info.php">OM FÖRETAGET</a>

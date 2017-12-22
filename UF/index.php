@@ -26,7 +26,7 @@
                     </div>
                     <ul class="sidebar-list components">
                     	<p><a href="index.php">INFO</a></p>
-                        <p><a href="Mallar.php">IDÉER</a></p>
+                        <p><a href="Ideeas.php">IDÉER</a></p>
                         <p><a href="Info.php">OM FÖRETAGET</a></p>
                     </ul>
             	</div>
@@ -42,7 +42,7 @@
                     <a href="index.php">INFO</a>
                 </li>
                 <li>
-                	<a href="Mallar.php">IDÉER</a>
+                	<a href="Ideeas.php">IDÉER</a>
                 </li>
                 <li>
                     <a href="Info.php">OM FÖRETAGET</a>
@@ -66,7 +66,7 @@
                     <div class="slider-wrapper">
                     	<div class="inner-wrapper">
                         	 <div class="slide">
-                                <h1>MALLAR</h1>
+                                <h1>Ideeas</h1>
                                 <div class="slideimg"><img src="Images/Pics/blablabbabababa.png"></div>
                             </div>
                             <div class="slide">
