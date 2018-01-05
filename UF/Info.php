@@ -93,6 +93,7 @@
                         </li>
                     </ul>
                 </div>
+                <hr style="width:60%; border:solid 1px rgba(0,0,0,0.125)">
                 <div class="bot">
 					<div class="topinform topbot">
 						<ul>
@@ -118,7 +119,7 @@
 						</div>
 					</div>
 					<div class="botinform">
-						<ul style="float:right;">
+						<ul>
 							<li>
 								<h1>NÅT ANNAT</h1>
 							</li>
