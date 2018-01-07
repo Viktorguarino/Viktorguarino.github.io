@@ -66,7 +66,7 @@
             	<div class="topinform">
                 	<ul>
                     	<li>
-                			<h1>WebCreator gör unika websidor för att hjälpa företag med kreativa affärsidéer att bli framgångsrika.</h1>
+                			<h1>VAD GÖR WEBCREATOR</h1>
                         </li>
                         <li>    
                     		<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
@@ -101,7 +101,7 @@
 								<h1>MER OM OSS</h1>
 							</li>
 							<li>    
-								<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre.</p>
+								<p>I kort, WebCreator gör unika websidor för att hjälpa företag med kreativa affärsidéer att bli framgångsrika.</p>
 							</li>
 						</ul>
 					</div>
