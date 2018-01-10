@@ -111,24 +111,24 @@
 								<h1>VÅRT MÅL</h1>
 							</li>
 							<li>    
-								<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
+								<p>Målet hos oss på WebCreator är att erbjuda en enkel, billig och tillfredsställande sevrvice för dig som vill ta ditt företag till nästa nivå. Genom våran service kommer du få en unik webbsida och en större kundbas.</p>
 							</li>
 						</ul>
 						<div class="imgbot">
-							<img src="Images/indeximage.png">
+							<img src="Images/Pics/business.png">
 						</div>
 					</div>
 					<div class="botinform">
 						<ul>
 							<li>
-								<h1>NÅT ANNAT</h1>
+								<h1>WEBBHANTERING</h1>
 							</li>
 							<li>    
-								<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
+								<p>Du söker efter en webbsida, vilket betyder att du säkert ve hur bra det kan vara att ha en. Men tänk så kan du inte den första grejen när det kommer till att hantera den. Oroa dig inte. Kontakta oss så löser vi allt du behöver hjälp med.</p>
 							</li>
 						</ul>
 						<div class="imgbot">
-							<img src="Images/indeximage.png">
+							<img src="Images/Pics/indeximage.png">
 						</div>
 					</div>
 				</div>

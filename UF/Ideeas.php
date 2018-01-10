@@ -66,10 +66,10 @@
         	<div class="topinform">
                 	<ul>
                     	<li>
-                			<h1>Här finner du olika idéer som du kan inspirera din webbsidas utseende. Ändringar görs av oss efter ditt egna tycke.</h1>
+                			<h1>INSPIRERA DIG</h1>
                         </li>
                         <li>    
-                    		<p>Vår service kommer att tillåta vem som helst — från entreprenörer till egenföretagare som vill förbättra sina företag — att utveckla sina företag till bättre, större och mer framgångsrika bolag i strävan efter en större kundbas.</p>
+                    		<p>Här finner du olika idéer som du kan använda för att inspirera utseendet av din webbsidade. Ändringar — som du själv upplever nödvändga — görs av oss efter eget tycke.</p>
                         </li>
                     </ul>
                 </div>

@@ -126,7 +126,6 @@ nav ul li:nth-child(5) {
 	position:relative;
 	top:5px;
     right:2px;
-    z-index:1000;
     padding-right:20px;
     float:right;
 }
@@ -643,9 +642,9 @@ article {
 }
 
 .circles {
-    margin:0.7vh 0px 0.7vh 10px;
+    margin:10px 0px 10px 10px;
     width:30vw;
-    height:0.4vw;
+    height:10px;
     position:absolute;
 }
 
@@ -1515,9 +1514,9 @@ input[type=text] {
 }
 
 .circles {
-    margin:0.7vh 0px 0.7vh 10px;
+    margin:10px 0px 10px 10px;
     width:30vw;
-    height:0.4vw;
+    height:10px;
     position:absolute;
 }
 
@@ -1956,9 +1955,9 @@ a.article, a.article:hover {
 }
 
 .circles {
-    margin:0.7vh 0px 0.7vh 10px;
+    margin:10px 0px 10px 10px;
     width:30vw;
-    height:0.4vw;
+    height:10px;
     position:absolute;
 }
 
