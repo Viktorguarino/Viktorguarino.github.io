@@ -747,23 +747,28 @@ article {
 }
 
 .terms .policy, h1 {
-	padding:30px 0px 30px 10px;
-	font-size:34px;
-	font-family:"LatoBlack";
+	padding:40px 0px 40px 10px;
+	font-size:30px;
+	font-family:"Lato";
+	letter-spacing:2.5px;
 }
 
 .terms .policy, h2 {
 	font-size:21px;
 	padding:10px;
-	font-family:"LatoBlack";
+	font-family:"Lato";
+	letter-spacing:2.5px;
+	line-height:35px;
 }
 
 .terms .policy, h3 {
 	padding:10px;
-	font-size:16px;
+	font-size:18px;
 	font-weight:400;
 	font-family:"Lato";
-	line-height:160%;
+	letter-spacing:0.25px;
+	color:#767676;
+	line-height:27.5px;
 }
 
 .contact {
@@ -2169,10 +2174,10 @@ footer {
 }
 	
 .imgbot img {
-	width:90vw;
-	position:relative;
-	left:50%;
-	top:10vw;
-    transform:translate(-50%, -20vw);
+	width:70vw;
+    position:relative;
+    left:50%;
+    top:10vw;
+    transform:translate(-50%, -13vw);
 }
 }

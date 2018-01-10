@@ -64,14 +64,14 @@
         <article>
         	<div class="terms">
             	<div class="termscontainer">
-                    <h1>Användarvillkor</h1>
-                        <h2>Introduktion</h2>
+                    <h1>ANVÄNDARVILLKOR</h1>
+                        <h2>INTRODUKTION</h2>
 							<h3>Standardvillkor som skrivs på denna webbsida ska hantera din användning av denna webbplats. Dessa villkor tillämpas fullständigt och påverkar din användning.</h3>
 							<h3>Genom att använda denna webbplats godkänner du alla villkor som skrivs i våra <a href="Terms_of_use.php" style="color:#000;">Användarvillkor</a> samt våran <a href="Website_privacy_policy.php" style="color:#000;">Integretetspolicy</a>. Du får inte använda den här webbplatsen om du inte håller med någon av dessa användarvillkor för webbplatsen.</h3>
-                        <h2>1. Immateriella Rättigheter</h2>
+                        <h2>1. IMMATERIELLA RÄTTIGHETER</h2>
                             <h3>Utöver innehållet du äger, enligt dessa villkor äger WebCreator och / eller dess licensgivare alla immateriella rättigheter och material som finns på denna webbplats. 
                             Du beviljas endast begränsad licens för att se materialet på denna webbplats.</h3>
-                        <h2>2. Begränsningar</h2>
+                        <h2>2. BEGRÄNSNINGAR</h2>
 							<h3>Du är specifikt begränsad från följandande:
 								<ol>
                                     <li>Publicera material från denna webbplats i andra media.</li>
@@ -83,23 +83,23 @@
 									<li>Engagera dig i datainsamling, datautvinning eller annan liknande verksamhet i förhållande till denna webbplats.</li>
 								</ol>
                             Vissa områden på den här webbplatsen är begränsade från att du får tillgång till det, och WebCreator kan när som helst begränsa åtkomsten till dig på alla områden på denna webbplats, när som helst, efter eget gottfinnande.</h3>
-                        <h2>3.1 Inga Garantier</h2>
+                        <h2>3.1 INGA GARANTIER</h2>
                             <h3>Denna webbplats tillhandahålls "som det är" med alla fel, och WebCreator uttrycker inga förbehåll eller garantier av något slag som är relaterat till denna webbplats eller materialet på denna webbplats.</h3>
-                        <h2>3.2 Skadeersättning</h2>
+                        <h2>3.2 SKADEERSÄTTNING</h2>
                             <h3>Du befriar härmed i största utsträckning WebCreator från och mot alla skulder, kostnader, krav, orsaker till handling, skador och kostnader som uppstår på något sätt i samband med ditt brott mot någon av bestämmelserna i dessa villkor.</h3>
-                        <h2>4. Ansvarsbegränsning</h2>
+                        <h2>4. ANSVARSBEGRÄNSNING</h2>
                             <h3>WebCreators direktörer, styrelseledamöter och anställda ska under inga omständigheter hållas ansvarig för något som uppstår på grund av eller på något sätt i samband med din användning av denna webbplats om sådant ansvar är under kontrakt. WebCreator, inklusive tjänstemän, styrelseledamöter och anställda, ansvarar inte för några indirekta, följd- eller specialansvar som uppstår på grund av eller på något sätt relaterat till din användning av denna webbplats.</h3>
-                        <h2>5. Avskiljbarhet</h2>
+                        <h2>5. AVSKILJBARHET</h2>
                             <h3>Om någon bestämmelse i dessa villkor visar sig vara ogiltig enligt gällande lag, ska sådana bestämmelser raderas utan att de övriga bestämmelserna häri påverkas.</h3>
-                        <h2>6. Variation Av Villkoren</h2>
+                        <h2>6. VARIATION AV VILLKOREN</h2>
                             <h3>WebCreator har rätt att ändra dessa villkor när som helst som det passar, och med hjälp av denna webbplats förväntas du regelbundet se över dessa villkor.</h3>
-                        <h2>7. Uppdrag</h2>
+                        <h2>7. UPPDRAG</h2>
                             <h3>WebCreator har rätt att tilldela, överföra och dela ut sina rättigheter och / eller skyldigheter enligt dessa villkor utan någon anmälan. Du har dock inte rätt att överlåta eller dela ut några av dina rättigheter och / eller skyldigheter enligt dessa villkor.</h3>
-                        <h2>8. Lag Och Jurisdiktion</h2>
+                        <h2>8. LAG OCH JURISDIKTION</h2>
                             <h3>Dessa villkor styrs av och tolkas i enlighet med Sveriges lagar, och du lämnar in till de icke-exklusiva jurisdiktionerna för de statliga domstolarna i Sverige för att lösa eventuella tvister.</h3>
-                       	<h2>Hela Avtalet</h2>
+                       	<h2>HELA AVTALET</h2>
                             <h3>Dessa villkor utgör hela avtalet mellan WebCreator och dig i förhållande till din användning av denna webbplats och ersätter alla tidigare avtal och överenskommelser.</h3>
-							<h3>Senast ändrad den <b>6-11-2017</b></h3>
+							<h3>Senast ändrad den <b style="color:#000;">6-11-2017</b></h3>
             	</div>
         	</div>        
         </article>
