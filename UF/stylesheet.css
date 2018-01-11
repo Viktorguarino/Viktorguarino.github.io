@@ -642,21 +642,21 @@ article {
 }
 
 .circles {
-    margin:10px 0px 10px 10px;
+    margin:10px 0px 10px 12px;
     width:30vw;
-    height:10px;
+    height:5px;
     position:absolute;
 }
 
 .circle {
 	display:inline-block;
 	border-radius:50%;
-	width:0.4vw;
-	height:0.4vw;
+	width:0.3vw;
+	height:0.3vw;
 	background-color:#C4C4C4;
 	float:left;
 	padding:0;
-	margin:0px 3px 0px 3px;
+	margin:0px 5px 0px 5px;
 }
 
 .templates .temps .innertemps .btnTry {
@@ -1485,34 +1485,38 @@ input[type=text] {
 }
 
 .innertemps {
-	height:38vw;
-    width:60vw;
-    margin:0% auto 25% auto;
+	height:53vw;
+    width:75vw;
+    margin:0% auto 50% auto;
     padding:0;
-	border-radius:6px;
-	border:solid 1px #C4C4C4;
+    border-radius:6px;
+    border:solid 1px #C4C4C4;
     float:none;
-	position: relative;
+    position:relative;
     left:0;
     top:5vw;
-	overflow:visible;
-	display:block;
+    overflow:visible;
+    display:block;
 }
 
 .containertext {
 	position:relative;
     margin:0 auto;
     text-align:-webkit-center;
-	top:15vw;
+	top:37.5vw;
 }
 
 .templates .temps .innertemps h2 {
-	font-size:2.4vw;
-	line-height:0;
+	font-size:4.5vw;
+    letter-spacing:2.5px;
+    line-height:30px;
+    font-weight:400;
 }
 
 .templates .temps .innertemps p {
-	font-size:2vw;
+	font-size:2.5vw;
+    letter-spacing: 0.25px;
+	width:65vw;
 }
 
 .tempcontainer:hover .tempcontainer4 {
@@ -1520,21 +1524,21 @@ input[type=text] {
 }
 
 .circles {
-    margin:10px 0px 10px 10px;
+    margin:10px 0px 10px 12px;
     width:30vw;
-    height:10px;
+    height:5px;
     position:absolute;
 }
 
 .circle {
 	display:inline-block;
 	border-radius:50%;
-	width:0.75vw;
-	height:0.75vw;
+	width:0.55vw;
+	height:0.55vw;
 	background-color:#C4C4C4;
 	float:left;
 	padding:0;
-	margin:0px 3px 0px 3px;
+	margin:0px 4px 0px 4px;
 }
 
 .iconinform p {
@@ -1957,25 +1961,25 @@ a.article, a.article:hover {
 	position:relative;
     margin:0 auto;
     text-align:-webkit-center;
-	top:11vw;
+	top:27vw;
 }
 
 .circles {
-    margin:10px 0px 10px 10px;
+    margin:10px 0px 10px 12px;
     width:30vw;
-    height:10px;
+    height:5px;
     position:absolute;
 }
 
 .circle {
 	display:inline-block;
 	border-radius:50%;
-	width:0.95vw;
-	height:0.95vw;
+	width:0.75vw;
+	height:0.75vw;
 	background-color:#C4C4C4;
 	float:left;
 	padding:0;
-	margin:0px 3px 0px 3px;
+	margin:0px 4px 0px 4px;
 }
 
 .iconinform p {
@@ -2180,5 +2184,17 @@ footer {
     left:50%;
     top:10vw;
     transform:translate(-50%, -13vw);
+}
+.templates .temps .innertemps h2 {
+	font-size:7vw;
+    letter-spacing:2.5px;
+    line-height:30px;
+    font-weight:400;
+}
+
+.templates .temps .innertemps p {
+	font-size:3.5vw;
+    letter-spacing: 0.25px;
+	width:65vw;
 }
 }

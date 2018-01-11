@@ -99,7 +99,7 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div class="tempcontainer tempcontainer2">
+						<div style="background:url(Images/Pics/websitepics/affär.png) no-repeat; background-attachment:local;background-size:cover;" class="tempcontainer tempcontainer2">
 							<div class="btncontainer">
                                 <a href="Info.php">
                                     <div class="btnTry btnTry2">DEMO</div>
