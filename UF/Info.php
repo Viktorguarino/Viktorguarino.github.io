@@ -83,13 +83,13 @@
                         </li>
                         <li>
                         	<img src="Images/Icons/phone.png" alt=""/>
-                            <h2>Responsiv</h2>
-                            <p>Våra webbsidor är mobilanpassade och de anpassas automatiskt till alla elektroniska enheter.</p>
+                            <h2>Unik design</h2>
+                            <p>Varje webbsida görs från början. De skräddarsys efter eget tycke och är på så vis helt unika.</p>
                         </li>
                         <li>
                         	<img src="Images/Icons/computer.png" alt=""/>
-                            <h2>Unik design</h2>
-                            <p>Varje webbsida görs från början. De skräddarsys efter eget tycke och är på så vis helt unika.</p>
+                            <h2>Responsiv</h2>
+                            <p>Våra webbsidor är mobilanpassade och de anpassas automatiskt till alla elektroniska enheter.</p>
                         </li>
                     </ul>
                 </div>
