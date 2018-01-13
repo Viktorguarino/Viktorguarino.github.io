@@ -126,8 +126,8 @@
                                 </a>
 							</div>
 							<div class="containertext">
-								<h2>BLOGG</h2>
-								<p>Även en blogg är något som vår sevice inringar. Att skapa en blogg för de som verkigen är i ett behov av det är inget problem.</p>
+								<h2>TEKNOLOGI</h2>
+								<p>Teknologin blir allt mer populär. Våran tjänst kan verkligen hjälpa företag som är i teknik branschen, precis som oss.</p>
                             </div>
 						</div>
 					</div>
@@ -137,15 +137,15 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div style="background:url(Images/Pics/websitepics/sport.png) no-repeat; background-attachment:local;background-size:cover;" class="tempcontainer tempcontainer4">
+						<div class="tempcontainer tempcontainer4">
 							<div class="btncontainer">
                                 <a>
                                     <div class="btnTry btnTry4">DEMO</div>
                                 </a>
 							</div>
 							<div class="containertext">
-								<h2>SPORT</h2>
-								<p>Sport temat är roligt och spännade. Vi har alla kunskaper och förutsättningar för att kunna skapa din perfekta sporthemsidan.</p>
+								<h2>TJÄNSTER</h2>
+								<p>Om du inte säljer något fysiskt — men erbjuder en tjänst istälet — kan du fortfarande skaffa webbsidor, om du har behov för en.</p>
                             </div>
 						</div>
 					</div>
