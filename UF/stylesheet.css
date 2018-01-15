@@ -698,7 +698,7 @@ article {
 .templates .temps .innertemps a div:after {
 	content: '';
   	position: absolute;
-  	left:31.5%;
+  	left:32%;
   	display: inline-block;
   	height:1.1em;
   	width:35%;
@@ -1527,7 +1527,7 @@ input[type=text] {
 	position:relative;
     margin:0 auto;
     text-align:-webkit-center;
-	top:37.5vw;
+	top:15vw;
 }
 
 .templates .temps .innertemps h2 {
@@ -1681,21 +1681,23 @@ input[type=text] {
 }
 
 .templates .temps .innertemps .btnTry {
-	position:relative;
-    width:18vw;
-	height:3vw;
-	border:solid 3px #000;
+	position: relative;
+    width:73vw;
+    padding:26vw 1vw;
+    border: none;
+    border-radius: 0;
     cursor:pointer;
-    top:2vw;
-	display:inline-block;
-	margin:0% 1% 0% 1%;
-	transition:.3s ease-in-out;
-	color:#000;
-	background:#fff;
-	font-size:3vw;
-    font-family:"Lato";
-	line-height:3vw;
-	vertical-align:middle;
+	font-size:1.75vw;
+    margin:-20vw 0px -20vw 0px;
+    background-color:rgba(255, 255, 255, 0.75);
+    top:0vw;
+    visibility: hidden;
+    display: inline-block;
+}
+
+.btncontainer {
+	padding:25% 0px;
+	margin:0px 0px -100px 0px;
 }
 
 .templates .temps .innertemps .btnTry:hover {
@@ -1985,7 +1987,7 @@ a.article, a.article:hover {
 	position:relative;
     margin:0 auto;
     text-align:-webkit-center;
-	top:27vw;
+	top:22vw;
 }
 
 .circles {
