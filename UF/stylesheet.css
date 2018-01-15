@@ -661,10 +661,12 @@ article {
 
 .templates .temps .innertemps .btnTry {
 	position:relative;
-    width:11vw;
+    width:28vw;
+	padding:120px 10px;
     border:solid 3px #000;
     cursor:pointer;
- 	top:1vh;
+	margin:-100px 0px -120px 0px;
+	top:1vh;
 	visibility:hidden;
 	display:inline-block;
 }

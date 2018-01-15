@@ -137,7 +137,7 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<div class="tempcontainer tempcontainer4">
+						<div style="background:url(Images/Pics/websitepics/tjänst.png) no-repeat; background-attachment:local;background-size:cover;" class="tempcontainer tempcontainer4">
 							<div class="btncontainer">
                                 <a>
                                     <div class="btnTry btnTry4">DEMO</div>
