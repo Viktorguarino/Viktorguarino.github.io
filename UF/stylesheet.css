@@ -689,8 +689,26 @@ article {
 	backgorund-color:#fff;
 }
 
-.templates .temps .innertemps a div:hover {
-	color: antiquewhite;
+.templates .temps .innertemps a div:hover:after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.templates .temps .innertemps a div:after {
+	content: '';
+  	position: absolute;
+  	left:31.5%;
+  	display: inline-block;
+  	height:1.1em;
+  	width:35%;
+  	border-bottom: 2px solid;
+  	margin-top: 10px;
+  	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
 }
 
 .containertext {
