@@ -660,19 +660,23 @@ article {
 }
 
 .templates .temps .innertemps .btnTry {
-	position:relative;
-    width:28vw;
-	padding:120px 10px;
-    border:solid 3px #000;
+	position: relative;
+    width: 28vw;
+    padding: 10vw 1vw;
+    border: none;
+    border-radius: 0;
     cursor:pointer;
-	margin:-100px 0px -120px 0px;
-	top:1vh;
-	visibility:hidden;
-	display:inline-block;
+	font-size:1.75vw;
+    margin:-12vw 0px -12vw 0px;
+    background-color:rgba(255, 255, 255, 0.75);
+    top:0vw;
+    visibility: hidden;
+    display: inline-block;
 }
 
 .btncontainer {
-	padding-top:20%;
+	padding:25% 0px;
+	margin:0px 0px -100px 0px;
 }
 
 .tempcontainer {
