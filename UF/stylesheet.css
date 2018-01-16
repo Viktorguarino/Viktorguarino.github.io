@@ -645,6 +645,7 @@ article {
     margin:10px 0px 10px 12px;
     width:30vw;
     height:5px;
+	z-index:96;
     position:absolute;
 }
 
@@ -735,9 +736,9 @@ article {
 	padding:10.5vw 0vw 0vw 0vw;
 	font-family:"Lato";
 	font-size:1.5vw;
-	font-weight:600;
+	font-weight:400;
 	color:#222;
-	letter-spacing:0.75px;
+	letter-spacing:2px;
 	text-align:center;
 }
 
@@ -1535,6 +1536,7 @@ input[type=text] {
     letter-spacing:2.5px;
     line-height:30px;
     font-weight:400;
+	padding-bottom:2vw;
 }
 
 .templates .temps .innertemps p {
