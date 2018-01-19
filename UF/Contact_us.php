@@ -109,7 +109,7 @@
 			$to = "webcreator.help@hotmail.com";
 			$subject = "Nytt medelande";
 			
-			mail ($to, $subject, $comments, "Från: " . $name . $lastname);
+			mail ($to, $subject, $comments, "Från: " . $name . $lastname . $email);
 			?>          
             	<form method="post"> 
                     <input type="text Three" class="textcont" placeholder="Namn" name="name" required pattern="[a-zA-2] {3,15}$"/>
