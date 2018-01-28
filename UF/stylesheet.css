@@ -1349,7 +1349,7 @@ input[type=text] {
 
 .information ul {
 	width:80%;
-	height:90%;
+	height:100%;
 	position:relative;
 	list-style-type:none;
 	margin:0 auto;
@@ -1366,23 +1366,14 @@ input[type=text] {
 
 .information ul li ul {
 	display:block;
-    top:50%;
+    top:55%;
     transform:translate(-50%, -80%);
-    width:80%;
+    width:85%;
     height:auto;
 }
 
 .information ul li ul li .btnInfo {
-	height:inherit;
-}
-
-.information ul li ul li .btnInfo a {
-	top:50%;
-    transform:translate(-120%, 0%);
-	width:9vw;
-    height:2vw;
-	line-height:2vw;
-	font-size:1vw;
+	height:15%;
 }
 	
 .process table {
@@ -1430,31 +1421,8 @@ input[type=text] {
 	padding:3.5px 100px 15px 5px;
 }
 
-.information li h1 {
-	font-family:"Lato";
-	font-size:1.9vw;
-	padding:1.5vw 0;
-	width:70%;
-	line-height:40px;
-	font-weight:400;
-}
-
-.information li p {
-	font-family:"Lato";
-	font-size:1.1vw;
-	width:70%;
-	font-weight:200;
-	line-height:1.5vw;
-	color:#767676;
-	margin:0 auto;
-}
-
 .innerinfo li img {
-	height:auto;
-	width:80%;
-	position:relative;
-	top:50%;
-	transform:translate(0%, -50%);
+	width:35vw;
 }
 
 .cirlce {
