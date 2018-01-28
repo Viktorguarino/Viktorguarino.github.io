@@ -70,7 +70,7 @@
                                 <br>
                                 <span>Bläddra igenom våra unika deisgn.</span>
                                 </h1>
-                                <div class="btnInfo"><a href="Info.php">INSPIRATION</a></div>
+                                <div class="btnInfo"><a href="Ideeas.php">INSPIRATION</a></div>
                                 <div class="slideimg"><img src="Images/Logo.png"></div>
                             </div>
                             <div class="slide">
@@ -86,7 +86,7 @@
                                 <br>
                                 <span>Bläddra igenom våra unika deisgn.</span>
                                 </h1>
-                                <div class="btnInfo"><a href="Info.php">INSPIRATION</a></div>
+                                <div class="btnInfo"><a href="Ideeas.php">INSPIRATION</a></div>
                                 <div class="slideimg"><img src="Images/Logo.png"></div>
                             </div>
                             <div class="slide">
