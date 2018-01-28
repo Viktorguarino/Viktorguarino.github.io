@@ -10,7 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<title>WebCreator</title>
+<title>WebCreator - Skapa Din Hemsida Idag</title>
 </head>
 
 <body>
@@ -78,17 +78,17 @@
                 	<ul>
                     	<li>
                         	<img src="Images/Icons/code.png" alt=""/>
-                            <h2>Bra kodning</h2>
+                            <h2>BRA KODNING</h2>
                             <p>HTML, CSS, JS är bara några av många språk vi kan. Kort sagt finns det väldigt lite vi inte kan göra.</p>
                         </li>
                         <li>
                         	<img src="Images/Icons/phone.png" alt=""/>
-                            <h2>Unik design</h2>
+                            <h2>UNIK DESIGN</h2>
                             <p>Varje webbsida görs från början. De skräddarsys efter eget tycke och är på så vis helt unika.</p>
                         </li>
                         <li>
                         	<img src="Images/Icons/computer.png" alt=""/>
-                            <h2>Responsiv</h2>
+                            <h2>RESPONSIV</h2>
                             <p>Våra webbsidor är mobilanpassade och de anpassas automatiskt till alla elektroniska enheter.</p>
                         </li>
                     </ul>

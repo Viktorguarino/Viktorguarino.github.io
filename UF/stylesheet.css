@@ -244,7 +244,7 @@ article {
   	display: flex;
   	justify-content: center;
   	align-items: center;
-  	height:-webkit-fill-available;
+  	height:100%;
 }
 
 .slider-wrapper {
@@ -380,6 +380,7 @@ article {
 
 .information {
 	height:500px;
+	overflow: hidden;
 }
 
 .innerinfo {
@@ -394,7 +395,7 @@ article {
 
 .information ul {
 	width:80%;
-	height:90%;
+	height:100%;
 	position:relative;
 	list-style-type:none;
 	margin:0 auto;
@@ -422,44 +423,52 @@ article {
 }
 
 .information ul li ul li .btnInfo {
-	height:inherit;
+	height: 25%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-40%, 100%);
 }
 
 .information ul li ul li .btnInfo a {
 	top:50%;
-    transform:translate(-120%, 0%);
-	width:9vw;
-    height:2vw;
-	line-height:2vw;
-	font-size:1vw;
+    left:0%;
+    transform: translate(0%, -50%);
+    width:200px;
+    height:35px;
+    line-height:35px;
+    font-size:21px;
+    letter-spacing:0.25px;
 
 }
 
 .information li h1 {
 	font-family:"Lato";
-	font-size:1.9vw;
+	font-size:30px;
 	padding:1.5vw 0;
-	width:70%;
-	line-height:40px;
-	font-weight:400;
+	width:80%;
+	line-height:35px;
+	letter-spacing:2.5px;
+	font-weight:bold;
 }
 
 .information li p {
 	font-family:"Lato";
-	font-size:1.1vw;
-	width:70%;
-	font-weight:200;
-	line-height:1.5vw;
+	font-size:20px;
+	letter-spacing:0.25px;
+	width:80%;
+	font-weight:300;
+	line-height:30px;
 	color:#767676;
 	margin:0 auto;
 }
 
 .innerinfo li img {
 	height:auto;
-	width:80%;
+	width:30em;
 	position:relative;
 	top:50%;
-	transform:translate(0%, -50%);
+	left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .process {
@@ -735,10 +744,9 @@ article {
 	position:relative;
 	padding:10.5vw 0vw 0vw 0vw;
 	font-family:"Lato";
-	font-size:1.5vw;
-	font-weight:400;
-	color:#222;
-	letter-spacing:2px;
+	font-size:1.75vw;
+	font-weight:bold;
+	letter-spacing:2.5px;
 	text-align:center;
 }
 
@@ -1060,7 +1068,7 @@ input.textcont {
 	text-align:left;
 	letter-spacing:2.5px;
 	line-height:40px;
-	font-weight:400;
+	font-weight:bold;
 }
 
 .botinform p {
@@ -1115,8 +1123,8 @@ input.textcont {
 }
 
 .iconinform h2 {
-	font-size:35px;
-	letter-spacing:0.5px;
+	font-size:30px;
+	letter-spacing:2.5px;
 }
 
 .iconinform p {
@@ -1535,7 +1543,7 @@ input[type=text] {
 	font-size:4.5vw;
     letter-spacing:2.5px;
     line-height:30px;
-    font-weight:400;
+    font-weight:bold;
 	padding-bottom:2vw;
 }
 
@@ -1660,7 +1668,7 @@ input[type=text] {
 	text-align:center;
 	letter-spacing:2.5px;
 	line-height:40px;
-	font-weight:400;
+	font-weight:bold;
 }
 
 .botinform p {
@@ -2212,7 +2220,7 @@ footer {
 	font-size:7vw;
     letter-spacing:2.5px;
     line-height:30px;
-    font-weight:400;
+    font-weight:bold;
 }
 
 .templates .temps .innertemps p {
