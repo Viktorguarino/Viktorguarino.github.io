@@ -100,29 +100,57 @@
                 </ol>
             </div>
             <div id="panel">
-            <?php
-			$name = $_POST['name'];
-			$lastname = $_POST['lastname'];
-			$email = $_POST['email'];
-			$comments = $_POST['comments'];
-			
-			$to = "webcreator.help@hotmail.com";
-			$subject = "Nytt medelande";
-			
-			mail ($to, $subject, $comments, "Från: " . $name . $lastname . $email);
-			?>          
-            	<form method="post"> 
-                    <input type="text Three" class="textcont" placeholder="Namn" name="name" required pattern="[a-zA-2] {3,15}$"/>
-                    <input type="text Three" class="textcont" placeholder="Efternamn" name="lastname" required pattern="[a-zA-2] {3,15}$"/> 
-                    <input type="text Three" class="textcont" placeholder="E-mail" name="email" />
-                    <textarea name="comments" placeholder="Medelande" rows="10" cols="20"></textarea>
-                    <br />
-                    <div>
-                    	<input type="submit" name="submit" value="Skicka" />
-                    </div>
+<?php
+$name = $_POST['name'];
+$lastname = $_POST['lastname'];
+$email = $_POST['email'];
+$comments = $_POST['comments'];
+
+$message = <<<EMAIL
+
+Medelande från: $lastname, $name.
+
+$name e-mail är: $email.
+
+$comments
+
+EMAIL;
+
+$header = '$email';
+				
+$to = 'webcreator.help@hotmail.com';
+$subject ='Nytt medelande - Kund';
+
+mail ($to, $subject, $message, $header);
+?>          
+            	<form action="?" method="post"> 
+					<ul>
+						<li>
+							<label for="name"></label>
+							<input type="text" class="textcont" placeholder="Namn" id="name" name="name" required pattern="[a-zA-2] {3,15}$" />
+						</li>
+						<li>
+							<label for="lastname"></label>
+							<input type="text" class="textcont" placeholder="Efternamn" id="lastname" name="lastname" required pattern="[a-zA-2] {3,15}$" />
+						</li>
+						<li>
+							<label for="email"></label>
+							<input type="text" class="textcont" placeholder="E-mail" id="email" name="email" />
+						</li>
+						<li>
+							<label for="comments"></label>
+							<textarea name="comments" id="comments" placeholder="Medelande" rows="10" cols="20"></textarea>
+						</li>
+						<br />
+						<li>
+							<div>
+								<input type="submit" name="submit" value="SKICKA" />
+							</div>
+						</li>
+					</ul>
                 </form>
             </div>
-            <div id="flip">E-maila oss</div>
+            <div id="flip">E-MAILA OSS</div>
             <div class="googleMap">
         		<div id="googleMap" style="height:350px; width:100%;"></div>
 			</div>
