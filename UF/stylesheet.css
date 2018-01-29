@@ -1783,9 +1783,11 @@ input[type=text] {
 }
 
 #sidebar .sidebar-list p {
-	padding:10px 0px 10px 37px;
+	padding:10px 0px 10px 50px;
 	text-align:left;
-	font-family:"LatoBlack";
+	font-family:"Lato";
+	font-weight:bold;
+	letter-spacing:2.5px;
 	color:#000;
 }
 
@@ -1802,10 +1804,8 @@ input[type=text] {
 #sidebar ul p a {
     color:#000;
 	text-decoration:none;
-	font-weight:500;
-    font-family:"Lato";
+	font-weight:bolder;
 	transition:.3s ease-in-out;
-	letter-spacing:0.25px;
     padding:10px;
 }
 
@@ -2016,7 +2016,7 @@ a.article, a.article:hover {
 }
 
 .information {
-	height:120vw;
+	height:150vw;
 }
 
 .innerinfo {
@@ -2054,43 +2054,23 @@ a.article, a.article:hover {
 }
 
 .information .innerinfo ul {
-	top:65%;
+	top:75%;
 	transform:translate(-50%, -50%);
 }
 
-.information .innerinfo ul li img {
-	padding:10vw 0;
-}
-
 .information ul li ul li .btnInfo {
-	height:50%;
-	transform:translate(27.5%, 0%);
-}
-
-.information ul li ul li .btnInfo a {
-	width: 38vw;
-    height: 5vw;
-    line-height: 5vw;
-    font-size: 4vw;
+	display:none;
 }
 
 .information li h1 {
-	font-family:"Lato";
-	font-size:6vw;
-	padding:1.5vw 0;
-	width:70%;
-	line-height:40px;
-	font-weight:400;
+    font-size: 35px;
+    line-height: 40px;
 }
 
 .information li p {
-	font-family:"Lato";
-	font-size:3vw;
-	width:70%;
-	font-weight:200;
-	line-height:3.5vw;
-	color:#767676;
-	margin:0 auto;
+    width: 95%;
+    top: 50%;
+    transform: translate(0%, 10%);
 }
 
 .innerinfo li img {
