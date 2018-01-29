@@ -67,8 +67,8 @@
                 	<li>
                     	<div class="cirlce"><img src="Images/Headshot/simonbild.png"></div>
                         <div class="contactinfo"> 
-                            <p>Simon Måtegen</p>
-                            <p><span><i>Verkställande Direktör</i></span></p>
+                            <p>SIMON MÅTEGEN</p>
+                            <p>VERKSTÄLLANDE DIREKTÖR</p>
                             <br>
                             <p><span>+46 763 469 126</span></p>
                             <p><span>simon.mategen@gmail.com</span></p>
@@ -78,8 +78,8 @@
                     <li>
                     	<div class="cirlce"><img src="Images/Headshot/viktorbild.png"></div>
                         <div class="contactinfo"> 
-                            <p>Viktor Guarino</p>
-                            <p><span><i>IT-direktör</i></span></p>
+                            <p>VIKTOR GUARINO</p>
+                            <p>IT-DIREKTÖR</p>
                             <br>
                             <p><span>+46 720 133 850</span></p>
                             <p><span>guarino.viktor@hotmail.it</span></p>
@@ -89,8 +89,8 @@
                     <li>
                     	<div class="cirlce"><img src="Images/Headshot/jonathanbild.png"></div>
                         <div class="contactinfo"> 
-                            <p>Jonathan Zander</p>
-                            <p><span><i>Finansdirektör</i></span></p>
+                            <p>JONATHAN ZANDER</p>
+                            <p>FINANSDIREKTÖR</p>
                             <br>
                             <p><span>+46 724 320 071</span></p>
                             <p><span>pelle9900@hotmail.com</span></p>

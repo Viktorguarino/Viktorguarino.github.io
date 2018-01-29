@@ -820,8 +820,7 @@ article {
 
 .contact ol li{
   display:block;
-  border-radius:20px;
-  border:1px solid rgba(166,166,166,0.75);
+  border-bottom:solid 2px rgba(0,0,0,0.125);
   width:60%;
   height:275px;
   margin:35px auto 35px auto;
@@ -853,19 +852,27 @@ article {
 
 .contactinfo p{
 	position:relative;
-	left:18.5%;
+	left:45%;
 	top:-125px;
 	width:50%;
-	margin:auto;
+	margin:0;
 	font-family:"Lato";
 	padding:1px;
 	font-size:22px;
 	font-weight:bold;
+	letter-spacing:2.5px;
+}
+
+.contactinfo p:nth-child(2) {
+	font-size:16px;
+	letter-spacing:2px;
+	line-height:40px;
 }
 
 .contactinfo p span {
 	font-size:17px;
 	font-weight:400;
+	letter-spacing:0.5px;
 }
 
 #flip {
@@ -1439,9 +1446,8 @@ input[type=text] {
 
 .contact ol li{
   	display:block;
-  	border-radius:20px;
-  	border:1px solid rgba(166,166,166,0.75);
-  	width:80%;
+  	border-bottom:solid 2px rgba(0,0,0,0.125);
+  	width:60%;
   	height:235px;
     margin:35px auto 35px auto;
 }
@@ -1453,18 +1459,15 @@ input[type=text] {
 	
 .contactinfo p{
 	position:relative;
-	left:20%;
-	top:-125px;
+	left:45%;
+	top:-134px;
 	width:60%;
-	margin:auto;
-	font-family:"Lato";
-	padding:1px;
-	font-size:20px;
-	font-weight:bold;
+	margin:0;
+	font-size:22px;
 }
 
 .contactinfo p span {
-	font-size:15px;
+	font-size:16px;
 	font-weight:400;
 }
 
@@ -1906,21 +1909,21 @@ a.article, a.article:hover {
 #container .cirlce {
 	border-radius:50%;
 	background-color:#FFF;
-	width:120px;
-	height:120px;
+	width:200px;
+	height:200px;
 	position:relative;
-	top:22%;
-	left:4%;
-	margin:0px 0px 0px 3vw;
+	top:5%;
+	left:50%;
+	transform: translate(-50%, 0%);
+	margin:0;
 	overflow:hidden;
 }	
 
 .contact ol li{
   	display:block;
-  	border-radius:20px;
-  	border:1px solid rgba(166,166,166,0.75);
-  	width:90%;
-  	height:215px;
+  	border-bottom:solid 2px rgba(0,0,0,0.125);
+  	width:60%;
+  	height:500px;
   	margin:35px auto 35px auto;
 }
 	
@@ -1931,18 +1934,15 @@ a.article, a.article:hover {
 	
 .contactinfo p{
 	position:relative;
-	left:28.5%;
-	top:-125px;
-	width:60%;
-	margin:auto;
-	font-family:"Lato";
-	padding:1px;
-	font-size:14.5px;
-	font-weight:bold;
+	top:0;
+	width:100%;
+	font-size:22px;
+	transform: translate(-50%, 0%);
+	text-align:center;
 }
 
 .contactinfo p span {
-	font-size:9.5px;
+	font-size:17px;
 	font-weight:400;
 }
 
