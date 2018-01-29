@@ -816,6 +816,7 @@ article {
   	list-style-type:none;
 	margin:0 auto;
 	padding:0;
+	overflow:hidden;
 }
 
 .contact ol li{
@@ -824,7 +825,6 @@ article {
   width:60%;
   height:275px;
   margin:35px auto 35px auto;
-  overflow:hidden;
 }
 .cirlce {
 	border-radius:50%;
@@ -846,7 +846,6 @@ article {
 }
 
 .contactinfo {
-	padding-left:10%;
 	position:relative;
 }
 
@@ -901,10 +900,9 @@ article {
 #panel {
     display:none; 
 	width:60%;
-	border:1px solid rgba(166,166,166,0.75);
-	border-radius:20px;
 	text-align:center; 
 	margin:15px auto 40px auto;
+	border-bottom:solid 2px rgba(0, 0, 0, 0.125);
 }
 
 #panel form {
@@ -1459,9 +1457,9 @@ input[type=text] {
 	
 .contactinfo p{
 	position:relative;
-	left:45%;
+	left:50%;
 	top:-134px;
-	width:60%;
+	width:100%;
 	margin:0;
 	font-size:22px;
 }
