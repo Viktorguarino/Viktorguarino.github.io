@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -110,28 +110,30 @@ $message = <<<EMAIL
 
 Medelande från: $lastname, $name.
 
-$name e-mail är: $email.
+Skickat från: $email.
 
 $comments
 
 EMAIL;
-
-$header = '$email';
 				
 $to = 'webcreator.help@hotmail.com';
 $subject ='Nytt medelande - Kund';
 
-mail ($to, $subject, $message, $header);
-?>          
+if($_POST) {
+	mail ($to, $subject, $message);
+	$feedback = 'Ditt medelande har skickats!';
+}
+?>
+				<p id="feedback"><?php echo $feedback; ?></p>
             	<form action="?" method="post"> 
 					<ul>
 						<li>
 							<label for="name"></label>
-							<input type="text" class="textcont" placeholder="Namn" id="name" name="name" required pattern="[a-zA-2] {3,15}$" />
+							<input type="text" class="textcont" placeholder="Namn" id="name" name="name" required pattern="[a-zA-2] {2,15}$" />
 						</li>
 						<li>
 							<label for="lastname"></label>
-							<input type="text" class="textcont" placeholder="Efternamn" id="lastname" name="lastname" required pattern="[a-zA-2] {3,15}$" />
+							<input type="text" class="textcont" placeholder="Efternamn" id="lastname" name="lastname" required pattern="[a-zA-2] {2,15}$" />
 						</li>
 						<li>
 							<label for="email"></label>
@@ -139,7 +141,7 @@ mail ($to, $subject, $message, $header);
 						</li>
 						<li>
 							<label for="comments"></label>
-							<textarea name="comments" id="comments" placeholder="Medelande" rows="10" cols="20"></textarea>
+							<textarea name="comments" id="comments" placeholder="Medelande" reqired pattern="" rows="10" cols="20"></textarea>
 						</li>
 						<br />
 						<li>

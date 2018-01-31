@@ -914,6 +914,12 @@ article {
 	width:100%;
 }
 
+form ul {
+	padding:0;
+	top:-50%;
+	position: relative;
+}
+
 form li {
 	list-style:none;
 }
@@ -1490,7 +1496,7 @@ nav input[type=text] {
 #panel {
     display:none; 
 	width:60%;
-	height:400px;
+	height:500px;
 	text-align:center; 
 	margin:15px auto 40px auto;
 }
@@ -1963,7 +1969,7 @@ a.article, a.article:hover {
 #panel {
     display:none; 
 	width:60%;
-	height:400px;  
+	height:500px;  
 	text-align:center; 
 	margin:15px auto 40px auto;
 }

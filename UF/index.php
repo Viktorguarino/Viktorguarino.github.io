@@ -71,7 +71,7 @@
                                 <span>Bläddra igenom våra unika deisgn.</span>
                                 </h1>
                                 <div class="btnInfo"><a href="Ideeas.php">INSPIRATION</a></div>
-                                <div class="slideimg"><img src="Images/Logo.png"></div>
+                                <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
                             <div class="slide">
                                 <h1>SKAPA DIN EGEN WEBBSIDA IDAG
@@ -87,7 +87,7 @@
                                 <span>Bläddra igenom våra unika deisgn.</span>
                                 </h1>
                                 <div class="btnInfo"><a href="Ideeas.php">INSPIRATION</a></div>
-                                <div class="slideimg"><img src="Images/Logo.png"></div>
+                                <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
                             <div class="slide">
                                 <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
